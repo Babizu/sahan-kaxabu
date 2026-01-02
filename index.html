@@ -585,6 +585,12 @@
         createApp({
             setup() {
                 // === 常數定義 ===
+                // 資料格式版本號
+                // 當資料結構發生不兼容的變更時，需要增加此版本號並實作遷移邏輯
+                // 版本歷史：
+                //   v1 (2026-01-02): 初始版本，使用 _uuid (kaxabu-chinese) 作為唯一識別碼
+                const DATA_VERSION = 1;
+
                 // 熟練度類別常數
                 const PROFICIENCY_CATEGORIES = {
                     NOT_STARTED: '未學習',
@@ -692,6 +698,28 @@
                     const savedSettings = localStorage.getItem('kaxabu_settings');
                     const savedStats = localStorage.getItem('kaxabu_stats');
                     const onboardingCompleted = localStorage.getItem('kaxabu_onboarding_completed');
+                    const savedVersion = localStorage.getItem('kaxabu_data_version');
+
+                    // === 資料版本檢測與遷移 ===
+                    // 檢查儲存的資料版本是否與當前版本一致
+                    const storedVersion = savedVersion ? parseInt(savedVersion) : 0;
+
+                    if (storedVersion === 0 && savedProgress) {
+                        // 版本 0：沒有版本號的舊資料，需要遷移
+                        console.log('偵測到舊版資料格式，正在遷移至版本 ' + DATA_VERSION);
+                        // 目前舊版資料已經使用 _uuid 格式，無需特別遷移
+                        // 未來如果需要遷移，在這裡實作
+                        localStorage.setItem('kaxabu_data_version', DATA_VERSION.toString());
+                    } else if (storedVersion > 0 && storedVersion < DATA_VERSION) {
+                        // 有版本號但版本較舊，需要遷移
+                        console.log(`正在將資料從版本 ${storedVersion} 遷移至版本 ${DATA_VERSION}`);
+                        // 根據不同版本實作遷移邏輯
+                        migrateData(storedVersion, DATA_VERSION);
+                        localStorage.setItem('kaxabu_data_version', DATA_VERSION.toString());
+                    } else if (storedVersion === 0 && !savedProgress) {
+                        // 全新用戶，直接設定為當前版本
+                        localStorage.setItem('kaxabu_data_version', DATA_VERSION.toString());
+                    }
 
                     if (savedProgress) userProgress.value = JSON.parse(savedProgress);
                     if (savedSettings) {
@@ -708,10 +736,35 @@
                     if (savedStats) stats.value = JSON.parse(savedStats);
                 };
 
+                // === 資料遷移函數 ===
+                // 當資料格式版本更新時，負責將舊版本資料遷移到新版本
+                // 參數：
+                //   fromVersion: 舊版本號
+                //   toVersion: 目標版本號
+                const migrateData = (fromVersion, toVersion) => {
+                    console.log(`開始資料遷移：v${fromVersion} -> v${toVersion}`);
+
+                    // 未來的遷移邏輯範例：
+                    // if (fromVersion === 1 && toVersion === 2) {
+                    //     // 從版本 1 遷移到版本 2 的邏輯
+                    //     const oldProgress = JSON.parse(localStorage.getItem('kaxabu_progress') || '{}');
+                    //     const newProgress = {};
+                    //     Object.keys(oldProgress).forEach(key => {
+                    //         // 轉換資料格式
+                    //         newProgress[convertKey(key)] = oldProgress[key];
+                    //     });
+                    //     localStorage.setItem('kaxabu_progress', JSON.stringify(newProgress));
+                    // }
+
+                    console.log('資料遷移完成');
+                };
+
                 const saveToLocalStorage = () => {
                     localStorage.setItem('kaxabu_progress', JSON.stringify(userProgress.value));
                     localStorage.setItem('kaxabu_settings', JSON.stringify(settings.value));
                     localStorage.setItem('kaxabu_stats', JSON.stringify(stats.value));
+                    // 儲存資料格式版本號
+                    localStorage.setItem('kaxabu_data_version', DATA_VERSION.toString());
                 };
 
                 // === 間隔重複演算法（基於 SuperMemo-2）===
@@ -937,7 +990,16 @@
 
                 // === 設定操作 ===
                 const exportData = () => {
-                    const dataStr = JSON.stringify(userProgress.value);
+                    // 匯出學習進度、設定和統計資料
+                    // 包含資料格式版本號，用於未來的資料遷移
+                    const exportObj = {
+                        version: DATA_VERSION,  // 資料格式版本號
+                        progress: userProgress.value,
+                        settings: settings.value,
+                        stats: stats.value,
+                        exportDate: new Date().toISOString()  // 匯出時間戳記
+                    };
+                    const dataStr = JSON.stringify(exportObj, null, 2); // 使用縮排讓檔案更易讀
                     const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
                     const exportFileDefaultName = 'kaxabu_progress_backup.json';
 
@@ -955,13 +1017,55 @@
                     reader.onload = (e) => {
                         try {
                             const json = JSON.parse(e.target.result);
-                            userProgress.value = json;
+
+                            // === 檢測匯入檔案的資料格式版本 ===
+                            let importVersion = 0;  // 預設為版本 0（無版本號的舊格式）
+
+                            if (json.version !== undefined) {
+                                // 新格式：包含版本號
+                                importVersion = json.version;
+                            } else if (json.progress !== undefined) {
+                                // 中期格式：有 progress 欄位但沒有版本號，視為版本 1
+                                importVersion = 1;
+                            }
+
+                            // === 版本相容性檢查 ===
+                            if (importVersion > DATA_VERSION) {
+                                // 匯入的資料版本比當前程式版本新，無法匯入
+                                alert(`此備份檔案來自較新版本的應用程式（v${importVersion}），當前版本為 v${DATA_VERSION}。\n請更新應用程式後再匯入此備份。`);
+                                return;
+                            }
+
+                            // === 根據版本載入資料 ===
+                            if (json.progress !== undefined) {
+                                // 新格式或中期格式：包含 progress, settings, stats
+                                userProgress.value = json.progress || {};
+                                if (json.settings) {
+                                    settings.value = json.settings;
+                                }
+                                if (json.stats) {
+                                    stats.value = json.stats;
+                                }
+                            } else {
+                                // 最舊格式：只有進度資料（向後相容）
+                                userProgress.value = json;
+                            }
+
+                            // === 資料版本遷移 ===
+                            // 如果匯入的資料版本較舊，執行遷移
+                            if (importVersion < DATA_VERSION) {
+                                console.log(`匯入的資料版本 v${importVersion} 較舊，將遷移至 v${DATA_VERSION}`);
+                                // 這裡可以調用 migrateData() 進行資料轉換
+                                // 但因為資料已經載入到 userProgress.value，
+                                // 所以直接在儲存時會自動使用當前版本號
+                            }
+
                             saveToLocalStorage();
-                            alert('進度匯入成功！頁面即將重新整理。');
+                            alert(`進度匯入成功！（資料版本：v${importVersion}）\n頁面即將重新整理。`);
                             // 重新整理頁面以確保所有資料同步
                             location.reload();
                         } catch (err) {
-                            alert('檔案格式錯誤');
+                            alert('檔案格式錯誤：' + err.message);
                         }
                     };
                     reader.readAsText(file);
