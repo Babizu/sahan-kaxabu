@@ -317,7 +317,7 @@
                     <h2 class="text-2xl font-bold text-gray-800 mb-2">MUUPUT LIA!</h2>
                     <p class="text-gray-500 mb-8">已經完成了今天的進度。休息一下，明天再繼續吧。</p>
                     <button @click="generateSession(true)" class="text-ramie-700 font-medium hover:text-ramie-900 underline">
-                        HAAPET A MUBAZA, 想多學一點 (增加 10 個新單字)
+                        HAAPET A MUBAZA, 想多學一點 (增加 {{ settings.dailyNewLimit }} 個新單字)
                     </button>
                 </div>
             </div>
@@ -351,17 +351,17 @@
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-100">
-                                <tr v-for="word in filteredWords" :key="word.id" class="hover:bg-earth-100/30 transition-colors">
+                                <tr v-for="word in filteredWords" :key="word._uuid" class="hover:bg-earth-100/30 transition-colors">
                                     <td class="p-4 font-medium text-ramie-900">{{ word.kaxabu }}</td>
                                     <td class="p-4 text-gray-700">{{ word.chinese }}</td>
                                     <td class="p-4 hidden md:table-cell">
                                         <span class="text-xs px-2 py-1 rounded-full font-medium whitespace-nowrap inline-block" :class="getLevelColor(word.level)">{{ word.level }}</span>
                                     </td>
                                     <td class="p-4 text-xs text-gray-500 hidden md:table-cell whitespace-nowrap">
-                                        {{ getNextReviewText(word.id) }}
+                                        {{ getNextReviewText(word._uuid) }}
                                     </td>
                                     <td class="p-4 text-right">
-                                        <button @click="resetWordProgress(word.id)" title="重置學習進度" class="text-gray-400 hover:text-red-600 p-1">
+                                        <button @click="resetWordProgress(word._uuid)" title="重置學習進度" class="text-gray-400 hover:text-red-600 p-1">
                                             <i class="ph ph-arrow-counter-clockwise"></i>
                                         </button>
                                     </td>
@@ -408,7 +408,7 @@
                             <div class="p-2 bg-ramie-100 text-ramie-600 rounded-lg">
                                 <i class="ph ph-target text-xl"></i>
                             </div>
-                            <h3 class="font-medium text-gray-600">熟練度 (Mastery)</h3>
+                            <h3 class="font-medium text-gray-600">總體熟練度</h3>
                         </div>
                         <p class="text-3xl font-bold text-gray-800">{{ masteryPercentage }}%</p>
                     </div>
@@ -416,14 +416,44 @@
 
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 mb-8">
                     <h3 class="font-bold text-gray-800 mb-4">記憶分佈</h3>
-                    <div class="space-y-4">
-                        <div v-for="(count, label) in retentionStats" :key="label">
-                            <div class="flex justify-between text-sm mb-1">
-                                <span class="text-gray-600">{{ label }}</span>
-                                <span class="font-medium text-gray-900">{{ count }} 字</span>
-                            </div>
-                            <div class="w-full bg-gray-100 rounded-full h-2.5">
-                                <div class="bg-ramie-600 h-2.5 rounded-full" :style="{ width: (Object.keys(userProgress).length > 0 ? (count / Object.keys(userProgress).length * 100) : 0) + '%' }"></div>
+                    <div class="space-y-3">
+                        <div v-for="(count, label) in retentionStats" :key="label" class="border border-gray-100 rounded-lg overflow-hidden">
+                            <!-- 類別標題與進度條 -->
+                            <button
+                                @click="toggleRetentionCategory(label)"
+                                class="w-full p-3 hover:bg-gray-50 transition-colors text-left"
+                                :class="expandedRetentionCategory === label ? 'bg-gray-50' : ''"
+                            >
+                                <div class="flex justify-between text-sm mb-2 items-center">
+                                    <div class="flex items-center gap-2">
+                                        <i class="ph" :class="expandedRetentionCategory === label ? 'ph-caret-down' : 'ph-caret-right'"></i>
+                                        <span class="text-gray-600 font-medium">{{ label }}</span>
+                                    </div>
+                                    <span class="font-medium text-gray-900">{{ count }} 字</span>
+                                </div>
+                                <div class="w-full bg-gray-100 rounded-full h-2.5">
+                                    <div class="bg-ramie-600 h-2.5 rounded-full transition-all" :style="{ width: (words.length > 0 ? (count / words.length * 100) : 0) + '%' }"></div>
+                                </div>
+                            </button>
+
+                            <!-- 展開的單字列表 -->
+                            <div v-if="expandedRetentionCategory === label && count > 0" class="border-t border-gray-100 bg-gray-50/50 p-3 max-h-60 overflow-y-auto">
+                                <div class="grid grid-cols-1 gap-2">
+                                    <div
+                                        v-for="word in getWordsInCategory(label)"
+                                        :key="word._uuid"
+                                        class="flex items-center justify-between p-2 bg-white rounded border border-gray-100 hover:border-ramie-300 transition-colors text-sm"
+                                    >
+                                        <div class="flex-1">
+                                            <span class="font-medium text-ramie-900">{{ word.kaxabu }}</span>
+                                            <span class="text-gray-500 mx-2">·</span>
+                                            <span class="text-gray-700">{{ word.chinese }}</span>
+                                        </div>
+                                        <span class="text-xs px-2 py-0.5 rounded-full font-medium" :class="getLevelColor(word.level)">
+                                            {{ word.level }}
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -554,6 +584,15 @@
 
         createApp({
             setup() {
+                // === 常數定義 ===
+                // 熟練度類別常數
+                const PROFICIENCY_CATEGORIES = {
+                    NOT_STARTED: '未學習',
+                    NEW: '新手',
+                    LEARNING: '學習中',
+                    REVIEW: '熟練'
+                };
+
                 // 狀態管理
                 const currentView = ref('study');
                 const loading = ref(true);
@@ -561,10 +600,14 @@
                 const mobileMenuOpen = ref(false);
                 const showOnboarding = ref(false);
                 const tempSelectedLevels = ref(['初級', '中級', '中高級', '高級']); // 暫存的難度選擇（用於引導頁面）
+                const expandedRetentionCategory = ref(null); // 記憶分佈展開的類別
 
                 // 資料儲存
                 const words = ref([]);
-                const userProgress = ref({}); // { wordId: { interval, repetitions, ef, nextReview, lastReview } }
+                // 學習進度紀錄：key 為 _uuid（格式：噶哈巫語-中文，如 "yasia-他們、那些"）
+                // 注意：_uuid 會包含空白、標點符號及非 ASCII 字元（中文）
+                // value 為進度物件：{ interval, repetitions, ef, nextReview, lastReview }
+                const userProgress = ref({});
                 const settings = ref({
                     dailyNewLimit: 10,
                     levels: [] // 初始為空，將由引導頁面或 localStorage 設定
@@ -601,7 +644,41 @@
                     try {
                         const response = await fetch('kaxabu_words.json');
                         if (!response.ok) throw new Error("無法讀取 JSON 檔案 (請確認檔案位置或伺服器設定)");
-                        words.value = await response.json();
+                        const data = await response.json();
+
+                        // === 生成唯一識別碼 (_uuid) ===
+                        // 為每個詞條生成唯一的 UUID，用於：
+                        // 1. Vue 的 v-for :key 綁定（避免重複 id 導致的渲染問題）
+                        // 2. 學習進度追蹤（userProgress 的 key）
+                        //
+                        // UUID 格式：`${噶哈巫語}-${中文}`
+                        // 例如："yasia-他們、那些（不可見，此形式當代較不使用）"
+                        //       "azang; ida-一"
+                        //
+                        // 注意事項：
+                        // - id 欄位是語意編號（如 "02-06"），不是唯一識別碼，多個詞條可能共用同一 id
+                        // - _uuid 會包含空白、標點符號（如：；、（）etc.）及非 ASCII 字元（中文）
+                        // - 使用 kaxabu + chinese 組合，因為詞表會經常變動（新增、刪除、修改詞條）
+                        words.value = data.map((word) => ({
+                            ...word,
+                            _uuid: `${word.kaxabu}-${word.chinese}`
+                        }));
+
+                        // === 清理過期的學習紀錄 ===
+                        // 當詞表更新後（詞條被刪除或修改），清除 localStorage 中不存在的學習紀錄
+                        // 避免累積無效的資料
+                        const validUuids = new Set(words.value.map(w => w._uuid));
+                        let cleanedCount = 0;
+                        Object.keys(userProgress.value).forEach(uuid => {
+                            if (!validUuids.has(uuid)) {
+                                delete userProgress.value[uuid];
+                                cleanedCount++;
+                            }
+                        });
+                        if (cleanedCount > 0) {
+                            console.log(`已清理 ${cleanedCount} 筆過期的學習紀錄`);
+                            saveToLocalStorage();
+                        }
                     } catch (e) {
                         console.error(e);
                         error.value = e.message + "。提示：若您是直接打開 HTML，請改用 Live Server 或部署至 GitHub Pages。";
@@ -637,11 +714,14 @@
                     localStorage.setItem('kaxabu_stats', JSON.stringify(stats.value));
                 };
 
-                // 間隔重複演算法（基於 SuperMemo-2）
-                // 品質評分：0-5（按鈕對應：忘記=0, 困難=3, 良好=4, 簡單=5）
-                const updateWordProgress = (wordId, quality) => {
-                    const isNewWord = !userProgress.value[wordId];
-                    let p = userProgress.value[wordId] || { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 };
+                // === 間隔重複演算法（基於 SuperMemo-2）===
+                // 根據使用者的回答品質更新單字的學習進度
+                // 參數：
+                //   wordUuid: 詞條的唯一識別碼（格式：噶哈巫語-中文，包含空白及中文字元）
+                //   quality: 品質評分 0-5（按鈕對應：忘記=0, 困難=3, 良好=4, 簡單=5）
+                const updateWordProgress = (wordUuid, quality) => {
+                    const isNewWord = !userProgress.value[wordUuid];
+                    let p = userProgress.value[wordUuid] || { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 };
 
                     // 如果是今天第一張卡片，更新連續打卡天數
                     const todayStr = new Date().toDateString();
@@ -692,7 +772,7 @@
                     p.nextReview = nextDate.getTime();
                     p.lastReview = now.getTime();
 
-                    userProgress.value[wordId] = p;
+                    userProgress.value[wordUuid] = p;
                     saveToLocalStorage();
                 };
 
@@ -715,7 +795,7 @@
                     words.value.forEach(w => {
                         if (!settings.value.levels.includes(w.level)) return;
 
-                        const prog = userProgress.value[w.id];
+                        const prog = userProgress.value[w._uuid];
                         if (prog) {
                             if (prog.nextReview <= now) {
                                 dueWords.push(w);
@@ -730,7 +810,8 @@
                     if (sessionNewLimit < 0) sessionNewLimit = 0;
 
                     if(forceAdd) {
-                        sessionNewLimit = 10;
+                        // 強制增加學習：使用用戶設定的每日新詞數量限制
+                        sessionNewLimit = settings.value.dailyNewLimit;
                     } else if (sessionQueue.value.length > 0 && currentCardIndex.value < sessionQueue.value.length) {
                         return; // 如果階段仍在進行中且還有剩餘卡片，不要重新生成
                     }
@@ -774,7 +855,7 @@
 
                 const isReviewCard = (card) => {
                     if (!card) return false;
-                    return userProgress.value[card.id] !== undefined;
+                    return userProgress.value[card._uuid] !== undefined;
                 };
 
                 const rateCard = (rating) => {
@@ -788,7 +869,7 @@
 
                     const cardToRequeue = currentCard.value;
 
-                    updateWordProgress(currentCard.value.id, quality);
+                    updateWordProgress(currentCard.value._uuid, quality);
 
                     // 如果點選「忘記」按鈕（品質 0），將卡片重新加入佇列以立即複習
                     if (quality === 0) {
@@ -834,8 +915,10 @@
                     });
                 });
 
-                const getNextReviewText = (id) => {
-                    const p = userProgress.value[id];
+                // 取得下次複習時間的顯示文字
+                // 參數 uuid: 詞條的唯一識別碼（格式：噶哈巫語-中文）
+                const getNextReviewText = (uuid) => {
+                    const p = userProgress.value[uuid];
                     if (!p) return '尚未學習';
                     const diff = p.nextReview - new Date().getTime();
                     if (diff <= 0) return '複習時間到';
@@ -843,9 +926,11 @@
                     return `${days} 天後`;
                 };
 
-                const resetWordProgress = (id) => {
+                // 重置單一詞條的學習進度
+                // 參數 uuid: 詞條的唯一識別碼（格式：噶哈巫語-中文）
+                const resetWordProgress = (uuid) => {
                     if(confirm('確定要重置這個單字的學習進度嗎？')) {
-                        delete userProgress.value[id];
+                        delete userProgress.value[uuid];
                         saveToLocalStorage();
                     }
                 };
@@ -872,8 +957,9 @@
                             const json = JSON.parse(e.target.result);
                             userProgress.value = json;
                             saveToLocalStorage();
-                            alert('進度匯入成功！');
-                            generateSession(); // 重新計算階段
+                            alert('進度匯入成功！頁面即將重新整理。');
+                            // 重新整理頁面以確保所有資料同步
+                            location.reload();
                         } catch (err) {
                             alert('檔案格式錯誤');
                         }
@@ -900,15 +986,48 @@
                     return Math.round((mastered / words.value.length) * 100);
                 });
 
+                // 記憶分佈統計（包含各類別的單字數量）
                 const retentionStats = computed(() => {
-                    const s = { '新手 (New)': 0, '學習中 (Learning)': 0, '熟練 (Review)': 0 };
+                    const unstudiedCount = words.value.filter(w => !userProgress.value[w._uuid]).length;
+                    const s = {
+                        [PROFICIENCY_CATEGORIES.NOT_STARTED]: unstudiedCount,
+                        [PROFICIENCY_CATEGORIES.NEW]: 0,
+                        [PROFICIENCY_CATEGORIES.LEARNING]: 0,
+                        [PROFICIENCY_CATEGORIES.REVIEW]: 0
+                    };
                     Object.values(userProgress.value).forEach(p => {
-                        if (p.interval < 3) s['新手 (New)']++;
-                        else if (p.interval < 21) s['學習中 (Learning)']++;
-                        else s['熟練 (Review)']++;
+                        if (p.interval < 3) s[PROFICIENCY_CATEGORIES.NEW]++;
+                        else if (p.interval < 21) s[PROFICIENCY_CATEGORIES.LEARNING]++;
+                        else s[PROFICIENCY_CATEGORIES.REVIEW]++;
                     });
                     return s;
                 });
+
+                // 取得特定熟練度類別的單字列表
+                const getWordsInCategory = (category) => {
+                    if (category === PROFICIENCY_CATEGORIES.NOT_STARTED) {
+                        return words.value.filter(w => !userProgress.value[w._uuid]);
+                    }
+
+                    return words.value.filter(w => {
+                        const p = userProgress.value[w._uuid];
+                        if (!p) return false;
+
+                        if (category === PROFICIENCY_CATEGORIES.NEW) return p.interval < 3;
+                        if (category === PROFICIENCY_CATEGORIES.LEARNING) return p.interval >= 3 && p.interval < 21;
+                        if (category === PROFICIENCY_CATEGORIES.REVIEW) return p.interval >= 21;
+                        return false;
+                    });
+                };
+
+                // 切換記憶分佈類別的展開/收合
+                const toggleRetentionCategory = (category) => {
+                    if (expandedRetentionCategory.value === category) {
+                        expandedRetentionCategory.value = null;
+                    } else {
+                        expandedRetentionCategory.value = category;
+                    }
+                };
 
                 watch(settings, () => {
                     saveToLocalStorage();
@@ -921,6 +1040,7 @@
                     mobileMenuOpen,
                     showOnboarding,
                     tempSelectedLevels,
+                    expandedRetentionCategory,
                     words,
                     userProgress,
                     settings,
@@ -947,6 +1067,8 @@
                     clearAllProgress,
                     masteryPercentage,
                     retentionStats,
+                    getWordsInCategory,
+                    toggleRetentionCategory,
                     isReviewCard,
                     completeOnboarding
                 };
