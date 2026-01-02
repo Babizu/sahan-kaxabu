@@ -83,7 +83,7 @@
                             400: '#c88682',
                             500: '#af605b',
                             600: '#984843',
-                            700: '#7e3830',
+                            700: '#78141e',
                             800: '#69322c',
                             900: '#582d29',
                         },
@@ -110,7 +110,7 @@
                 </div>
                 <div>
                     <h1 class="font-serif-tc text-xl font-bold text-ramie-900 leading-tight">噶哈巫千詞記憶卡</h1>
-                    <p class="text-xs text-gray-500">saanu pitelet Kaxabu ahan</p>
+                    <p class="text-xs text-gray-500">saanu pitelet Kaxabu a ahan</p>
                 </div>
             </div>
             
@@ -126,6 +126,9 @@
                 </button>
                 <button @click="currentView = 'settings'" :class="navClass('settings')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
                     <i class="ph ph-gear text-lg"></i> 設定
+                </button>
+                <button @click="currentView = 'about'" :class="navClass('about')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
+                    <i class="ph ph-info text-lg"></i> 關於
                 </button>
             </div>
             <!-- 手機版選單切換按鈕 -->
@@ -147,6 +150,9 @@
             </button>
             <button @click="navigate('settings')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
                 <i class="ph ph-gear text-xl text-ramie-700"></i> 系統設定
+            </button>
+            <button @click="navigate('about')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
+                <i class="ph ph-info text-xl text-ramie-700"></i> 關於
             </button>
         </div>
 
@@ -247,7 +253,8 @@
                     <div class="flex-1 flex flex-col items-center justify-center w-full">
                         <!-- 記憶卡區域 -->
                         <div class="perspective-1000 w-full relative group" @click="flipCard">
-                            <div :class="['relative w-full aspect-[4/3] md:aspect-[3/2] transition-transform duration-500 transform-style-3d cursor-pointer shadow-xl rounded-2xl bg-white border border-stone-100', isFlipped ? 'rotate-y-180' : '']">
+                            <!-- 翻卡動畫時長：duration-300 = 300ms -->
+                            <div :class="['relative w-full aspect-[4/3] md:aspect-[3/2] transition-transform duration-300 transform-style-3d cursor-pointer shadow-xl rounded-2xl bg-white border border-stone-100', isFlipped ? 'rotate-y-180' : '']">
 
                                 <!-- 正面 -->
                                 <div class="absolute inset-0 backface-hidden flex flex-col items-center justify-center p-8 rounded-2xl bg-white">
@@ -295,7 +302,7 @@
                         </button>
                         </div>
                         <div v-else class="w-full text-center mt-6">
-                            <button @click="flipCard" class="w-full py-4 rounded-xl bg-ramie-700 text-white font-bold shadow-lg hover:bg-ramie-800 transition-all transform active:scale-95">
+                            <button @click="flipCard" class="w-full py-4 rounded-xl bg-ramie-800 text-white font-bold shadow-lg hover:bg-ramie-800 transition-all transform active:scale-95">
                                 顯示答案
                             </button>
                         </div>
@@ -432,13 +439,13 @@
                         <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
                             <i class="ph ph-sliders text-ramie-600"></i> 學習偏好
                         </h3>
-                        
+
                         <div class="space-y-4">
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-1">每日新詞數量限制</label>
                                 <input v-model.number="settings.dailyNewLimit" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-ramie-500 focus:border-ramie-500">
                             </div>
-                            
+
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2">包含的難度等級</label>
                                 <div class="flex flex-wrap gap-4">
@@ -480,6 +487,60 @@
                             <button @click="clearAllProgress" class="w-full py-2 px-4 bg-red-50 border border-red-200 rounded-lg text-red-600 font-medium hover:bg-red-100 mt-2">
                                 重置所有進度 (無法復原)
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIEW：關於 -->
+            <div v-if="currentView === 'about'" class="p-4 md:p-8 max-w-3xl mx-auto">
+                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">關於</h2>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden mb-6">
+                    <div class="p-8">
+                        <div class="mb-8 text-center">
+                            <div class="w-20 h-20 bg-ramie-700 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                                <span class="font-serif-tc font-bold text-5xl text-white">𝕂</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">噶哈巫千詞記憶卡</h3>
+                            <p class="text-gray-500">saanu pitelet Kaxabu a ahan</p>
+                        </div>
+
+                        <div class="space-y-4 text-gray-700 leading-relaxed">
+                            <p>
+                                感謝原住民族委員會114年度平埔族群語言復振計畫支持。
+                            </p>
+
+                            <div class="bg-earth-100/50 rounded-lg p-4 space-y-2">
+                                <p><strong>執行單位：</strong>南投縣埔里鎮蜈蚣社區發展協會</p>
+                                <p><strong>計畫推動員：</strong>蘇彙伶</p>
+                                <p><strong>網頁程式與千詞表編輯：</strong>黃子豪（Asilo）</p>
+                                <p><strong>千詞表編輯：</strong>翁勤雯、羅琇如、周珈萱</p>
+                            </div>
+
+                            <div class="bg-ramie-50/50 rounded-lg p-4 mt-6">
+                                <h4 class="font-bold text-gray-800 mb-3 flex items-center gap-2">
+                                    <i class="ph ph-books text-ramie-600"></i>
+                                    參考資料
+                                </h4>
+                                <ul class="space-y-2 text-sm text-gray-700 leading-relaxed">
+                                    <li>• Li, Paul Jen-kuei and Shigeru Tsuchida. 2001.<em>Pazih dictionary</em>. Language and Linguistics Monograph Series A2. Taipei: Institute of Linguistics (Preparatory Office), Academia Sinica.</li>
+                                    <li>• 潘永歷原著;董忠司總編輯;陳嬿庄主編;潘正浩、林鴻瑞、涂文欽、朱恩成編輯. 2015.<em>《噶哈巫語分類辭典》</em>。南投:南投縣埔里鎮守城社區發展協會。</li>
+                                    <li>• 林鴻瑞. 2023.<em>《噶哈巫語參考語法:一個極度瀕危的臺灣南島語》(上、下冊)</em>。花蓮:國立東華大學原住民民族學院出版社。</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-t border-gray-200 pt-4 mt-6">
+                                <p class="text-sm text-gray-600">
+                                    若有 Bug 或是錯誤內容，歡迎開啟 issue 回報或是聯絡 Asilo。
+                                </p>
+                                <a href="https://github.com/Babizu/sahan-kaxabu/issues" target="_blank" rel="noopener noreferrer"
+                                   class="inline-flex items-center gap-2 mt-3 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors text-sm font-medium">
+                                    <i class="ph ph-github-logo text-lg"></i>
+                                    GitHub Issues
+                                    <i class="ph ph-arrow-square-out text-sm"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
