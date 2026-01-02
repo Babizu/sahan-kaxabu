@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>噶哈巫語記憶卡 Kaxabu Flashcards</title>
+    
+    <!-- Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom Font Setup */
+        body {
+            font-family: 'LXGW WenKai TC', sans-serif;
+            background-color: #fdfbf7; /* Rice paper off-white */
+            color: #3d3d3d;
+        }
+        
+        .font-serif-tc {
+            font-family: 'Noto Serif TC', serif;
+        }
+
+        /* Card Flip Animation */
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+        
+        .backface-hidden {
+            backface-visibility: hidden;
+        }
+        
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d4c5b0; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #c4b5a0; 
+        }
+
+        /* Custom Animation for Loading */
+        @keyframes pulse-earth {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+        .animate-pulse-earth {
+            animation: pulse-earth 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ramie: {
+                            50: '#fbf5f4',
+                            100: '#f6e8e7',
+                            200: '#edd4d2',
+                            300: '#dfb4b1',
+                            400: '#c88682',
+                            500: '#af605b',
+                            600: '#984843',
+                            700: '#7e3830', /* Primary Brand Color: 苧麻榔薯紅 */
+                            800: '#69322c',
+                            900: '#582d29',
+                        },
+                        earth: {
+                            100: '#f5f2ea',
+                            200: '#e6e2d6',
+                            800: '#4a4843',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="h-screen flex flex-col overflow-hidden">
+
+    <div id="app" class="flex flex-col h-full">
+
+        <!-- Header -->
+        <header class="bg-white border-b border-earth-200 px-4 py-3 flex items-center justify-between shadow-sm z-10">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-ramie-700 rounded-lg flex items-center justify-center text-white shadow-md">
+                    <span class="font-serif-tc font-bold text-xl">𝕂</span>
+                </div>
+                <div>
+                    <h1 class="font-serif-tc text-xl font-bold text-ramie-900 leading-tight">噶哈巫語單字記憶卡</h1>
+                    <p class="text-xs text-gray-500">Kaxabu Vocabulary</p>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex gap-1 bg-earth-100 p-1 rounded-lg">
+                <button @click="currentView = 'study'" :class="navClass('study')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
+                    <i class="ph ph-cards text-lg"></i> 背誦
+                </button>
+                <button @click="currentView = 'search'" :class="navClass('search')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
+                    <i class="ph ph-magnifying-glass text-lg"></i> 詞彙表
+                </button>
+                <button @click="currentView = 'stats'" :class="navClass('stats')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
+                    <i class="ph ph-chart-bar text-lg"></i> 狀態
+                </button>
+                <button @click="currentView = 'settings'" :class="navClass('settings')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
+                    <i class="ph ph-gear text-lg"></i> 設定
+                </button>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden text-gray-600">
+                <i class="ph ph-list text-2xl"></i>
+            </button>
+        </header>
+
+        <!-- Mobile Menu -->
+        <div v-if="mobileMenuOpen" class="md:hidden bg-white border-b border-earth-200 p-4 absolute top-16 left-0 right-0 z-50 shadow-lg flex flex-col gap-2">
+            <button @click="navigate('study')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
+                <i class="ph ph-cards text-xl text-ramie-700"></i> 背誦單字
+            </button>
+            <button @click="navigate('search')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
+                <i class="ph ph-magnifying-glass text-xl text-ramie-700"></i> 詞彙表查詢
+            </button>
+            <button @click="navigate('stats')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
+                <i class="ph ph-chart-bar text-xl text-ramie-700"></i> 學習狀態
+            </button>
+            <button @click="navigate('settings')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
+                <i class="ph ph-gear text-xl text-ramie-700"></i> 系統設定
+            </button>
+        </div>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto bg-earth-100/50 relative">
+
+            <!-- Onboarding Modal -->
+            <div v-if="showOnboarding" class="absolute inset-0 flex items-center justify-center bg-black/50 z-50 p-4">
+                <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-ramie-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="font-serif-tc font-bold text-3xl text-white">𝕂</span>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">歡迎學習噶哈巫語！</h2>
+                        <p class="text-gray-600 text-sm">請選擇你想要學習的難度等級</p>
+                    </div>
+
+                    <div class="space-y-3 mb-6">
+                        <label class="flex items-center gap-3 p-3 rounded-lg border-2 transition-all cursor-pointer"
+                               :class="tempSelectedLevels.includes('初級') ? 'border-green-500 bg-green-50' : 'border-gray-200 hover:border-gray-300'">
+                            <input type="checkbox" v-model="tempSelectedLevels" value="初級" class="w-5 h-5 text-green-600 focus:ring-green-500 rounded">
+                            <div class="flex-1">
+                                <span class="font-medium text-gray-800">初級</span>
+                                <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">適合初學者</span>
+                            </div>
+                        </label>
+
+                        <label class="flex items-center gap-3 p-3 rounded-lg border-2 transition-all cursor-pointer"
+                               :class="tempSelectedLevels.includes('中級') ? 'border-yellow-500 bg-yellow-50' : 'border-gray-200 hover:border-gray-300'">
+                            <input type="checkbox" v-model="tempSelectedLevels" value="中級" class="w-5 h-5 text-yellow-600 focus:ring-yellow-500 rounded">
+                            <div class="flex-1">
+                                <span class="font-medium text-gray-800">中級</span>
+                                <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-yellow-100 text-yellow-700">有基礎者</span>
+                            </div>
+                        </label>
+
+                        <label class="flex items-center gap-3 p-3 rounded-lg border-2 transition-all cursor-pointer"
+                               :class="tempSelectedLevels.includes('中高級') ? 'border-orange-500 bg-orange-50' : 'border-gray-200 hover:border-gray-300'">
+                            <input type="checkbox" v-model="tempSelectedLevels" value="中高級" class="w-5 h-5 text-orange-600 focus:ring-orange-500 rounded">
+                            <div class="flex-1">
+                                <span class="font-medium text-gray-800">中高級</span>
+                                <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">進一步學習</span>
+                            </div>
+                        </label>
+
+                        <label class="flex items-center gap-3 p-3 rounded-lg border-2 transition-all cursor-pointer"
+                               :class="tempSelectedLevels.includes('高級') ? 'border-red-500 bg-red-50' : 'border-gray-200 hover:border-gray-300'">
+                            <input type="checkbox" v-model="tempSelectedLevels" value="高級" class="w-5 h-5 text-red-600 focus:ring-red-500 rounded">
+                            <div class="flex-1">
+                                <span class="font-medium text-gray-800">高級</span>
+                                <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700">isiw ka mabaza dahu lia</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="text-xs text-gray-500 mb-4 text-center">
+                        <i class="ph ph-info"></i> 你可以隨時在「系統設定」中修改這些選項
+                    </div>
+
+                    <button @click="completeOnboarding"
+                            :disabled="tempSelectedLevels.length === 0"
+                            class="w-full py-3 rounded-xl font-bold text-white transition-all"
+                            :class="tempSelectedLevels.length > 0 ? 'bg-ramie-700 hover:bg-ramie-800 shadow-lg' : 'bg-gray-300 cursor-not-allowed'">
+                        開始學習 {{ tempSelectedLevels.length > 0 ? `(已選 ${tempSelectedLevels.length} 個難度)` : '(請至少選擇一個難度)' }}
+                    </button>
+                </div>
+            </div>
+
+            <!-- Loading State -->
+            <div v-if="loading" class="absolute inset-0 flex flex-col items-center justify-center bg-white z-40">
+                <div class="w-12 h-12 border-4 border-ramie-200 border-t-ramie-700 rounded-full animate-spin mb-4"></div>
+                <p class="text-ramie-800 font-medium">正在載入詞彙庫...</p>
+                <p class="text-xs text-gray-500 mt-2">請確保 kaxabu_words.json 位於同一目錄</p>
+            </div>
+
+            <!-- Error State -->
+            <div v-if="error" class="absolute inset-0 flex flex-col items-center justify-center bg-white z-40 p-6 text-center">
+                <i class="ph ph-warning-circle text-4xl text-red-500 mb-4"></i>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">載入失敗</h3>
+                <p class="text-gray-600 mb-4">{{ error }}</p>
+                <button @click="loadData" class="px-4 py-2 bg-ramie-700 text-white rounded-lg hover:bg-ramie-800">重試</button>
+            </div>
+
+            <!-- VIEW: STUDY (FLASHCARDS) -->
+            <div v-if="currentView === 'study' && !loading" class="h-full flex flex-col items-center justify-center p-4 max-w-2xl mx-auto">
+                
+                <div v-if="sessionQueue.length > 0 && currentCard" class="w-full h-full flex flex-col">
+                    <!-- Progress Bar -->
+                    <div class="w-full flex justify-between text-sm text-gray-500 mb-2 px-1">
+                        <span>今日進度</span>
+                        <span>{{ sessionCompleted }} / {{ sessionTotal }}</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-200 rounded-full mb-6 overflow-hidden">
+                        <div class="h-full bg-ramie-600 transition-all duration-300" :style="{ width: (sessionCompleted / sessionTotal * 100) + '%' }"></div>
+                    </div>
+
+                    <!-- Flashcard and Buttons Container -->
+                    <div class="flex-1 flex flex-col items-center justify-center w-full">
+                        <!-- Flashcard Area -->
+                        <div class="perspective-1000 w-full relative group" @click="flipCard">
+                            <div :class="['relative w-full aspect-[4/3] md:aspect-[3/2] transition-transform duration-500 transform-style-3d cursor-pointer shadow-xl rounded-2xl bg-white border border-stone-100', isFlipped ? 'rotate-y-180' : '']">
+
+                                <!-- Front -->
+                                <div class="absolute inset-0 backface-hidden flex flex-col items-center justify-center p-8 rounded-2xl bg-white">
+                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider" :class="isReviewCard(currentCard) ? 'bg-blue-100 text-blue-700' : 'bg-amber-100 text-amber-700'">
+                                        {{ isReviewCard(currentCard) ? '複習' : '新單字' }}
+                                    </span>
+                                    <span v-if="currentCard" class="absolute top-4 right-4 text-xs font-bold px-2 py-1 rounded" :class="getLevelColor(currentCard.level)">{{ currentCard.level }}</span>
+
+                                    <h2 class="text-4xl md:text-5xl font-bold text-ramie-900 text-center mb-4 leading-snug">{{ currentCard.kaxabu }}</h2>
+                                    <p class="text-stone-400 text-sm mt-4 italic">點擊翻面查看解釋</p>
+                                </div>
+
+                                <!-- Back -->
+                                <div class="absolute inset-0 backface-hidden rotate-y-180 flex flex-col items-center justify-center p-8 rounded-2xl bg-stone-50 border-2 border-ramie-100">
+                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-ramie-100 text-ramie-700 rounded uppercase tracking-wider">中文</span>
+
+                                    <h3 class="text-3xl font-serif-tc font-bold text-gray-800 mb-2 text-center">{{ currentCard.chinese }}</h3>
+                                    <div class="w-12 h-1 bg-ramie-300 rounded mb-4"></div>
+                                    <p class="text-gray-600 mb-1"><span class="font-bold text-xs text-gray-400 uppercase mr-2">類別</span> {{ currentCard.category }}</p>
+                                    <!-- 暫時取消這個功能 所以加了 && FALSE -->
+                                    <p v-if="currentCard && currentCard.note && false" class="text-gray-500 text-sm mt-4 bg-white px-4 py-2 rounded-lg border border-gray-100 shadow-sm">
+                                        <i class="ph ph-info mr-1"></i> {{ currentCard.note }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="grid grid-cols-4 gap-3 w-full mt-6" v-if="isFlipped && currentCard">
+                        <button @click.stop="rateCard('again')" class="flex flex-col items-center justify-center p-3 rounded-xl bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 transition-colors">
+                            <span class="text-sm font-bold uppercase mb-1">忘記</span>
+                            <span class="text-xs opacity-70">1 min</span>
+                        </button>
+                        <button @click.stop="rateCard('hard')" class="flex flex-col items-center justify-center p-3 rounded-xl bg-orange-50 hover:bg-orange-100 text-orange-700 border border-orange-200 transition-colors">
+                            <span class="text-sm font-bold uppercase mb-1">困難</span>
+                            <span class="text-xs opacity-70">2 days</span>
+                        </button>
+                        <button @click.stop="rateCard('good')" class="flex flex-col items-center justify-center p-3 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 transition-colors">
+                            <span class="text-sm font-bold uppercase mb-1">良好</span>
+                            <span class="text-xs opacity-70">4 days</span>
+                        </button>
+                        <button @click.stop="rateCard('easy')" class="flex flex-col items-center justify-center p-3 rounded-xl bg-green-50 hover:bg-green-100 text-green-700 border border-green-200 transition-colors">
+                            <span class="text-sm font-bold uppercase mb-1">簡單</span>
+                            <span class="text-xs opacity-70">7 days</span>
+                        </button>
+                        </div>
+                        <div v-else class="w-full text-center mt-6">
+                            <button @click="flipCard" class="w-full py-4 rounded-xl bg-ramie-700 text-white font-bold shadow-lg hover:bg-ramie-800 transition-all transform active:scale-95">
+                                顯示答案
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Empty State (Session Complete) -->
+                <div v-else class="text-center py-12 px-6 bg-white rounded-3xl shadow-sm border border-stone-100">
+                    <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="ph ph-check-fat text-4xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">今日目標達成！</h2>
+                    <p class="text-gray-500 mb-8">MUUPUT LIA! 已經完成了今天的進度。休息一下，明天再繼續吧。</p>
+                    <button @click="generateSession(true)" class="text-ramie-700 font-medium hover:text-ramie-900 underline">
+                        HAAPET MUBAZA TAATING, 想多學一點 (增加 10 個新單字)
+                    </button>
+                </div>
+            </div>
+
+            <!-- VIEW: SEARCH / DICTIONARY -->
+            <div v-if="currentView === 'search'" class="h-full flex flex-col max-w-4xl mx-auto p-4 md:p-6">
+                <div class="flex flex-col md:flex-row gap-4 mb-6">
+                    <div class="relative flex-1">
+                        <i class="ph ph-magnifying-glass absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                        <input v-model="searchQuery" type="text" placeholder="搜尋噶哈巫語或中文..." class="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-ramie-500 shadow-sm">
+                    </div>
+                    <select v-model="filterLevel" class="px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-ramie-500">
+                        <option value="">所有難度</option>
+                        <option value="初級">初級</option>
+                        <option value="中級">中級</option>
+                        <option value="中高級">中高級</option>
+                        <option value="高級">高級</option>
+                    </select>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden flex-1 flex flex-col">
+                    <div class="overflow-y-auto flex-1">
+                        <table class="w-full text-left table-fixed">
+                            <thead class="bg-earth-100 text-gray-600 text-sm sticky top-0 z-10">
+                                <tr>
+                                    <th class="p-4 font-semibold w-[25%]">噶哈巫語</th>
+                                    <th class="p-4 font-semibold w-[30%]">中文</th>
+                                    <th class="p-4 font-semibold hidden md:table-cell w-[15%]">難度</th>
+                                    <th class="p-4 font-semibold hidden md:table-cell w-[20%]">下次複習</th>
+                                    <th class="p-4 font-semibold text-right w-[10%]">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr v-for="word in filteredWords" :key="word.id" class="hover:bg-earth-100/30 transition-colors">
+                                    <td class="p-4 font-medium text-ramie-900">{{ word.kaxabu }}</td>
+                                    <td class="p-4 text-gray-700">{{ word.chinese }}</td>
+                                    <td class="p-4 hidden md:table-cell">
+                                        <span class="text-xs px-2 py-1 rounded-full font-medium whitespace-nowrap inline-block" :class="getLevelColor(word.level)">{{ word.level }}</span>
+                                    </td>
+                                    <td class="p-4 text-xs text-gray-500 hidden md:table-cell whitespace-nowrap">
+                                        {{ getNextReviewText(word.id) }}
+                                    </td>
+                                    <td class="p-4 text-right">
+                                        <button @click="resetWordProgress(word.id)" title="重置學習進度" class="text-gray-400 hover:text-red-600 p-1">
+                                            <i class="ph ph-arrow-counter-clockwise"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr v-if="filteredWords.length === 0">
+                                    <td colspan="5" class="p-8 text-center text-gray-500">沒有找到符合的詞彙</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="p-3 bg-gray-50 border-t border-gray-200 text-xs text-gray-500 flex justify-between">
+                        <span>顯示 {{ filteredWords.length }} 筆資料</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIEW: STATS -->
+            <div v-if="currentView === 'stats'" class="p-4 md:p-8 max-w-4xl mx-auto">
+                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">學習統計</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="p-2 bg-blue-100 text-blue-600 rounded-lg">
+                                <i class="ph ph-book-bookmark text-xl"></i>
+                            </div>
+                            <h3 class="font-medium text-gray-600">總學習單字</h3>
+                        </div>
+                        <p class="text-3xl font-bold text-gray-800">{{ Object.keys(userProgress).length }} <span class="text-sm font-normal text-gray-400">/ {{ words.length }}</span></p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="p-2 bg-green-100 text-green-600 rounded-lg">
+                                <i class="ph ph-fire text-xl"></i>
+                            </div>
+                            <h3 class="font-medium text-gray-600">連續打卡</h3>
+                        </div>
+                        <p class="text-3xl font-bold text-gray-800">{{ stats.streak }} <span class="text-sm font-normal text-gray-400">天</span></p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="p-2 bg-ramie-100 text-ramie-600 rounded-lg">
+                                <i class="ph ph-target text-xl"></i>
+                            </div>
+                            <h3 class="font-medium text-gray-600">熟練度 (Mastery)</h3>
+                        </div>
+                        <p class="text-3xl font-bold text-gray-800">{{ masteryPercentage }}%</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 mb-8">
+                    <h3 class="font-bold text-gray-800 mb-4">記憶分佈</h3>
+                    <div class="space-y-4">
+                        <div v-for="(count, label) in retentionStats" :key="label">
+                            <div class="flex justify-between text-sm mb-1">
+                                <span class="text-gray-600">{{ label }}</span>
+                                <span class="font-medium text-gray-900">{{ count }} 字</span>
+                            </div>
+                            <div class="w-full bg-gray-100 rounded-full h-2.5">
+                                <div class="bg-ramie-600 h-2.5 rounded-full" :style="{ width: (Object.keys(userProgress).length > 0 ? (count / Object.keys(userProgress).length * 100) : 0) + '%' }"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIEW: SETTINGS -->
+            <div v-if="currentView === 'settings'" class="p-4 md:p-8 max-w-2xl mx-auto">
+                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">系統設定</h2>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden mb-6">
+                    <div class="p-6 border-b border-gray-100">
+                        <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="ph ph-sliders text-ramie-600"></i> 學習偏好
+                        </h3>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">每日新詞數量限制</label>
+                                <input v-model.number="settings.dailyNewLimit" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-ramie-500 focus:border-ramie-500">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">包含的難度等級</label>
+                                <div class="flex flex-wrap gap-4">
+                                    <label class="flex items-center gap-2">
+                                        <input type="checkbox" v-model="settings.levels" value="初級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <span class="text-sm">初級</span>
+                                    </label>
+                                    <label class="flex items-center gap-2">
+                                        <input type="checkbox" v-model="settings.levels" value="中級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <span class="text-sm">中級</span>
+                                    </label>
+                                    <label class="flex items-center gap-2">
+                                        <input type="checkbox" v-model="settings.levels" value="中高級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <span class="text-sm">中高級</span>
+                                    </label>
+                                    <label class="flex items-center gap-2">
+                                        <input type="checkbox" v-model="settings.levels" value="高級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <span class="text-sm">高級</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 bg-stone-50">
+                        <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="ph ph-database text-ramie-600"></i> 資料管理
+                        </h3>
+                        <div class="flex flex-col gap-3">
+                            <button @click="exportData" class="w-full py-2 px-4 bg-white border border-gray-300 rounded-lg text-gray-700 font-medium hover:bg-gray-50 flex items-center justify-center gap-2">
+                                <i class="ph ph-download-simple"></i> 匯出學習進度 (JSON)
+                            </button>
+                            <div class="relative">
+                                <input type="file" @change="importData" accept=".json" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer">
+                                <button class="w-full py-2 px-4 bg-white border border-gray-300 rounded-lg text-gray-700 font-medium hover:bg-gray-50 flex items-center justify-center gap-2">
+                                    <i class="ph ph-upload-simple"></i> 匯入學習進度
+                                </button>
+                            </div>
+                            <button @click="clearAllProgress" class="w-full py-2 px-4 bg-red-50 border border-red-200 rounded-lg text-red-600 font-medium hover:bg-red-100 mt-2">
+                                重置所有進度 (無法復原)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        const { createApp, ref, computed, onMounted, watch } = Vue;
+
+        createApp({
+            setup() {
+                // State
+                const currentView = ref('study');
+                const loading = ref(true);
+                const error = ref(null);
+                const mobileMenuOpen = ref(false);
+                const showOnboarding = ref(false);
+                const tempSelectedLevels = ref(['初級', '中級', '中高級', '高級']); // Temporary state for onboarding
+
+                // Data
+                const words = ref([]);
+                const userProgress = ref({}); // { wordId: { interval, repetitions, ef, nextReview, lastReview } }
+                const settings = ref({
+                    dailyNewLimit: 10,
+                    levels: [] // Start empty, will be set by onboarding or loaded from localStorage
+                });
+                const stats = ref({
+                    lastStudyDate: null,
+                    streak: 0,
+                    todayStudied: 0,
+                    todayDate: null
+                });
+
+                // Study Session
+                const sessionQueue = ref([]);
+                const currentCardIndex = ref(0);
+                const isFlipped = ref(false);
+                const sessionTotal = ref(0); // To calculate progress bar
+                
+                // Search
+                const searchQuery = ref('');
+                const filterLevel = ref('');
+
+                // Lifecycle
+                onMounted(async () => {
+                    loadFromLocalStorage();
+                    await loadData();
+                    generateSession();
+                });
+
+                // --- Core Logic ---
+
+                const loadData = async () => {
+                    loading.value = true;
+                    error.value = null;
+                    try {
+                        const response = await fetch('kaxabu_words.json');
+                        if (!response.ok) throw new Error("無法讀取 JSON 檔案 (請確認檔案位置或伺服器設定)");
+                        words.value = await response.json();
+                    } catch (e) {
+                        console.error(e);
+                        error.value = e.message + "。提示：若您是直接打開 HTML，請改用 Live Server 或部署至 GitHub Pages。";
+                    } finally {
+                        loading.value = false;
+                    }
+                };
+
+                const loadFromLocalStorage = () => {
+                    const savedProgress = localStorage.getItem('kaxabu_progress');
+                    const savedSettings = localStorage.getItem('kaxabu_settings');
+                    const savedStats = localStorage.getItem('kaxabu_stats');
+                    const onboardingCompleted = localStorage.getItem('kaxabu_onboarding_completed');
+
+                    if (savedProgress) userProgress.value = JSON.parse(savedProgress);
+                    if (savedSettings) {
+                        settings.value = JSON.parse(savedSettings);
+                    }
+
+                    // Show onboarding only if user has never completed it
+                    if (!onboardingCompleted) {
+                        showOnboarding.value = true;
+                        // Reset to default selections for fresh onboarding
+                        tempSelectedLevels.value = ['初級', '中級', '中高級', '高級'];
+                    }
+
+                    if (savedStats) stats.value = JSON.parse(savedStats);
+                };
+
+                const saveToLocalStorage = () => {
+                    localStorage.setItem('kaxabu_progress', JSON.stringify(userProgress.value));
+                    localStorage.setItem('kaxabu_settings', JSON.stringify(settings.value));
+                    localStorage.setItem('kaxabu_stats', JSON.stringify(stats.value));
+                };
+
+                // SRS Logic (SuperMemo-2 Inspired)
+                // Quality: 0-5 (we map user buttons to: Again=0, Hard=3, Good=4, Easy=5)
+                const updateWordProgress = (wordId, quality) => {
+                    const isNewWord = !userProgress.value[wordId];
+                    let p = userProgress.value[wordId] || { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 };
+
+                    // Update Streak if first card of the day
+                    const todayStr = new Date().toDateString();
+                    if (stats.value.lastStudyDate !== todayStr) {
+                        const yesterday = new Date();
+                        yesterday.setDate(yesterday.getDate() - 1);
+                        if (stats.value.lastStudyDate === yesterday.toDateString()) {
+                            stats.value.streak++;
+                        } else if (stats.value.lastStudyDate !== todayStr) {
+                            stats.value.streak = 1;
+                        }
+                        stats.value.lastStudyDate = todayStr;
+                    }
+
+                    // Track new words studied today
+                    if (isNewWord) {
+                        if (stats.value.todayDate !== todayStr) {
+                            stats.value.todayStudied = 1;
+                            stats.value.todayDate = todayStr;
+                        } else {
+                            stats.value.todayStudied++;
+                        }
+                    }
+
+                    if (quality < 3) {
+                        p.repetitions = 0;
+                        p.interval = 1; // 1 day (technically 0 in simplified, but we want it back soon)
+                    } else {
+                        p.repetitions += 1;
+                        if (p.repetitions === 1) p.interval = 1;
+                        else if (p.repetitions === 2) p.interval = 6;
+                        else p.interval = Math.round(p.interval * p.ef);
+                    }
+
+                    p.ef = p.ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+                    if (p.ef < 1.3) p.ef = 1.3;
+
+                    // Calculate next review date (timestamp)
+                    const now = new Date();
+                    const nextDate = new Date();
+
+                    if (quality === 0) {
+                        nextDate.setDate(now.getDate());
+                    } else {
+                        nextDate.setDate(now.getDate() + p.interval);
+                    }
+
+                    p.nextReview = nextDate.getTime();
+                    p.lastReview = now.getTime();
+
+                    userProgress.value[wordId] = p;
+                    saveToLocalStorage();
+                };
+
+                const generateSession = (forceAdd = false) => {
+                    if (words.value.length === 0) return;
+
+                    const now = new Date().getTime();
+                    const todayStr = new Date().toDateString();
+                    const dueWords = [];
+                    const newWords = [];
+
+                    // Reset daily counter if it's a new day
+                    if (stats.value.todayDate !== todayStr) {
+                        stats.value.todayStudied = 0;
+                        stats.value.todayDate = todayStr;
+                        saveToLocalStorage();
+                    }
+
+                    // 1. Find Due Words
+                    words.value.forEach(w => {
+                        if (!settings.value.levels.includes(w.level)) return;
+
+                        const prog = userProgress.value[w.id];
+                        if (prog) {
+                            if (prog.nextReview <= now) {
+                                dueWords.push(w);
+                            }
+                        } else {
+                            newWords.push(w);
+                        }
+                    });
+
+                    // 2. Limit New Words based on today's studied count
+                    let sessionNewLimit = settings.value.dailyNewLimit - stats.value.todayStudied;
+                    if (sessionNewLimit < 0) sessionNewLimit = 0;
+
+                    if(forceAdd) {
+                        sessionNewLimit = 10;
+                    } else if (sessionQueue.value.length > 0 && currentCardIndex.value < sessionQueue.value.length) {
+                        return; // Don't regen if session active and has cards remaining
+                    }
+
+                    const selectedNew = newWords.slice(0, sessionNewLimit);
+
+                    // 3. Combine
+                    // Prioritize Reviews
+                    sessionQueue.value = [...dueWords, ...selectedNew];
+                    sessionTotal.value = sessionQueue.value.length;
+                    currentCardIndex.value = 0;
+                    isFlipped.value = false;
+                };
+
+                // --- Onboarding ---
+
+                const completeOnboarding = () => {
+                    if (tempSelectedLevels.value.length === 0) return;
+
+                    settings.value.levels = [...tempSelectedLevels.value];
+                    localStorage.setItem('kaxabu_onboarding_completed', 'true');
+                    saveToLocalStorage();
+                    showOnboarding.value = false;
+
+                    // Generate session with the selected levels
+                    generateSession();
+                };
+
+                // --- UI Actions ---
+
+                const currentCard = computed(() => {
+                    if (sessionQueue.value.length === 0 || currentCardIndex.value >= sessionQueue.value.length) return null;
+                    return sessionQueue.value[currentCardIndex.value];
+                });
+                
+                const sessionCompleted = computed(() => currentCardIndex.value);
+
+                const flipCard = () => {
+                    isFlipped.value = true;
+                };
+
+                const isReviewCard = (card) => {
+                    if (!card) return false;
+                    return userProgress.value[card.id] !== undefined;
+                };
+
+                const rateCard = (rating) => {
+                    if (!currentCard.value) return;
+
+                    let quality = 0;
+                    if (rating === 'again') quality = 0;
+                    else if (rating === 'hard') quality = 3;
+                    else if (rating === 'good') quality = 4;
+                    else if (rating === 'easy') quality = 5;
+
+                    const cardToRequeue = currentCard.value;
+
+                    updateWordProgress(currentCard.value.id, quality);
+
+                    // If "again" button (quality 0), re-add to queue for immediate review
+                    if (quality === 0) {
+                        sessionQueue.value.push(cardToRequeue);
+                        sessionTotal.value = sessionQueue.value.length;
+                    }
+
+                    // Next card
+                    isFlipped.value = false;
+                    setTimeout(() => {
+                        currentCardIndex.value++;
+                    }, 200); // slight delay for animation
+                };
+
+                const navigate = (view) => {
+                    currentView.value = view;
+                    mobileMenuOpen.value = false;
+                };
+
+                const navClass = (view) => {
+                    return currentView.value === view 
+                        ? 'bg-white text-ramie-700 shadow-sm' 
+                        : 'text-gray-500 hover:bg-earth-200/50 hover:text-gray-700';
+                };
+
+                const getLevelColor = (level) => {
+                    switch(level) {
+                        case '初級': return 'bg-green-100 text-green-700';
+                        case '中級': return 'bg-yellow-100 text-yellow-700';
+                        case '中高級': return 'bg-orange-100 text-orange-700';
+                        case '高級': return 'bg-red-100 text-red-700';
+                        default: return 'bg-gray-100 text-gray-600';
+                    }
+                };
+
+                // --- Search & Filters ---
+                const filteredWords = computed(() => {
+                    return words.value.filter(w => {
+                        const matchSearch = (w.kaxabu.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
+                                           w.chinese.includes(searchQuery.value));
+                        const matchLevel = filterLevel.value ? w.level === filterLevel.value : true;
+                        return matchSearch && matchLevel;
+                    });
+                });
+
+                const getNextReviewText = (id) => {
+                    const p = userProgress.value[id];
+                    if (!p) return '尚未學習';
+                    const diff = p.nextReview - new Date().getTime();
+                    if (diff <= 0) return '複習時間到';
+                    const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+                    return `${days} 天後`;
+                };
+
+                const resetWordProgress = (id) => {
+                    if(confirm('確定要重置這個單字的學習進度嗎？')) {
+                        delete userProgress.value[id];
+                        saveToLocalStorage();
+                    }
+                };
+
+                // --- Settings Actions ---
+                const exportData = () => {
+                    const dataStr = JSON.stringify(userProgress.value);
+                    const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+                    const exportFileDefaultName = 'kaxabu_progress_backup.json';
+                    
+                    const linkElement = document.createElement('a');
+                    linkElement.setAttribute('href', dataUri);
+                    linkElement.setAttribute('download', exportFileDefaultName);
+                    linkElement.click();
+                };
+
+                const importData = (event) => {
+                    const file = event.target.files[0];
+                    if (!file) return;
+                    
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        try {
+                            const json = JSON.parse(e.target.result);
+                            userProgress.value = json;
+                            saveToLocalStorage();
+                            alert('進度匯入成功！');
+                            generateSession(); // Re-calc session
+                        } catch (err) {
+                            alert('檔案格式錯誤');
+                        }
+                    };
+                    reader.readAsText(file);
+                };
+
+                const clearAllProgress = () => {
+                    if(confirm('警告：這將刪除所有學習紀錄且無法復原。確定嗎？')) {
+                        userProgress.value = {};
+                        stats.value = { lastStudyDate: null, streak: 0, todayStudied: 0, todayDate: null };
+                        localStorage.removeItem('kaxabu_onboarding_completed');
+                        saveToLocalStorage();
+                        location.reload();
+                    }
+                };
+
+                // --- Stats Helpers ---
+                const masteryPercentage = computed(() => {
+                    const studied = Object.values(userProgress.value);
+                    if (studied.length === 0) return 0;
+                    // Define mastery as interval > 21 days
+                    const mastered = studied.filter(p => p.interval > 21).length;
+                    return Math.round((mastered / words.value.length) * 100);
+                });
+
+                const retentionStats = computed(() => {
+                    const s = { '新手 (New)': 0, '學習中 (Learning)': 0, '熟練 (Review)': 0 };
+                    Object.values(userProgress.value).forEach(p => {
+                        if (p.interval < 3) s['新手 (New)']++;
+                        else if (p.interval < 21) s['學習中 (Learning)']++;
+                        else s['熟練 (Review)']++;
+                    });
+                    return s;
+                });
+
+                watch(settings, () => {
+                    saveToLocalStorage();
+                }, { deep: true });
+
+                return {
+                    currentView,
+                    loading,
+                    error,
+                    mobileMenuOpen,
+                    showOnboarding,
+                    tempSelectedLevels,
+                    words,
+                    userProgress,
+                    settings,
+                    stats,
+                    sessionQueue,
+                    currentCardIndex,
+                    currentCard,
+                    isFlipped,
+                    sessionCompleted,
+                    sessionTotal,
+                    searchQuery,
+                    filterLevel,
+                    filteredWords,
+                    navigate,
+                    navClass,
+                    flipCard,
+                    rateCard,
+                    getLevelColor,
+                    getNextReviewText,
+                    resetWordProgress,
+                    generateSession,
+                    exportData,
+                    importData,
+                    clearAllProgress,
+                    masteryPercentage,
+                    retentionStats,
+                    isReviewCard,
+                    completeOnboarding
+                };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>

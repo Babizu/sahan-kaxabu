@@ -1,0 +1,8754 @@
+[
+  {
+    "id": "01-01",
+    "kaxabu": "azang; ida",
+    "chinese": "一",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-02",
+    "kaxabu": "dusa",
+    "chinese": "二",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-03",
+    "kaxabu": "tuu",
+    "chinese": "三",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-04",
+    "kaxabu": "supat",
+    "chinese": "四",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-05",
+    "kaxabu": "xasep",
+    "chinese": "五",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-06",
+    "kaxabu": "xasebuza",
+    "chinese": "六",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-07",
+    "kaxabu": "xasebidusa",
+    "chinese": "七",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-08",
+    "kaxabu": "xasebituu",
+    "chinese": "八",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-09",
+    "kaxabu": "xasebisupat",
+    "chinese": "九",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-10",
+    "kaxabu": "isit",
+    "chinese": "十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-11",
+    "kaxabu": "isit azang",
+    "chinese": "十一",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-12",
+    "kaxabu": "isit dusa",
+    "chinese": "十二",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-13",
+    "kaxabu": "isit tuu",
+    "chinese": "十三",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-14",
+    "kaxabu": "isit supat",
+    "chinese": "十四",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-15",
+    "kaxabu": "isit xasep",
+    "chinese": "十五",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-16",
+    "kaxabu": "isit xasebuza",
+    "chinese": "十六",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-17",
+    "kaxabu": "isit xasebidusa",
+    "chinese": "十七",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-18",
+    "kaxabu": "iisit xasebituu",
+    "chinese": "十八",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-19",
+    "kaxabu": "isit xasebisupat",
+    "chinese": "十九",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-20",
+    "kaxabu": "dusa isit",
+    "chinese": "二十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-21",
+    "kaxabu": "dusa isit iu azang",
+    "chinese": "二十一",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-22",
+    "kaxabu": "dusa isit iu dusa",
+    "chinese": "二十二",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-23",
+    "kaxabu": "dusa isit iu tuu",
+    "chinese": "二十三",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-24",
+    "kaxabu": "dusa isit iu supat",
+    "chinese": "二十四",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-25",
+    "kaxabu": "dusa isit iu xasep",
+    "chinese": "二十五",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-26",
+    "kaxabu": "tuu isit",
+    "chinese": "三十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-27",
+    "kaxabu": "tuu isit iu azang",
+    "chinese": "三十一",
+    "level": "高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-28",
+    "kaxabu": "supat isit",
+    "chinese": "四十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-29",
+    "kaxabu": "xasep isit",
+    "chinese": "五十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-30",
+    "kaxabu": "xasebuza isit",
+    "chinese": "六十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-31",
+    "kaxabu": "xasebidusa isit",
+    "chinese": "七十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-32",
+    "kaxabu": "xasebituu isit",
+    "chinese": "八十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-33",
+    "kaxabu": "xasebisupat isit",
+    "chinese": "九十",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-34",
+    "kaxabu": "haten",
+    "chinese": "百",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-35",
+    "kaxabu": "azang haten",
+    "chinese": "一百",
+    "level": "高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-36",
+    "kaxabu": "dusa isit",
+    "chinese": "兩百",
+    "level": "中級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-37",
+    "kaxabu": "azang sahan",
+    "chinese": "一千",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-39",
+    "kaxabu": "matalat",
+    "chinese": "一次",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-40",
+    "kaxabu": "azang a ima",
+    "chinese": "一串、一把",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-43",
+    "kaxabu": "dadua",
+    "chinese": "全部",
+    "level": "初級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-44",
+    "kaxabu": "taating; tatiting",
+    "chinese": "一點點",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "01-45",
+    "kaxabu": "wazawat",
+    "chinese": "一半",
+    "level": "中級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "gen-42",
+    "kaxabu": "tohon",
+    "chinese": "一萬",
+    "level": "中高級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "gen-43",
+    "kaxabu": "baaba saw",
+    "chinese": "很多人",
+    "level": "中級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "gen-44",
+    "kaxabu": "dahu",
+    "chinese": "許多",
+    "level": "中級",
+    "category": "數字計量",
+    "note": ""
+  },
+  {
+    "id": "02-01",
+    "kaxabu": "isiw",
+    "chinese": "你",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-02",
+    "kaxabu": "yaku",
+    "chinese": "我",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-03",
+    "kaxabu": "imisiw",
+    "chinese": "他、那個",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-04",
+    "kaxabu": "imu",
+    "chinese": "你們",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-06",
+    "kaxabu": "yamisiw",
+    "chinese": "他們、那些",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-06",
+    "kaxabu": "yasia",
+    "chinese": "他們、那些",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-07",
+    "kaxabu": "nimu",
+    "chinese": "你們的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-08",
+    "kaxabu": "niam",
+    "chinese": "我們的（排除式）",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-09",
+    "kaxabu": "namisiw",
+    "chinese": "他們的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-09",
+    "kaxabu": "nasia",
+    "chinese": "他們的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-10",
+    "kaxabu": "nisiw",
+    "chinese": "你的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-11",
+    "kaxabu": "naki; yaku a",
+    "chinese": "我的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-12",
+    "kaxabu": "nimisiw",
+    "chinese": "他的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-12",
+    "kaxabu": "nisia",
+    "chinese": "他的",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-13",
+    "kaxabu": "yami",
+    "chinese": "我們（排除式）",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": "原本被原語會定義成\"高級\"，但不應該"
+  },
+  {
+    "id": "02-14",
+    "kaxabu": "ita",
+    "chinese": "咱們（包含式）",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-15",
+    "kaxabu": "nita",
+    "chinese": "咱們的（包含式）",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-16",
+    "kaxabu": "isia",
+    "chinese": "那個、他、那時",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-17",
+    "kaxabu": "imini",
+    "chinese": "這個",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-18",
+    "kaxabu": "dini",
+    "chinese": "這裡",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-19",
+    "kaxabu": "disiw",
+    "chinese": "那裡",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-19",
+    "kaxabu": "miadua",
+    "chinese": "那邊",
+    "level": "初級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "02-20",
+    "kaxabu": "monosu; monohosu",
+    "chinese": "如此、像這樣",
+    "level": "中高級",
+    "category": "代名詞、指示詞",
+    "note": ""
+  },
+  {
+    "id": "03-02",
+    "kaxabu": "axay",
+    "chinese": "什麼",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-03",
+    "kaxabu": "sasayen; sasayin",
+    "chinese": "怎麼辦",
+    "level": "中級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-04",
+    "kaxabu": "kasayan",
+    "chinese": "何時（未來式）",
+    "level": "高級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-05",
+    "kaxabu": "ima",
+    "chinese": "誰",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-06",
+    "kaxabu": "mia'axay",
+    "chinese": "哪一個",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-07",
+    "kaxabu": "tshay",
+    "chinese": "哪裡",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-08",
+    "kaxabu": "nima",
+    "chinese": "誰的",
+    "level": "高級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-09",
+    "kaxabu": "muaxay",
+    "chinese": "做甚麼",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-10",
+    "kaxabu": "haima",
+    "chinese": "多少",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-13",
+    "kaxabu": "nukasayan",
+    "chinese": "何時（過去式）",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "03-14",
+    "kaxabu": "saasay",
+    "chinese": "為什麼",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "gen-79",
+    "kaxabu": "kuasayan",
+    "chinese": "何時",
+    "level": "初級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "gen-80",
+    "kaxabu": "ini xadu",
+    "chinese": "不怎麼",
+    "level": "中級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "gen-81",
+    "kaxabu": "mayaw xadu",
+    "chinese": "還不怎麼",
+    "level": "中級",
+    "category": "疑問詞",
+    "note": ""
+  },
+  {
+    "id": "04-01",
+    "kaxabu": "aba",
+    "chinese": "父親",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-02",
+    "kaxabu": "ina",
+    "chinese": "母親",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-03",
+    "kaxabu": "minaxarat",
+    "chinese": "堂、表兄弟姐妹",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-04",
+    "kaxabu": "akong",
+    "chinese": "祖父",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-05",
+    "kaxabu": "apu",
+    "chinese": "祖父母、祖母",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-07",
+    "kaxabu": "taubalet; tauxumak",
+    "chinese": "配偶",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-08",
+    "kaxabu": "maxiasu",
+    "chinese": "女婿",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-09",
+    "kaxabu": "anay",
+    "chinese": "姊夫、舅子（男性用語）",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-09",
+    "kaxabu": "mahu",
+    "chinese": "姊夫、舅子（女性用語）",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-11",
+    "kaxabu": "atan",
+    "chinese": "嫂嫂、妯娌",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-12",
+    "kaxabu": "maxiasu",
+    "chinese": "媳婦",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-13",
+    "kaxabu": "ali",
+    "chinese": "孫子、筍子",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-13",
+    "kaxabu": "ali'ali",
+    "chinese": "曾孫",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-16",
+    "kaxabu": "ragi; agi",
+    "chinese": "親家",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-19",
+    "kaxabu": "abasan",
+    "chinese": "哥哥姊姊",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-20",
+    "kaxabu": "iah",
+    "chinese": "姊姊、比父母年輕的長輩、妯娌",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-21",
+    "kaxabu": "mamah",
+    "chinese": "哥哥、比父母年輕的長輩",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-22",
+    "kaxabu": "suazi",
+    "chinese": "弟弟妹妹",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-23",
+    "kaxabu": "suazi mamaleng",
+    "chinese": "弟弟",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-24",
+    "kaxabu": "suazi mamai",
+    "chinese": "妹妹",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-25",
+    "kaxabu": "baaba",
+    "chinese": "比父母大的男性長輩、伯父、舅父",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "04-26",
+    "kaxabu": "taata",
+    "chinese": "比父母大的女性長輩、阿姨、姑姑",
+    "level": "初級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "gen-104",
+    "kaxabu": "apu'apuan",
+    "chinese": "祖先",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "gen-105",
+    "kaxabu": "apu'apu",
+    "chinese": "曾祖父母、祖先",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "gen-106",
+    "kaxabu": "ama",
+    "chinese": "連襟（男性用語）",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "gen-107",
+    "kaxabu": "minu",
+    "chinese": "妹婿、弟媳",
+    "level": "高級",
+    "category": "親屬稱謂",
+    "note": ""
+  },
+  {
+    "id": "05-01",
+    "kaxabu": "langat",
+    "chinese": "名字",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-02",
+    "kaxabu": "lubang mamaleng",
+    "chinese": "男孩（幼小男性）",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-03",
+    "kaxabu": "lubang mamais",
+    "chinese": "女孩（幼小女性）",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-04",
+    "kaxabu": "batan",
+    "chinese": "朋友",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-05",
+    "kaxabu": "akhéhan",
+    "chinese": "小孩、孩童、年輕人",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-06",
+    "kaxabu": "hakezeng",
+    "chinese": "老（狀態）、耆老、老人",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-07",
+    "kaxabu": "mamais; mamai",
+    "chinese": "女性、妻子",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-08",
+    "kaxabu": "mamaleng; mamaneng",
+    "chinese": "男性、丈夫",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-09",
+    "kaxabu": "saw",
+    "chinese": "人、人類",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-11",
+    "kaxabu": "takaat",
+    "chinese": "醫生、老師、牧師、專業人士（也可以延伸「長官」）",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-12",
+    "kaxabu": "sazian a saw; hazian a saw",
+    "chinese": "壞人",
+    "level": "中高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-13",
+    "kaxabu": "taukua",
+    "chinese": "長官、土官",
+    "level": "高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-14",
+    "kaxabu": "tula",
+    "chinese": "流氓、鱸鰻",
+    "level": "高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-15",
+    "kaxabu": "tadaret",
+    "chinese": "警察",
+    "level": "高級",
+    "category": "人物、身分",
+    "note": "德興阿公好像說過警察這個詞?"
+  },
+  {
+    "id": "05-17",
+    "kaxabu": "utakay",
+    "chinese": "客家人",
+    "level": "高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-19",
+    "kaxabu": "tapulu",
+    "chinese": "漢人、閩南人",
+    "level": "中級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-20",
+    "kaxabu": "aba'abasan",
+    "chinese": "青壯年",
+    "level": "高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-23",
+    "kaxabu": "masulohong",
+    "chinese": "外省人",
+    "level": "中高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-24",
+    "kaxabu": "maxizapay",
+    "chinese": "閨女",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "05-25",
+    "kaxabu": "tadepex",
+    "chinese": "學生",
+    "level": "初級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "gen-128",
+    "kaxabu": "maxizapay a saw",
+    "chinese": "在室未婚的人、年輕人",
+    "level": "中級",
+    "category": "人物、身分",
+    "note": "原意指閨女，德興阿公常用這個詞年輕人，不分男女"
+  },
+  {
+    "id": "gen-129",
+    "kaxabu": "azang buxuan",
+    "chinese": "別的種族",
+    "level": "中級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "gen-130",
+    "kaxabu": "taumala",
+    "chinese": "政府、官員",
+    "level": "中級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "gen-131",
+    "kaxabu": "zaaxu",
+    "chinese": "山地原住民",
+    "level": "中高級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "gen-132",
+    "kaxabu": "pakusia; pakesia",
+    "chinese": "通事、有錢有權的人、老闆",
+    "level": "中級",
+    "category": "人物、身分",
+    "note": ""
+  },
+  {
+    "id": "06-01",
+    "kaxabu": "sangia",
+    "chinese": "耳朵",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-02",
+    "kaxabu": "sasarisan; sasaisan",
+    "chinese": "大腿",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-03",
+    "kaxabu": "dauik",
+    "chinese": "眼睛",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-04",
+    "kaxabu": "dais",
+    "chinese": "臉",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-05",
+    "kaxabu": "ahan",
+    "chinese": "嘴巴",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-06",
+    "kaxabu": "punu",
+    "chinese": "頭",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-07",
+    "kaxabu": "kalikux",
+    "chinese": "指甲",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-08",
+    "kaxabu": "ima; lima'",
+    "chinese": "手",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-09",
+    "kaxabu": "buxu",
+    "chinese": "身體、肉",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-10",
+    "kaxabu": "muzing",
+    "chinese": "鼻子",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-11",
+    "kaxabu": "kaaw; kalaw",
+    "chinese": "腳",
+    "level": "初級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-12",
+    "kaxabu": "lepeng",
+    "chinese": "牙齒",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-13",
+    "kaxabu": "bekes",
+    "chinese": "頭髮",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-14",
+    "kaxabu": "damu",
+    "chinese": "血、血液",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-15",
+    "kaxabu": "selem; buxu",
+    "chinese": "肉",
+    "level": "中級",
+    "category": "身體部位",
+    "note": "selem 是指三層肉"
+  },
+  {
+    "id": "06-16",
+    "kaxabu": "punu lizak",
+    "chinese": "額頭",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-17",
+    "kaxabu": "tian",
+    "chinese": "肚子",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-18",
+    "kaxabu": "nunoh",
+    "chinese": "乳房",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-19",
+    "kaxabu": "pupu",
+    "chinese": "小腿肚",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-20",
+    "kaxabu": "abaxa",
+    "chinese": "肩膀",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-21",
+    "kaxabu": "waka",
+    "chinese": "下巴",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-22",
+    "kaxabu": "bukun",
+    "chinese": "背部",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-23",
+    "kaxabu": "apay; lapay",
+    "chinese": "皮",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-24",
+    "kaxabu": "zubuzup; zebezep",
+    "chinese": "胸腔",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-25",
+    "kaxabu": "tolak; tulak; basay",
+    "chinese": "男性生殖器",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": "此條需要重勘，原先南島語有分動物跟人的生殖器，這方面turak跟basay所能指的不同。但近來有所混用。"
+  },
+  {
+    "id": "06-26",
+    "kaxabu": "papi",
+    "chinese": "女性生殖器",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-27",
+    "kaxabu": "baxa",
+    "chinese": "肺",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-28",
+    "kaxabu": "baabu",
+    "chinese": "心臟",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-29",
+    "kaxabu": "ziku; hakit",
+    "chinese": "肘、脛骨",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-30",
+    "kaxabu": "hapat",
+    "chinese": "口水",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-31",
+    "kaxabu": "ilas",
+    "chinese": "膝蓋",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-32",
+    "kaxabu": "kudit",
+    "chinese": "傷口",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-32",
+    "kaxabu": "kudis",
+    "chinese": "傷口",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-33",
+    "kaxabu": "tauku",
+    "chinese": "胃",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-34",
+    "kaxabu": "asay",
+    "chinese": "肝臟",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-35",
+    "kaxabu": "xipes",
+    "chinese": "痰、濃痰",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-35",
+    "kaxabu": "hapat",
+    "chinese": "吐痰",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-36",
+    "kaxabu": "bakuay",
+    "chinese": "甲狀腺腫",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-37",
+    "kaxabu": "maselem",
+    "chinese": "油脂",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-38",
+    "kaxabu": "takaxang",
+    "chinese": "肋骨",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-39",
+    "kaxabu": "apuzu",
+    "chinese": "膽囊",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-40",
+    "kaxabu": "tapupu",
+    "chinese": "拇指",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-41",
+    "kaxabu": "bakung",
+    "chinese": "喉嚨",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-42",
+    "kaxabu": "dahama",
+    "chinese": "舌頭",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-43",
+    "kaxabu": "iing",
+    "chinese": "腰部",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-44",
+    "kaxabu": "kakamut",
+    "chinese": "手指",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-45",
+    "kaxabu": "tatak a lepeng",
+    "chinese": "門牙",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-46",
+    "kaxabu": "daxang",
+    "chinese": "汗水",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-46",
+    "kaxabu": "maxidaxang",
+    "chinese": "流汗",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-47",
+    "kaxabu": "haho",
+    "chinese": "脖子",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-48",
+    "kaxabu": "tunu",
+    "chinese": "鼻涕",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-49",
+    "kaxabu": "pu",
+    "chinese": "關節",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-50",
+    "kaxabu": "mutut",
+    "chinese": "臀部",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-51",
+    "kaxabu": "dadapal",
+    "chinese": "腳掌",
+    "level": "中高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-52",
+    "kaxabu": "haho",
+    "chinese": "後頸",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-53",
+    "kaxabu": "gaigéhan",
+    "chinese": "腋窩",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-55",
+    "kaxabu": "uidi",
+    "chinese": "嘴唇",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "06-56",
+    "kaxabu": "bekes",
+    "chinese": "毛",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "gen-191",
+    "kaxabu": "batu lasu",
+    "chinese": "陰囊、睪丸",
+    "level": "高級",
+    "category": "身體部位",
+    "note": "巴宰跟噶哈巫講法不同"
+  },
+  {
+    "id": "gen-192",
+    "kaxabu": "pasipu",
+    "chinese": "胰臟(腰尺)",
+    "level": "高級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "gen-193",
+    "kaxabu": "ahan",
+    "chinese": "嘴、語言",
+    "level": "中級",
+    "category": "身體部位",
+    "note": ""
+  },
+  {
+    "id": "07-01",
+    "kaxabu": "dulut",
+    "chinese": "尾巴",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-02",
+    "kaxabu": "bauzak",
+    "chinese": "豬",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-03",
+    "kaxabu": "wazu",
+    "chinese": "狗",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-04",
+    "kaxabu": "muis",
+    "chinese": "羊",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-05",
+    "kaxabu": "balan",
+    "chinese": "貓",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-06",
+    "kaxabu": "ayam",
+    "chinese": "鳥",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-07",
+    "kaxabu": "alaw",
+    "chinese": "魚",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-08",
+    "kaxabu": "pataw; pataulu",
+    "chinese": "雞",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-09",
+    "kaxabu": "utoh; utok",
+    "chinese": "猴子",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-10",
+    "kaxabu": "nuang",
+    "chinese": "牛",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-11",
+    "kaxabu": "titay",
+    "chinese": "家鼠、老鼠",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-12",
+    "kaxabu": "takayah",
+    "chinese": "青蛙",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-13",
+    "kaxabu": "luku",
+    "chinese": "貓頭鷹",
+    "level": "初級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-14",
+    "kaxabu": "axem",
+    "chinese": "穿山甲",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-15",
+    "kaxabu": "binayu a bauzak",
+    "chinese": "山豬",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-16",
+    "kaxabu": "baxut",
+    "chinese": "野鴿子",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-18",
+    "kaxabu": "laulu",
+    "chinese": "烏龜",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-19",
+    "kaxabu": "ezet",
+    "chinese": "蛇",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-20",
+    "kaxabu": "adus a mahabaha",
+    "chinese": "飛鼠",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-21",
+    "kaxabu": "ngangedax; langalang",
+    "chinese": "豹、山中野獸",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-22",
+    "kaxabu": "luxut",
+    "chinese": "鹿",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-23",
+    "kaxabu": "tangadex",
+    "chinese": "熊",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-24",
+    "kaxabu": "maket; khiunn",
+    "chinese": "羌",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": "khiunn 為台語借詞"
+  },
+  {
+    "id": "07-25",
+    "kaxabu": "hipet",
+    "chinese": "蟑螂",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-26",
+    "kaxabu": "tatium",
+    "chinese": "蜻蜓",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-27",
+    "kaxabu": "tapiaw; zapiaw",
+    "chinese": "蝴蝶",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-28",
+    "kaxabu": "kakasu",
+    "chinese": "蜘蛛",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-29",
+    "kaxabu": "rahing",
+    "chinese": "雄性動物生殖器",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": "如06-25所述"
+  },
+  {
+    "id": "07-30",
+    "kaxabu": "bohot",
+    "chinese": "松鼠",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-31",
+    "kaxabu": "adus",
+    "chinese": "田鼠",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-32",
+    "kaxabu": "tibon",
+    "chinese": "蚊子",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-33",
+    "kaxabu": "babulay",
+    "chinese": "頭蝨",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-34",
+    "kaxabu": "angaw",
+    "chinese": "蒼蠅",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-35",
+    "kaxabu": "walu",
+    "chinese": "蜜蜂",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-36",
+    "kaxabu": "balas",
+    "chinese": "雄性(動物)",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-38",
+    "kaxabu": "sibabun",
+    "chinese": "鴨",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-39",
+    "kaxabu": "tulin",
+    "chinese": "蚯蚓",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-40",
+    "kaxabu": "puzek",
+    "chinese": "內臟",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-41",
+    "kaxabu": "tiduhun",
+    "chinese": "大紅蜂",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-42",
+    "kaxabu": "kuzung",
+    "chinese": "蝦",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-44",
+    "kaxabu": "gamay",
+    "chinese": "馬",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-45",
+    "kaxabu": "xipu",
+    "chinese": "雌性(動物)",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": "為什麼雌性跟雄性分級不同? 原語會阿…"
+  },
+  {
+    "id": "07-46",
+    "kaxabu": "alamis",
+    "chinese": "海蟹",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": "需檢查"
+  },
+  {
+    "id": "07-46",
+    "kaxabu": "kaxang",
+    "chinese": "螃蟹",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-47",
+    "kaxabu": "lalay; laylay",
+    "chinese": "蟬",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-49",
+    "kaxabu": "phaphalit; papalit",
+    "chinese": "翅膀",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-50",
+    "kaxabu": "raping",
+    "chinese": "蝙蝠",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-51",
+    "kaxabu": "taituk",
+    "chinese": "石螺、小蝸牛",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-52",
+    "kaxabu": "sipiw; xumak ayam",
+    "chinese": "麻雀",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-54",
+    "kaxabu": "ahuay",
+    "chinese": "老鷹",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-55",
+    "kaxabu": "asezah",
+    "chinese": "螞蟻",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-56",
+    "kaxabu": "ilaw",
+    "chinese": "鵝",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-58",
+    "kaxabu": "xubu",
+    "chinese": "鳥巢、轎子、刀鞘",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-59",
+    "kaxabu": "kakiti",
+    "chinese": "雞籠蜂",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-60",
+    "kaxabu": "ti'i",
+    "chinese": "跳蚤",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-61",
+    "kaxabu": "hahak",
+    "chinese": "眼鏡蛇",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-62",
+    "kaxabu": "kakak",
+    "chinese": "烏鴉",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-63",
+    "kaxabu": "titu",
+    "chinese": "動物幼崽（狗貓豬牛）",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-64",
+    "kaxabu": "uxung",
+    "chinese": "(動物的)角",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "07-65",
+    "kaxabu": "atanay",
+    "chinese": "蚱蜢",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-254",
+    "kaxabu": "tubulabulay",
+    "chinese": "糞金龜",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-255",
+    "kaxabu": "kapayin",
+    "chinese": "臭蟲",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-256",
+    "kaxabu": "baabatay",
+    "chinese": "黑眶蟾蜍",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-257",
+    "kaxabu": "tapohapohak",
+    "chinese": "盤古蟾蜍",
+    "level": "高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-258",
+    "kaxabu": "ilis",
+    "chinese": "兔",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "gen-259",
+    "kaxabu": "tabulabun",
+    "chinese": "鼴鼠、鼩鼴、錢鼠",
+    "level": "中級",
+    "category": "動物(含昆蟲)",
+    "note": "意思為「帶土的、挖土的」(burabur)，由穴居習性得名"
+  },
+  {
+    "id": "gen-260",
+    "kaxabu": "baabu",
+    "chinese": "田螺",
+    "level": "中高級",
+    "category": "動物(含昆蟲)",
+    "note": ""
+  },
+  {
+    "id": "08-01",
+    "kaxabu": "beleben",
+    "chinese": "香蕉",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-02",
+    "kaxabu": "mulasi",
+    "chinese": "稻穀(未去殼)、水稻",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-03",
+    "kaxabu": "kahuy",
+    "chinese": "樹、 木柴",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-04",
+    "kaxabu": "dukun",
+    "chinese": "芋頭",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-05",
+    "kaxabu": "tubus",
+    "chinese": "甘蔗",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-06",
+    "kaxabu": "abak",
+    "chinese": "葉子",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-07",
+    "kaxabu": "dadas",
+    "chinese": "甘藷",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-08",
+    "kaxabu": "amulu",
+    "chinese": "柑橘",
+    "level": "中級",
+    "category": "植物",
+    "note": "其實有差，這條要修正"
+  },
+  {
+    "id": "08-09",
+    "kaxabu": "tulala",
+    "chinese": "花朵",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-09",
+    "kaxabu": "tulala",
+    "chinese": "花",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-10",
+    "kaxabu": "baun; bon",
+    "chinese": "南瓜",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-11",
+    "kaxabu": "sabun",
+    "chinese": "雜草堆",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-12",
+    "kaxabu": "delem",
+    "chinese": "玉米",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-13",
+    "kaxabu": "sabiki; sawiki",
+    "chinese": "檳榔",
+    "level": "中高級",
+    "category": "植物",
+    "note": "近代失傳的詞，但可見於1890年代與1960年代語料"
+  },
+  {
+    "id": "08-14",
+    "kaxabu": "patakan",
+    "chinese": "竹子",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-15",
+    "kaxabu": "panga",
+    "chinese": "樹枝、枝幹末端",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-17",
+    "kaxabu": "ali",
+    "chinese": "竹筍",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-18",
+    "kaxabu": "tarax",
+    "chinese": "姊妹菇、雞肉絲菇",
+    "level": "高級",
+    "category": "植物",
+    "note": "香菇種類很多，但似乎沒有泛稱"
+  },
+  {
+    "id": "08-19",
+    "kaxabu": "budabut; baxat",
+    "chinese": "鳳梨",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-20",
+    "kaxabu": "semee",
+    "chinese": "雜草、草",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-21",
+    "kaxabu": "xaxawas",
+    "chinese": "藤類",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-21",
+    "kaxabu": "xaxawas",
+    "chinese": "藤蔓、莖",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-22",
+    "kaxabu": "a'im",
+    "chinese": "桃",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-23",
+    "kaxabu": "kaduh; kadoh; kado",
+    "chinese": "李子",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-24",
+    "kaxabu": "madu",
+    "chinese": "水果、龍眼",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-26",
+    "kaxabu": "kaxuy sainga",
+    "chinese": "木耳",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-27",
+    "kaxabu": "yauran; uawan",
+    "chinese": "野蕃茄",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-28",
+    "kaxabu": "xames",
+    "chinese": "細根、鬚根",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-30",
+    "kaxabu": "baluxun",
+    "chinese": "姑婆芋",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-31",
+    "kaxabu": "taba",
+    "chinese": "瓢瓜、葫蘆",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-33",
+    "kaxabu": "saipu",
+    "chinese": "胡蘿蔔",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-34",
+    "kaxabu": "kaziuk",
+    "chinese": "空心菜",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-37",
+    "kaxabu": "abazin",
+    "chinese": "高粱、紅藜",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-38",
+    "kaxabu": "baibai",
+    "chinese": "蔥",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-43",
+    "kaxabu": "buxuan",
+    "chinese": "種子、幼苗、種苗",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-44",
+    "kaxabu": "buxuan",
+    "chinese": "種苗、種子",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-45",
+    "kaxabu": "baxala",
+    "chinese": "野草莓、刺莓",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-46",
+    "kaxabu": "sangas",
+    "chinese": "梅子",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-47",
+    "kaxabu": "mmala; umala",
+    "chinese": "過貓",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-50",
+    "kaxabu": "sasin",
+    "chinese": "山胡椒",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-51",
+    "kaxabu": "xaidang tadaw",
+    "chinese": "高刀豆",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-52",
+    "kaxabu": "banay",
+    "chinese": "柚子",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-53",
+    "kaxabu": "tamaku",
+    "chinese": "菸草",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-54",
+    "kaxabu": "saxii",
+    "chinese": "辣椒(通稱)",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-55",
+    "kaxabu": "kapua",
+    "chinese": "棉花、棉被",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-56",
+    "kaxabu": "dadas",
+    "chinese": "地瓜",
+    "level": "初級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "08-57",
+    "kaxabu": "lapuat",
+    "chinese": "番石榴",
+    "level": "初級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-308",
+    "kaxabu": "daxa",
+    "chinese": "楓香",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-309",
+    "kaxabu": "talu",
+    "chinese": "芋頭梗",
+    "level": "中高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-310",
+    "kaxabu": "xauxi; xawixi",
+    "chinese": "榕樹",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-311",
+    "kaxabu": "balaban",
+    "chinese": "棕梠",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-312",
+    "kaxabu": "alibuu",
+    "chinese": "箭竹筍",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-313",
+    "kaxabu": "auma; raruma",
+    "chinese": "麻竹",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-314",
+    "kaxabu": "tun",
+    "chinese": "松樹",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-315",
+    "kaxabu": "tami",
+    "chinese": "絲瓜",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-316",
+    "kaxabu": "tabide; baxat",
+    "chinese": "黃瓜",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-317",
+    "kaxabu": "xizi",
+    "chinese": "三腳柱仔（可食蕨類）",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-318",
+    "kaxabu": "tana'",
+    "chinese": "刺蔥",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-319",
+    "kaxabu": "kadamu",
+    "chinese": "薯榔",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-320",
+    "kaxabu": "baunay",
+    "chinese": "花生",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-321",
+    "kaxabu": "tupan",
+    "chinese": "刺殼草、鼠麴草",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-322",
+    "kaxabu": "basiaw",
+    "chinese": "月桃",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-323",
+    "kaxabu": "tapii",
+    "chinese": "桔子",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-324",
+    "kaxabu": "amulu",
+    "chinese": "柑橘類通稱",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-325",
+    "kaxabu": "tubéhé",
+    "chinese": "芥菜",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-326",
+    "kaxabu": "huhas",
+    "chinese": "粗根、如板根",
+    "level": "高級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-327",
+    "kaxabu": "hohas",
+    "chinese": "粗根",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-328",
+    "kaxabu": "xames",
+    "chinese": "細根",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-329",
+    "kaxabu": "samma'",
+    "chinese": "山鵝菜、茼蒿",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-330",
+    "kaxabu": "pa-",
+    "chinese": "讓、使(接動態動詞詞根)",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "gen-331",
+    "kaxabu": "paka-",
+    "chinese": "讓、使(接靜態動詞詞根)",
+    "level": "中級",
+    "category": "植物",
+    "note": ""
+  },
+  {
+    "id": "09-01",
+    "kaxabu": "babizu",
+    "chinese": "書/信件",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-02",
+    "kaxabu": "pai ; palay",
+    "chinese": "錢、貨幣",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-03",
+    "kaxabu": "kalitik",
+    "chinese": "球",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-04",
+    "kaxabu": "laladan",
+    "chinese": "桌子/書桌",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-05",
+    "kaxabu": "saakakawas",
+    "chinese": "電話",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-06",
+    "kaxabu": "saabizu",
+    "chinese": "筆",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-07",
+    "kaxabu": "aitukuan",
+    "chinese": "椅子",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-08",
+    "kaxabu": "iu",
+    "chinese": "藥物",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-10",
+    "kaxabu": "wailaw",
+    "chinese": "雨傘",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-11",
+    "kaxabu": "taating a tukaxa",
+    "chinese": "手錶",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-12",
+    "kaxabu": "tukaxa; paazakayan",
+    "chinese": "鐘錶",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": "pazakayan 出自費羅里1970"
+  },
+  {
+    "id": "09-13",
+    "kaxabu": "saakabit",
+    "chinese": "鉤子、 鉤住",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-14",
+    "kaxabu": "wa'ay; waray",
+    "chinese": "線",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-15",
+    "kaxabu": "sais",
+    "chinese": "繩索",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-16",
+    "kaxabu": "daxem",
+    "chinese": "針",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-17",
+    "kaxabu": "suru; su'u",
+    "chinese": "木杵",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-18",
+    "kaxabu": "pana",
+    "chinese": "枝條",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-19",
+    "kaxabu": "xaxai",
+    "chinese": "篩、篩子",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-21",
+    "kaxabu": "tabuxuan a paranah; tabuxuanan",
+    "chinese": "豬槽",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": "tabuxuanan 為豬槽"
+  },
+  {
+    "id": "09-22",
+    "kaxabu": "kekep; kato",
+    "chinese": "剪刀",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-23",
+    "kaxabu": "bahah",
+    "chinese": "木炭、炭火",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-24",
+    "kaxabu": "gunugun",
+    "chinese": "水桶",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-25",
+    "kaxabu": "saataxapis",
+    "chinese": "釣竿",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-27",
+    "kaxabu": "hapuy",
+    "chinese": "電燈",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-28",
+    "kaxabu": "tatapuk",
+    "chinese": "蓋子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-30",
+    "kaxabu": "daki'en",
+    "chinese": "污垢",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-31",
+    "kaxabu": "luzung",
+    "chinese": "木臼",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-32",
+    "kaxabu": "kapua",
+    "chinese": "棉被",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-33",
+    "kaxabu": "salaman",
+    "chinese": "碗",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-34",
+    "kaxabu": "saasipue",
+    "chinese": "網子",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": "漁網"
+  },
+  {
+    "id": "09-34",
+    "kaxabu": "sasiper",
+    "chinese": "捕網",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-35",
+    "kaxabu": "pahalaman",
+    "chinese": "煮飯鍋",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-36",
+    "kaxabu": "saagirigir; karikir",
+    "chinese": "鋸子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-37",
+    "kaxabu": "paupa",
+    "chinese": "紙張",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-38",
+    "kaxabu": "sibulung",
+    "chinese": "杯子",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-40",
+    "kaxabu": "haba",
+    "chinese": "茄芷袋",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-41",
+    "kaxabu": "saasian",
+    "chinese": "鍋鏟",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-42",
+    "kaxabu": "yasam",
+    "chinese": "斧頭",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-43",
+    "kaxabu": "kakazip",
+    "chinese": "筷子、夾子",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-44",
+    "kaxabu": "angasat",
+    "chinese": "床",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-47",
+    "kaxabu": "balax",
+    "chinese": "工具",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-48",
+    "kaxabu": "bulayan",
+    "chinese": "煮菜鍋、鍋",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-49",
+    "kaxabu": "abu",
+    "chinese": "炭灰",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-50",
+    "kaxabu": "tindu",
+    "chinese": "瓶子",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-51",
+    "kaxabu": "dadius",
+    "chinese": "湯匙",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-51",
+    "kaxabu": "dadius",
+    "chinese": "湯匙",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-52",
+    "kaxabu": "sibaw",
+    "chinese": "菜盤、盤子",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-54",
+    "kaxabu": "saabazu",
+    "chinese": "肥皂",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-56",
+    "kaxabu": "laluzuk",
+    "chinese": "梳子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-57",
+    "kaxabu": "saaapa",
+    "chinese": "揹帶",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-58",
+    "kaxabu": "saarep",
+    "chinese": "扇子",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-60",
+    "kaxabu": "babulas",
+    "chinese": "水瓢",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-63",
+    "kaxabu": "saabexes; bukubuk",
+    "chinese": "水管",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-64",
+    "kaxabu": "paapukulan",
+    "chinese": "枕頭",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-65",
+    "kaxabu": "saatetex",
+    "chinese": "鐵鎚",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-67",
+    "kaxabu": "singasen a lepeng",
+    "chinese": "卡在牙縫之物",
+    "level": "中高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-69",
+    "kaxabu": "baabaran",
+    "chinese": "大漁網、八卦網",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "09-71",
+    "kaxabu": "kalaha; kalakala",
+    "chinese": "簍子",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-390",
+    "kaxabu": "saa'ixu",
+    "chinese": "大杓子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": "大飯杓"
+  },
+  {
+    "id": "gen-391",
+    "kaxabu": "izu; lizu",
+    "chinese": "松明",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-392",
+    "kaxabu": "ata'at",
+    "chinese": "梯子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-393",
+    "kaxabu": "tadaw",
+    "chinese": "刀(統稱)",
+    "level": "初級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-394",
+    "kaxabu": "aideman",
+    "chinese": "床舖、臥室",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-395",
+    "kaxabu": "kaxa",
+    "chinese": "鐵",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "gen-396",
+    "kaxabu": "tutu",
+    "chinese": "菸斗、竹製小容器",
+    "level": "高級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "10-01",
+    "kaxabu": "daan",
+    "chinese": "道路",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-02",
+    "kaxabu": "izik binayu",
+    "chinese": "山林",
+    "level": "初級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-04",
+    "kaxabu": "ba'i",
+    "chinese": "風",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-05",
+    "kaxabu": "bunat; bunaz",
+    "chinese": "沙子",
+    "level": "高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-06",
+    "kaxabu": "tuyak",
+    "chinese": "泥土",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-07",
+    "kaxabu": "axong",
+    "chinese": "河流",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-08",
+    "kaxabu": "luduk; lubung",
+    "chinese": "池塘、水潭",
+    "level": "中高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-08",
+    "kaxabu": "umaw",
+    "chinese": "湖泊(如日月潭)",
+    "level": "中高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-09",
+    "kaxabu": "kahuykahuy; kahukahuy",
+    "chinese": "森林",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-10",
+    "kaxabu": "lagan",
+    "chinese": "間隙",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-11",
+    "kaxabu": "a'ung",
+    "chinese": "小洞、獸居的穴",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-12",
+    "kaxabu": "dadaxe",
+    "chinese": "山腳",
+    "level": "中高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-15",
+    "kaxabu": "seme seme",
+    "chinese": "草原",
+    "level": "高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-17",
+    "kaxabu": "zaxit",
+    "chinese": "峽谷",
+    "level": "高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-20",
+    "kaxabu": "bokbok",
+    "chinese": "瀑布",
+    "level": "中高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "10-22",
+    "kaxabu": "tubabaw a binayu",
+    "chinese": "崇山峻嶺",
+    "level": "高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "gen-413",
+    "kaxabu": "tipuzu a binayu",
+    "chinese": "山頂",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "gen-414",
+    "kaxabu": "xirit",
+    "chinese": "砂礫",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "gen-415",
+    "kaxabu": "maxangat a daxe",
+    "chinese": "平的地",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "gen-416",
+    "kaxabu": "daxe",
+    "chinese": "土地",
+    "level": "中級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "11-01",
+    "kaxabu": "mudan",
+    "chinese": "下雨",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-02",
+    "kaxabu": "lizax",
+    "chinese": "太陽",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-03",
+    "kaxabu": "ilas",
+    "chinese": "月亮",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-04",
+    "kaxabu": "babaw kawas",
+    "chinese": "天空",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-05",
+    "kaxabu": "bintul; bintun",
+    "chinese": "星星",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-06",
+    "kaxabu": "udan",
+    "chinese": "雨",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-08",
+    "kaxabu": "amisan a daali",
+    "chinese": "冬季",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-09",
+    "kaxabu": "abaxan a daali",
+    "chinese": "不是冬季的季節(春、夏、秋)",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-10",
+    "kaxabu": "kowas",
+    "chinese": "雷",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-11",
+    "kaxabu": "damee",
+    "chinese": "露水",
+    "level": "高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-12",
+    "kaxabu": "rurung; rulung; uung",
+    "chinese": "雲",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-13",
+    "kaxabu": "busubus",
+    "chinese": "煙",
+    "level": "中高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-14",
+    "kaxabu": "malapet; malaped",
+    "chinese": "閃電",
+    "level": "中高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-15",
+    "kaxabu": "kakaidan; kait",
+    "chinese": "旱田",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-16",
+    "kaxabu": "yauwan; yaurun",
+    "chinese": "陰天",
+    "level": "中高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-17",
+    "kaxabu": "hapuy",
+    "chinese": "火",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-19",
+    "kaxabu": "malaliw",
+    "chinese": "地震",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-20",
+    "kaxabu": "lingu",
+    "chinese": "影子、鬼魂",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-21",
+    "kaxabu": "mataw a bai",
+    "chinese": "颱風、大風",
+    "level": "高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-22",
+    "kaxabu": "hahela; xaxela",
+    "chinese": "雪/ 霜",
+    "level": "高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-24",
+    "kaxabu": "mataw a dalum",
+    "chinese": "洪水",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-26",
+    "kaxabu": "bayu awas",
+    "chinese": "海邊",
+    "level": "中高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-28",
+    "kaxabu": "maxamax",
+    "chinese": "彩虹",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-29",
+    "kaxabu": "maizuax",
+    "chinese": "日落",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-31",
+    "kaxabu": "museket a udal; musihang",
+    "chinese": "雨停",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-32",
+    "kaxabu": "malukawas",
+    "chinese": "颱風天",
+    "level": "初級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "11-33",
+    "kaxabu": "liahan; mudadang a daali",
+    "chinese": "天亮、日出、黎明",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "gen-444",
+    "kaxabu": "mareberep; ma'ebe'eh",
+    "chinese": "陰雨、起霧的",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "gen-445",
+    "kaxabu": "xezem; xurum;",
+    "chinese": "霧",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": "費羅里記錄到噶哈巫語一詞 xedeng，釋義為雲"
+  },
+  {
+    "id": "gen-446",
+    "kaxabu": "burabur; burubu; buhabu",
+    "chinese": "灰塵",
+    "level": "中高級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "gen-447",
+    "kaxabu": "puhak",
+    "chinese": "泡泡、水泡",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "gen-448",
+    "kaxabu": "pulusut",
+    "chinese": "浪",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "gen-449",
+    "kaxabu": "maxurum",
+    "chinese": "蔭",
+    "level": "中級",
+    "category": "自然景觀",
+    "note": ""
+  },
+  {
+    "id": "12-01",
+    "kaxabu": "xumak",
+    "chinese": "家",
+    "level": "初級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-02",
+    "kaxabu": "dadehean",
+    "chinese": "窗戶",
+    "level": "初級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-03",
+    "kaxabu": "alep",
+    "chinese": "門",
+    "level": "初級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-04",
+    "kaxabu": "tadepexan",
+    "chinese": "學校",
+    "level": "初級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-05",
+    "kaxabu": "batu",
+    "chinese": "石頭",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-06",
+    "kaxabu": "tilap",
+    "chinese": "屋頂",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-07",
+    "kaxabu": "sungut",
+    "chinese": "橋樑",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-08",
+    "kaxabu": "taxuan",
+    "chinese": "工寮/獵寮",
+    "level": "中高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-09",
+    "kaxabu": "pasisiakan",
+    "chinese": "廁所",
+    "level": "中高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-10",
+    "kaxabu": "u'ut",
+    "chinese": "柱子",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-11",
+    "kaxabu": "xinutu a batu",
+    "chinese": "石堆",
+    "level": "中高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-14",
+    "kaxabu": "langu",
+    "chinese": "庭院/家屋前",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-15",
+    "kaxabu": "paling",
+    "chinese": "牆壁",
+    "level": "中高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-16",
+    "kaxabu": "dalabuk; punia",
+    "chinese": "穀倉",
+    "level": "中高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "12-18",
+    "kaxabu": "muribu",
+    "chinese": "搭建圍籬",
+    "level": "高級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "gen-465",
+    "kaxabu": "taantaw",
+    "chinese": "水渠、水溝",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "gen-466",
+    "kaxabu": "ikibun; likibun",
+    "chinese": "竹製穀倉",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "gen-467",
+    "kaxabu": "lalibu; libu",
+    "chinese": "籬笆",
+    "level": "中級",
+    "category": "建築",
+    "note": ""
+  },
+  {
+    "id": "13-01",
+    "kaxabu": "nukas a kawas",
+    "chinese": "去年",
+    "level": "高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-02",
+    "kaxabu": "xinian",
+    "chinese": "夜晚",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-03",
+    "kaxabu": "ukuazixa",
+    "chinese": "昨天",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-04",
+    "kaxabu": "saawan",
+    "chinese": "明天",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-05",
+    "kaxabu": "ohoni",
+    "chinese": "現在/今天",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-06",
+    "kaxabu": "sasunan",
+    "chinese": "早晨",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-07",
+    "kaxabu": "dalian",
+    "chinese": "白天、晝日、中午",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-08",
+    "kaxabu": "ukuahidua",
+    "chinese": "前天",
+    "level": "高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-10",
+    "kaxabu": "sem",
+    "chinese": "天黑、昏暗",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-11",
+    "kaxabu": "ahuan",
+    "chinese": "傍晚、天黑",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-12",
+    "kaxabu": "aubin",
+    "chinese": "接續、之後",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-12",
+    "kaxabu": "musapan",
+    "chinese": "接續、補牆、連上",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-13",
+    "kaxabu": "wazawaz a xinian",
+    "chinese": "半夜",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-14",
+    "kaxabu": "isia",
+    "chinese": "當時",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-15",
+    "kaxabu": "ukuahidua xazang",
+    "chinese": "大前天",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-16",
+    "kaxabu": "auhoniay",
+    "chinese": "待會、不久",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-17",
+    "kaxabu": "azang a hidua",
+    "chinese": "大後天",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-18",
+    "kaxabu": "pedesax",
+    "chinese": "光線/光芒",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-19",
+    "kaxabu": "hidua",
+    "chinese": "後天",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-22",
+    "kaxabu": "xinian",
+    "chinese": "夜",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-24",
+    "kaxabu": "hohonian",
+    "chinese": "一下下",
+    "level": "中高級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-25",
+    "kaxabu": "ahuan",
+    "chinese": "傍晚、下午",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-26",
+    "kaxabu": "bintun",
+    "chinese": "時、點鐘",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-28",
+    "kaxabu": "kawas",
+    "chinese": "年",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-28",
+    "kaxabu": "kawas",
+    "chinese": "年、歲",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-29",
+    "kaxabu": "adang a daali",
+    "chinese": "天天",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "13-30",
+    "kaxabu": "ohoni",
+    "chinese": "現在",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "gen-495",
+    "kaxabu": "ohoza",
+    "chinese": "以前",
+    "level": "初級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "14-01",
+    "kaxabu": "kaum",
+    "chinese": "裡面/內",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-02",
+    "kaxabu": "kai; kaidi",
+    "chinese": "在...某處",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-03",
+    "kaxabu": "babaw",
+    "chinese": "上方/上面",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-04",
+    "kaxabu": "dakan",
+    "chinese": "前面、前方",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-05",
+    "kaxabu": "lubu",
+    "chinese": "下面、下方",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-06",
+    "kaxabu": "wazan",
+    "chinese": "中間/之間",
+    "level": "中高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-07",
+    "kaxabu": "langu",
+    "chinese": "外面/外頭",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-08",
+    "kaxabu": "kinixizan",
+    "chinese": "旁邊",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-09",
+    "kaxabu": "lupazeng",
+    "chinese": "頂/尖",
+    "level": "中高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-10",
+    "kaxabu": "anan",
+    "chinese": "右",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-11",
+    "kaxabu": "ixi",
+    "chinese": "左",
+    "level": "高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-11",
+    "kaxabu": "tuixi; ixi",
+    "chinese": "左手、左邊",
+    "level": "高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-12",
+    "kaxabu": "zukuzuk",
+    "chinese": "角落",
+    "level": "高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-13",
+    "kaxabu": "izik",
+    "chinese": "底部、深處",
+    "level": "高級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-14",
+    "kaxabu": "muazaw",
+    "chinese": "經過",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "14-14",
+    "kaxabu": "mata",
+    "chinese": "經過、從（某地）",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "gen-512",
+    "kaxabu": "daya",
+    "chinese": "上游、地勢高的地方、東邊",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "gen-513",
+    "kaxabu": "ahut",
+    "chinese": "下游、地勢低的地方、西邊",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "gen-514",
+    "kaxabu": "aubin",
+    "chinese": "後面",
+    "level": "中級",
+    "category": "空間",
+    "note": ""
+  },
+  {
+    "id": "15-04",
+    "kaxabu": "paxuuma",
+    "chinese": "種苗(動作)",
+    "level": "高級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-06",
+    "kaxabu": "paxadan",
+    "chinese": "犁（工具)",
+    "level": "高級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-07",
+    "kaxabu": "xaxaw",
+    "chinese": "鐮刀",
+    "level": "中級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-08",
+    "kaxabu": "tatak",
+    "chinese": "鋤頭",
+    "level": "中級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-09",
+    "kaxabu": "kamilumilu a xumak",
+    "chinese": "倉庫",
+    "level": "中高級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-10",
+    "kaxabu": "patanga",
+    "chinese": "開、開墾",
+    "level": "中高級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "15-12",
+    "kaxabu": "xaxari",
+    "chinese": "米篩、濾網",
+    "level": "高級",
+    "category": "農耕",
+    "note": ""
+  },
+  {
+    "id": "16-01",
+    "kaxabu": "lawin",
+    "chinese": "弓",
+    "level": "中級",
+    "category": "狩獵",
+    "note": "弓箭二詞早期與近代發生調換"
+  },
+  {
+    "id": "16-02",
+    "kaxabu": "dadakus",
+    "chinese": "矛",
+    "level": "中級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "16-03",
+    "kaxabu": "buzux; buzok",
+    "chinese": "箭矢",
+    "level": "中高級",
+    "category": "狩獵",
+    "note": "弓箭二詞早期與近代發生調換"
+  },
+  {
+    "id": "16-05",
+    "kaxabu": "patus",
+    "chinese": "槍",
+    "level": "高級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "16-06",
+    "kaxabu": "tadaw",
+    "chinese": "獵刀",
+    "level": "高級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "16-11",
+    "kaxabu": "kalaha",
+    "chinese": "籃子",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": "後選: kalaha sisi baraw gidu"
+  },
+  {
+    "id": "gen-528",
+    "kaxabu": "kawbun",
+    "chinese": "魚籠",
+    "level": "中級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "gen-529",
+    "kaxabu": "tilikat",
+    "chinese": "陷阱",
+    "level": "中級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "gen-530",
+    "kaxabu": "tagis",
+    "chinese": "魚笱（捕魚簍）",
+    "level": "中級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "17-01",
+    "kaxabu": "pa'isian; palisi'an",
+    "chinese": "禁忌",
+    "level": "中級",
+    "category": "宗教",
+    "note": "費羅里記錄到的 palisan \"做錯事\" 為禁忌，伊能也有紀到"
+  },
+  {
+    "id": "17-02",
+    "kaxabu": "pisipi",
+    "chinese": "作夢",
+    "level": "中級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "17-03",
+    "kaxabu": "kaduxu",
+    "chinese": "放巫術",
+    "level": "高級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "17-04",
+    "kaxabu": "sasumadan",
+    "chinese": "教會、祭祀處",
+    "level": "中高級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "17-05",
+    "kaxabu": "azem",
+    "chinese": "過年(名詞)",
+    "level": "中高級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "gen-536",
+    "kaxabu": "musamian",
+    "chinese": "祭祀敬拜",
+    "level": "高級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "gen-537",
+    "kaxabu": "daxedaxe",
+    "chinese": "惡鬼、番婆鬼",
+    "level": "中級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "gen-538",
+    "kaxabu": "samian",
+    "chinese": "神",
+    "level": "中級",
+    "category": "宗教",
+    "note": ""
+  },
+  {
+    "id": "gen-539",
+    "kaxabu": "imu'imu",
+    "chinese": "鬼火、磷光",
+    "level": "初級",
+    "category": "",
+    "note": ""
+  },
+  {
+    "id": "18-01",
+    "kaxabu": "kakumus",
+    "chinese": "帽子",
+    "level": "初級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-02",
+    "kaxabu": "siatu",
+    "chinese": "衣服",
+    "level": "初級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-03",
+    "kaxabu": "mutuun",
+    "chinese": "編織",
+    "level": "中高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-07",
+    "kaxabu": "lukus",
+    "chinese": "褲子",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-08",
+    "kaxabu": "muraping",
+    "chinese": "破(衣物)、裂",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-12",
+    "kaxabu": "kixiw",
+    "chinese": "苧麻",
+    "level": "中級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-17",
+    "kaxabu": "lalawa; bakabak",
+    "chinese": "布匹",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-21",
+    "kaxabu": "saasapin",
+    "chinese": "鞋子",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-22",
+    "kaxabu": "sapa'",
+    "chinese": "揹小孩的背帶",
+    "level": "中高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-24",
+    "kaxabu": "kuibu",
+    "chinese": "裙子",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-25",
+    "kaxabu": "xapus",
+    "chinese": "男用遮陰布",
+    "level": "高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-26",
+    "kaxabu": "takaway; kakaway",
+    "chinese": "男用網袋",
+    "level": "中級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "18-29",
+    "kaxabu": "siatu",
+    "chinese": "上衣",
+    "level": "中高級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "gen-553",
+    "kaxabu": "talakah",
+    "chinese": "無袖上衣",
+    "level": "中級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "gen-554",
+    "kaxabu": "dauga; tabako",
+    "chinese": "斗笠",
+    "level": "中級",
+    "category": "織布服飾",
+    "note": ""
+  },
+  {
+    "id": "19-01",
+    "kaxabu": "takin",
+    "chinese": "女用揹籃",
+    "level": "中級",
+    "category": "物品(不含食品)",
+    "note": ""
+  },
+  {
+    "id": "20-04",
+    "kaxabu": "ayit",
+    "chinese": "輪胎/輪子",
+    "level": "高級",
+    "category": "交通",
+    "note": ""
+  },
+  {
+    "id": "20-05",
+    "kaxabu": "paanah",
+    "chinese": "船",
+    "level": "高級",
+    "category": "交通",
+    "note": ""
+  },
+  {
+    "id": "20-06",
+    "kaxabu": "paipai",
+    "chinese": "車子",
+    "level": "高級",
+    "category": "交通",
+    "note": ""
+  },
+  {
+    "id": "21-01",
+    "kaxabu": "sumay",
+    "chinese": "飯",
+    "level": "初級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-02",
+    "kaxabu": "dalum",
+    "chinese": "水",
+    "level": "初級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-03",
+    "kaxabu": "pinaxuan",
+    "chinese": "白米",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-04",
+    "kaxabu": "saken",
+    "chinese": "菜餚",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-05",
+    "kaxabu": "xalam",
+    "chinese": "青菜",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-06",
+    "kaxabu": "inusat",
+    "chinese": "酒",
+    "level": "中高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-07",
+    "kaxabu": "paha",
+    "chinese": "鹽",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-08",
+    "kaxabu": "walu yamadu",
+    "chinese": "蜜",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-09",
+    "kaxabu": "batu",
+    "chinese": "蛋",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-10",
+    "kaxabu": "selem",
+    "chinese": "豬油、肥肉",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-11",
+    "kaxabu": "bangazi",
+    "chinese": "味道",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-12",
+    "kaxabu": "talup",
+    "chinese": "湯",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-13",
+    "kaxabu": "xaidang",
+    "chinese": "豆類",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-14",
+    "kaxabu": "siapu",
+    "chinese": "(白)蘿蔔、菜脯",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-16",
+    "kaxabu": "pazay",
+    "chinese": "糯米",
+    "level": "中高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-17",
+    "kaxabu": "ingxaw",
+    "chinese": "粥",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-18",
+    "kaxabu": "piaxun",
+    "chinese": "小米",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-19",
+    "kaxabu": "yamadu",
+    "chinese": "糖",
+    "level": "中高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-20",
+    "kaxabu": "selem",
+    "chinese": "豬肉",
+    "level": "中高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-22",
+    "kaxabu": "dauduan",
+    "chinese": "醬油",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "21-24",
+    "kaxabu": "dulun",
+    "chinese": "米糠",
+    "level": "中高級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "gen-580",
+    "kaxabu": "apux",
+    "chinese": "炒碎米",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "gen-581",
+    "kaxabu": "inumas/makelem a buxu",
+    "chinese": "醃肉",
+    "level": "高級",
+    "category": "食物(非植物)",
+    "note": "需確認"
+  },
+  {
+    "id": "gen-582",
+    "kaxabu": "tupalis",
+    "chinese": "粿、糕餅、麵包",
+    "level": "中級",
+    "category": "食物(非植物)",
+    "note": ""
+  },
+  {
+    "id": "22-01",
+    "kaxabu": "isilaw",
+    "chinese": "白色",
+    "level": "初級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "22-02",
+    "kaxabu": "teehen",
+    "chinese": "黑色",
+    "level": "初級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "22-03",
+    "kaxabu": "lubahing",
+    "chinese": "紅色",
+    "level": "初級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "22-05",
+    "kaxabu": "tabaak",
+    "chinese": "黃色",
+    "level": "中高級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "22-08",
+    "kaxabu": "tululik",
+    "chinese": "綠色",
+    "level": "中高級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "22-09",
+    "kaxabu": "zazemu",
+    "chinese": "顏色、圖紋",
+    "level": "初級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "gen-589",
+    "kaxabu": "mangayah; mangayann",
+    "chinese": "藍色",
+    "level": "中高級",
+    "category": "顏色",
+    "note": ""
+  },
+  {
+    "id": "23-02",
+    "kaxabu": "toway; araway",
+    "chinese": "歌",
+    "level": "中級",
+    "category": "聲音",
+    "note": ""
+  },
+  {
+    "id": "24-01",
+    "kaxabu": "sen",
+    "chinese": "據說、聽說",
+    "level": "中級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-02",
+    "kaxabu": "talima eezaw",
+    "chinese": "孤獨、只有自己",
+    "level": "高級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-03",
+    "kaxabu": "maaisiay",
+    "chinese": "一樣、相同",
+    "level": "中級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-05",
+    "kaxabu": "daali",
+    "chinese": "日子",
+    "level": "中級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-06",
+    "kaxabu": "isia",
+    "chinese": "是的",
+    "level": "初級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-07",
+    "kaxabu": "kakawas; kinawas",
+    "chinese": "所言、語言、話語",
+    "level": "中級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "24-16",
+    "kaxabu": "maarezeret",
+    "chinese": "同居、結婚、在一起",
+    "level": "中高級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "gen-598",
+    "kaxabu": "pasukuan",
+    "chinese": "故事",
+    "level": "中級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "gen-599",
+    "kaxabu": "Polisia; Purisia; Poli; Puri",
+    "chinese": "埔里",
+    "level": "初級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-600",
+    "kaxabu": "supat eten",
+    "chinese": "四庄",
+    "level": "初級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-601",
+    "kaxabu": "Taubin; Taimi; Talawil;",
+    "chinese": "蜈蚣聚落",
+    "level": "中級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-602",
+    "kaxabu": "Baisia",
+    "chinese": "牛眠聚落",
+    "level": "中級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-603",
+    "kaxabu": "Kalikuh; Kalikus; Tatalan",
+    "chinese": "大湳聚落",
+    "level": "中級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-604",
+    "kaxabu": "Sukan daudun",
+    "chinese": "蜈蚣與大湳聚落",
+    "level": "高級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-605",
+    "kaxabu": "Sian lukus; Suan lukus",
+    "chinese": "守城聚落",
+    "level": "中級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "gen-606",
+    "kaxabu": "Auwan; Auran",
+    "chinese": "愛蘭",
+    "level": "中級",
+    "category": "地名",
+    "note": ""
+  },
+  {
+    "id": "25-01",
+    "kaxabu": "alep",
+    "chinese": "關上",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-02",
+    "kaxabu": "maxibaiw",
+    "chinese": "賣",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-03",
+    "kaxabu": "mausay",
+    "chinese": "要去",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-03",
+    "kaxabu": "usa",
+    "chinese": "去(祈使)",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-03",
+    "kaxabu": "tia",
+    "chinese": "來去",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-04",
+    "kaxabu": "mulabax",
+    "chinese": "綻開、解開、展開",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-05",
+    "kaxabu": "alo",
+    "chinese": "(叫人)過來!",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-06",
+    "kaxabu": "mubaiw",
+    "chinese": "買",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-07",
+    "kaxabu": "mubaxa",
+    "chinese": "給",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-07",
+    "kaxabu": "aita; aitana",
+    "chinese": "給我",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-07",
+    "kaxabu": "anu",
+    "chinese": "給、用來、為了",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-08",
+    "kaxabu": "alu; alo",
+    "chinese": "來(祈使)",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-08",
+    "kaxabu": "nahani",
+    "chinese": "來",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-08",
+    "kaxabu": "mupuzah",
+    "chinese": "來",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-09",
+    "kaxabu": "mukabaret",
+    "chinese": "借入",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-09",
+    "kaxabu": "pakabaret",
+    "chinese": "借出",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-10",
+    "kaxabu": "muzakay",
+    "chinese": "走路",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-11",
+    "kaxabu": "duila",
+    "chinese": "離開",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-12",
+    "kaxabu": "mahabaha",
+    "chinese": "飛",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-13",
+    "kaxabu": "italami",
+    "chinese": "跑 (祈使)",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-13",
+    "kaxabu": "mitalam",
+    "chinese": "跑",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-14",
+    "kaxabu": "pasaken",
+    "chinese": "抵達、達到",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-15",
+    "kaxabu": "paasu",
+    "chinese": "送去",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-16",
+    "kaxabu": "maaxiw",
+    "chinese": "逃跑",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-17",
+    "kaxabu": "masikaum",
+    "chinese": "進入",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-18",
+    "kaxabu": "manaxaxumuk",
+    "chinese": "倒置",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-20",
+    "kaxabu": "mutalaw",
+    "chinese": "趕跑",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-21",
+    "kaxabu": "taxubilih",
+    "chinese": "折返、返回",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-22",
+    "kaxabu": "mezebex",
+    "chinese": "生長(植物)、發芽",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-23",
+    "kaxabu": "paiway",
+    "chinese": "避開",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-28",
+    "kaxabu": "mahadakan",
+    "chinese": "接(人)、承接、接應",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-29",
+    "kaxabu": "muraux",
+    "chinese": "越溪而過",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-30",
+    "kaxabu": "aitana",
+    "chinese": "向人家要(給我)",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-31",
+    "kaxabu": "medekes",
+    "chinese": "添水",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-31",
+    "kaxabu": "mubuak",
+    "chinese": "澆水",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-32",
+    "kaxabu": "sidi",
+    "chinese": "向某個方向(地區)",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-33",
+    "kaxabu": "muhawas",
+    "chinese": "(藤類植物)攀爬",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-34",
+    "kaxabu": "masibulit",
+    "chinese": "逛一逛、翻滾",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-35",
+    "kaxabu": "mulubulup",
+    "chinese": "跟著、跟隨",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-36",
+    "kaxabu": "muzamut",
+    "chinese": "追到、趕上",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-37",
+    "kaxabu": "masi'ix",
+    "chinese": "滑、滑掉",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-38",
+    "kaxabu": "muunu",
+    "chinese": "分開",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-38",
+    "kaxabu": "matianak; papatianak",
+    "chinese": "分開、分離",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-38",
+    "kaxabu": "maatianak",
+    "chinese": "分開、離婚",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-39",
+    "kaxabu": "masu",
+    "chinese": "帶",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-40",
+    "kaxabu": "masiatu",
+    "chinese": "穿衣服",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-41",
+    "kaxabu": "mati-",
+    "chinese": "穿戴、帶在身上(如帽子、拐杖)",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-43",
+    "kaxabu": "mituku; ituku",
+    "chinese": "坐下",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-44",
+    "kaxabu": "kizex; kizeh; kizi",
+    "chinese": "站著、站起",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-45",
+    "kaxabu": "malep",
+    "chinese": "關(門、窗)、包圍",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-51",
+    "kaxabu": "mikita",
+    "chinese": "看",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "25-52",
+    "kaxabu": "mukusa",
+    "chinese": "出去",
+    "level": "初級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-659",
+    "kaxabu": "duila nahani",
+    "chinese": "跑來跑去",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-660",
+    "kaxabu": "mulius",
+    "chinese": "漂走、沖走",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-661",
+    "kaxabu": "mula",
+    "chinese": "領先",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-662",
+    "kaxabu": "mu'iyak; iluma",
+    "chinese": "找",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-663",
+    "kaxabu": "mubulit",
+    "chinese": "滾動",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-664",
+    "kaxabu": "masuhaw",
+    "chinese": "變化",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-665",
+    "kaxabu": "pasiaseraw",
+    "chinese": "妨礙、礙事、阻塞、吵",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-666",
+    "kaxabu": "maxet; maxes",
+    "chinese": "綑緊",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-667",
+    "kaxabu": "mutahing",
+    "chinese": "斟倒(到容器裡)",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-668",
+    "kaxabu": "mutahan",
+    "chinese": "賺",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-669",
+    "kaxabu": "mangazup a pai",
+    "chinese": "找錢",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-670",
+    "kaxabu": "maahan",
+    "chinese": "欺騙/胡說",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-671",
+    "kaxabu": "madu",
+    "chinese": "放",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-672",
+    "kaxabu": "mula",
+    "chinese": "先",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-673",
+    "kaxabu": "aliah; alia",
+    "chinese": "快要、差不多、差點",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-674",
+    "kaxabu": "tasiaw",
+    "chinese": "也許、或許",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-675",
+    "kaxabu": "maxilat",
+    "chinese": "一起",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-676",
+    "kaxabu": "isiw iak",
+    "chinese": "你好",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-677",
+    "kaxabu": "pakinakaw",
+    "chinese": "慢走（慢慢來）",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-678",
+    "kaxabu": "ka",
+    "chinese": "主題標記",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-679",
+    "kaxabu": "kula",
+    "chinese": "但是",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "gen-680",
+    "kaxabu": "kalu",
+    "chinese": "用",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "34-34",
+    "kaxabu": "isia; haw; hau'ay",
+    "chinese": "好的",
+    "level": "高級",
+    "category": "其他",
+    "note": ""
+  },
+  {
+    "id": "34-35",
+    "kaxabu": "pakatahayak",
+    "chinese": "謝謝",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "34-36",
+    "kaxabu": "ini; ini'ay",
+    "chinese": "不客氣",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "34-37",
+    "kaxabu": "kuang",
+    "chinese": "沒有",
+    "level": "初級",
+    "category": "其他",
+    "note": ""
+  },
+  {
+    "id": "35-01",
+    "kaxabu": "nang",
+    "chinese": "不想、不要(表示意願)",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "35-02",
+    "kaxabu": "ausin",
+    "chinese": "別、不可以 (語氣較強烈)",
+    "level": "高級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "35-03",
+    "kaxabu": "uzay",
+    "chinese": "不是(接名詞)",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "35-04",
+    "kaxabu": "kuang",
+    "chinese": "沒有",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "35-05",
+    "kaxabu": "ana",
+    "chinese": "別",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "35-06",
+    "kaxabu": "mamek",
+    "chinese": "不知道、不會",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "gen-691",
+    "kaxabu": "ini",
+    "chinese": "不(接動詞)",
+    "level": "初級",
+    "category": "否定詞",
+    "note": ""
+  },
+  {
+    "id": "36-01",
+    "kaxabu": "eder; ede",
+    "chinese": "真的",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-03",
+    "kaxabu": "nisia nisia",
+    "chinese": "各自、各人各樣、隨人",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-04",
+    "kaxabu": "iak",
+    "chinese": "好的、可以",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-05",
+    "kaxabu": "xamoh",
+    "chinese": "因為",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-08",
+    "kaxabu": "maleket",
+    "chinese": "剛好、足夠、公平",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-09",
+    "kaxabu": "minang",
+    "chinese": "再次",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-10",
+    "kaxabu": "eezaw",
+    "chinese": "而已、僅僅、只有",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-12",
+    "kaxabu": "taating",
+    "chinese": "少許",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-17",
+    "kaxabu": "isia ezaw",
+    "chinese": "常常",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-17",
+    "kaxabu": "isia reezaw; isia eezaw",
+    "chinese": "經常",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-18",
+    "kaxabu": "iu",
+    "chinese": "和、及、又、還要",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-20",
+    "kaxabu": "say",
+    "chinese": "是嗎、對嗎(語助詞)",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-21",
+    "kaxabu": "mayaw",
+    "chinese": "尚未、還沒",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-21",
+    "kaxabu": "yaw",
+    "chinese": "尚、仍",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-23",
+    "kaxabu": "maaxaazaw; azawzaw",
+    "chinese": "過分、太、很、非常",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-25",
+    "kaxabu": "ma",
+    "chinese": "也(台語借詞)",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-27",
+    "kaxabu": "adang a daali; azang a daali",
+    "chinese": "整天",
+    "level": "中高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-29",
+    "kaxabu": "talima",
+    "chinese": "自己",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-31",
+    "kaxabu": "say",
+    "chinese": "嗎、呢(用在問句)",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-32",
+    "kaxabu": "ki",
+    "chinese": "主格標記",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-34",
+    "kaxabu": "ni",
+    "chinese": "屬格標記",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "36-35",
+    "kaxabu": "kaidi; kai-",
+    "chinese": "在",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "26-01",
+    "kaxabu": "tihalut; téhalet; pilutut",
+    "chinese": "跳躍",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-02",
+    "kaxabu": "pilutut",
+    "chinese": "跳舞",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-03",
+    "kaxabu": "ituku'i",
+    "chinese": "坐(祈使)",
+    "level": "初級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-04",
+    "kaxabu": "tibukun",
+    "chinese": "駝背、彎曲",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-05",
+    "kaxabu": "musiriw",
+    "chinese": "懸掛、戴(項鍊)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-07",
+    "kaxabu": "maa",
+    "chinese": "拿取、捕獲、娶",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-07",
+    "kaxabu": "maa",
+    "chinese": "拿取、獵捕、娶",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-08",
+    "kaxabu": "mututing",
+    "chinese": "打(用棍棒)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-08",
+    "kaxabu": "mubaket",
+    "chinese": "毆打、揍",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-10",
+    "kaxabu": "mupana",
+    "chinese": "射、擲射、擲擊",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-10",
+    "kaxabu": "mulakat",
+    "chinese": "放箭射擊",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-10",
+    "kaxabu": "mupatus",
+    "chinese": "開槍射擊",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-11",
+    "kaxabu": "mukualah; pasuitatl; seladen",
+    "chinese": "跌倒",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-11",
+    "kaxabu": "makualah",
+    "chinese": "跌倒",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-12",
+    "kaxabu": "metezek",
+    "chinese": "踢",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-13",
+    "kaxabu": "mududu",
+    "chinese": "推",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-14",
+    "kaxabu": "mutamak",
+    "chinese": "砍伐",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-16",
+    "kaxabu": "muikat",
+    "chinese": "折斷",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-16",
+    "kaxabu": "mulaket",
+    "chinese": "斷開(繩子)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-17",
+    "kaxabu": "musasila",
+    "chinese": "抖動、顫抖、震盪",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-19",
+    "kaxabu": "maxatukun",
+    "chinese": "爬上坡、爬山、爬樹",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-19",
+    "kaxabu": "mudakis; mutukun",
+    "chinese": "攀爬上",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-20",
+    "kaxabu": "mahatatangayah; mana'tangayah",
+    "chinese": "躺",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-22",
+    "kaxabu": "mudusudus",
+    "chinese": "磨碎",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-23",
+    "kaxabu": "miliw",
+    "chinese": "扛、肩挑",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-24",
+    "kaxabu": "mu'ixu",
+    "chinese": "翻動(用工具攪)",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-25",
+    "kaxabu": "bulit",
+    "chinese": "滾落",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-26",
+    "kaxabu": "pakolok",
+    "chinese": "撞到頭",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-27",
+    "kaxabu": "mohakem",
+    "chinese": "抱著",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-28",
+    "kaxabu": "muhium",
+    "chinese": "吹氣、吹筒(管)",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-29",
+    "kaxabu": "mudaxal",
+    "chinese": "挖掘",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-30",
+    "kaxabu": "muxizip",
+    "chinese": "切割",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-31",
+    "kaxabu": "mulanguy",
+    "chinese": "游泳",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-32",
+    "kaxabu": "musuzuk",
+    "chinese": "藏起來",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-34",
+    "kaxabu": "meebet",
+    "chinese": "砍斷(用工具)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-34",
+    "kaxabu": "mukexet",
+    "chinese": "砍傷",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-34",
+    "kaxabu": "matamak",
+    "chinese": "砍(用刀)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-34",
+    "kaxabu": "mubuah",
+    "chinese": "砍(用斧頭)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-35",
+    "kaxabu": "maapa",
+    "chinese": "揹",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-36",
+    "kaxabu": "muwalak",
+    "chinese": "分出、分配",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-36",
+    "kaxabu": "mudusa",
+    "chinese": "分兩半",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-38",
+    "kaxabu": "mexe'et",
+    "chinese": "綁住、繫",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-39",
+    "kaxabu": "muxalit",
+    "chinese": "拉",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-39",
+    "kaxabu": "muxalit",
+    "chinese": "拖、拉、牽",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-40",
+    "kaxabu": "mubuax",
+    "chinese": "劈",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-41",
+    "kaxabu": "muhizuh",
+    "chinese": "扯斷、拉斷",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-42",
+    "kaxabu": "mubilis",
+    "chinese": "提著/握在手",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-43",
+    "kaxabu": "mubilis",
+    "chinese": "握在手中",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-44",
+    "kaxabu": "muxe'et",
+    "chinese": "綁、繫",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-44",
+    "kaxabu": "tuzapus",
+    "chinese": "鬆",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-44",
+    "kaxabu": "padee; paka madee",
+    "chinese": "綁緊",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-45",
+    "kaxabu": "mudedet",
+    "chinese": "按(壓)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-46",
+    "kaxabu": "musutuu",
+    "chinese": "移除、去除",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-47",
+    "kaxabu": "mupiri",
+    "chinese": "選擇",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-47",
+    "kaxabu": "mupili; mupii",
+    "chinese": "挑選",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-48",
+    "kaxabu": "mutukut; mubisit",
+    "chinese": "播種、散撒種籽",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-49",
+    "kaxabu": "muteketek",
+    "chinese": "啄",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-52",
+    "kaxabu": "mudoko",
+    "chinese": "舉起",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-52",
+    "kaxabu": "maikazay",
+    "chinese": "移動",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-53",
+    "kaxabu": "muxalit",
+    "chinese": "拔出",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-54",
+    "kaxabu": "muixu",
+    "chinese": "攪動",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-55",
+    "kaxabu": "mududun",
+    "chinese": "壓住",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-56",
+    "kaxabu": "mukaxaw",
+    "chinese": "抓癢",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-57",
+    "kaxabu": "mutebee",
+    "chinese": "打(用拳)",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-59",
+    "kaxabu": "paawah",
+    "chinese": "擺盪、盪鞦韆",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-61",
+    "kaxabu": "mulaux",
+    "chinese": "涉水而過",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-62",
+    "kaxabu": "mulalenges",
+    "chinese": "搖晃、盪、搖動",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-63",
+    "kaxabu": "mukiput",
+    "chinese": "包起來",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-65",
+    "kaxabu": "muzupay",
+    "chinese": "磨利",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-67",
+    "kaxabu": "musingar",
+    "chinese": "追逐",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-68",
+    "kaxabu": "maxapux",
+    "chinese": "粉碎",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-69",
+    "kaxabu": "talubuk",
+    "chinese": "掉落",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-70",
+    "kaxabu": "muliut",
+    "chinese": "擰",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-71",
+    "kaxabu": "patizekezek",
+    "chinese": "豎立(柱子)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-72",
+    "kaxabu": "metezek",
+    "chinese": "踩踏、踹",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-73",
+    "kaxabu": "tilakas",
+    "chinese": "跨過",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-74",
+    "kaxabu": "muxaw",
+    "chinese": "收割(草、稻米)",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-75",
+    "kaxabu": "mukizip",
+    "chinese": "掐",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-77",
+    "kaxabu": "pakan",
+    "chinese": "餵食",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-78",
+    "kaxabu": "mukumux",
+    "chinese": "抓/捉",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-80",
+    "kaxabu": "kakela",
+    "chinese": "踏、踩到",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-82",
+    "kaxabu": "maulax",
+    "chinese": "剝(花生、豆類)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-83",
+    "kaxabu": "muhulis; musiraw",
+    "chinese": "擦、抹（如藥）",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-84",
+    "kaxabu": "tubulalu",
+    "chinese": "亂的",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-86",
+    "kaxabu": "kizengut",
+    "chinese": "倚靠",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-89",
+    "kaxabu": "mukizu",
+    "chinese": "刻",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-89",
+    "kaxabu": "muxusuxus; mukaxat",
+    "chinese": "削",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-90",
+    "kaxabu": "musede'",
+    "chinese": "搓成線(徒手)",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": "還有別的字"
+  },
+  {
+    "id": "26-91",
+    "kaxabu": "papaxas; pakato",
+    "chinese": "剪",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-91",
+    "kaxabu": "meke'ep",
+    "chinese": "剪",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-91",
+    "kaxabu": "pakato",
+    "chinese": "剪/理(頭髮)",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-93",
+    "kaxabu": "marep",
+    "chinese": "招手",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-94",
+    "kaxabu": "teketek",
+    "chinese": "切細、切丁(食材)",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-95",
+    "kaxabu": "maixu",
+    "chinese": "划船、翻攪、搗",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-96",
+    "kaxabu": "maatebetebe; maatonoton",
+    "chinese": "以拳互毆",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-97",
+    "kaxabu": "mazut",
+    "chinese": "窄、擠",
+    "level": "中高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-98",
+    "kaxabu": "mutanget",
+    "chinese": "點頭、鞠躬",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-100",
+    "kaxabu": "mudaxan",
+    "chinese": "挖掘",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-103",
+    "kaxabu": "pasay'en",
+    "chinese": "隨便",
+    "level": "初級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "26-105",
+    "kaxabu": "mitul; mitun",
+    "chinese": "站起、起身、起床",
+    "level": "初級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-814",
+    "kaxabu": "mudapadap",
+    "chinese": "摩擦",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-815",
+    "kaxabu": "hulis'i",
+    "chinese": "擦(藥、油)",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-816",
+    "kaxabu": "masidaret",
+    "chinese": "翻面(如翻出衣物內面)、翻身",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-817",
+    "kaxabu": "alipoh",
+    "chinese": "以手拍打乾淨",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-818",
+    "kaxabu": "musaban",
+    "chinese": "抱在胸前（如抱小孩）",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-819",
+    "kaxabu": "maxilat",
+    "chinese": "瞪",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "27-01",
+    "kaxabu": "meken",
+    "chinese": "吃",
+    "level": "初級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-01",
+    "kaxabu": "babukah",
+    "chinese": "覓食（動物如雞、豬等等）",
+    "level": "初級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-04",
+    "kaxabu": "muta",
+    "chinese": "嘔吐",
+    "level": "中級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-05",
+    "kaxabu": "mungazip",
+    "chinese": "咬",
+    "level": "中級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-07",
+    "kaxabu": "mudeek; mudelek",
+    "chinese": "吞嚥",
+    "level": "中高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-08",
+    "kaxabu": "muruzap",
+    "chinese": "燙到",
+    "level": "中高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-09",
+    "kaxabu": "mepelan",
+    "chinese": "噎到",
+    "level": "中高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-10",
+    "kaxabu": "tileket",
+    "chinese": "飽食",
+    "level": "中高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-11",
+    "kaxabu": "muta'ata",
+    "chinese": "嚼",
+    "level": "高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-12",
+    "kaxabu": "makaid a bakung",
+    "chinese": "渴",
+    "level": "中級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-14",
+    "kaxabu": "makikanen",
+    "chinese": "餓",
+    "level": "中級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "27-15",
+    "kaxabu": "kani",
+    "chinese": "吃(祈使)",
+    "level": "初級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "28-01",
+    "kaxabu": "masikela",
+    "chinese": "遇到",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-04",
+    "kaxabu": "mukawas",
+    "chinese": "說",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-05",
+    "kaxabu": "paxaihan; pahaihan",
+    "chinese": "忘記",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-06",
+    "kaxabu": "manaip",
+    "chinese": "閉(眼睛)",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-07",
+    "kaxabu": "masazek",
+    "chinese": "聞",
+    "level": "中級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-08",
+    "kaxabu": "muxamaxam",
+    "chinese": "觸摸",
+    "level": "高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-11",
+    "kaxabu": "pakawas",
+    "chinese": "告訴",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-11",
+    "kaxabu": "pakawas",
+    "chinese": "告訴(別人)",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-12",
+    "kaxabu": "maxaa; maha",
+    "chinese": "叫人來",
+    "level": "高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-12",
+    "kaxabu": "mikiliw",
+    "chinese": "叫(發出聲音或叫人做事)",
+    "level": "高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-12",
+    "kaxabu": "maxaa; maha",
+    "chinese": "叫人來(做事情)",
+    "level": "高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-13",
+    "kaxabu": "padudu",
+    "chinese": "詢問",
+    "level": "中級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-14",
+    "kaxabu": "maserek; maselek",
+    "chinese": "同意、合適",
+    "level": "中級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-15",
+    "kaxabu": "kaxi'eder",
+    "chinese": "相信",
+    "level": "中級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-16",
+    "kaxabu": "patizukuzuk",
+    "chinese": "警告",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-16",
+    "kaxabu": "masaratik",
+    "chinese": "喊叫",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-17",
+    "kaxabu": "mukatex",
+    "chinese": "輕輕碰到",
+    "level": "高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-18",
+    "kaxabu": "pabalet",
+    "chinese": "回答",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-19",
+    "kaxabu": "tumala",
+    "chinese": "聽",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-20",
+    "kaxabu": "damay",
+    "chinese": "舔",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-22",
+    "kaxabu": "muxulat",
+    "chinese": "睜眼、醒",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-23",
+    "kaxabu": "suusuku",
+    "chinese": "瞄準",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-24",
+    "kaxabu": "kasibat",
+    "chinese": "教、使排列",
+    "level": "中高級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-25",
+    "kaxabu": "maxakela; maxakekela",
+    "chinese": "想、想念",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-25",
+    "kaxabu": "maxakela",
+    "chinese": "想",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-25",
+    "kaxabu": "maxakekela",
+    "chinese": "想、想念",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-25",
+    "kaxabu": "piteet",
+    "chinese": "記得",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-25",
+    "kaxabu": "malekat; maxalekat",
+    "chinese": "想起",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-27",
+    "kaxabu": "mabaza",
+    "chinese": "知道、會",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-28",
+    "kaxabu": "musumat",
+    "chinese": "禱告",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "28-29",
+    "kaxabu": "haapet",
+    "chinese": "喜歡",
+    "level": "初級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "gen-863",
+    "kaxabu": "mahabay",
+    "chinese": "舒服/舒適",
+    "level": "中級",
+    "category": "認知感官",
+    "note": ""
+  },
+  {
+    "id": "29-01",
+    "kaxabu": "haapet; haaput",
+    "chinese": "喜歡、想要",
+    "level": "高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-02",
+    "kaxabu": "mangesen",
+    "chinese": "害怕",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-03",
+    "kaxabu": "mangit",
+    "chinese": "哭",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-03",
+    "kaxabu": "madesex",
+    "chinese": "抽咽",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-04",
+    "kaxabu": "saisiman",
+    "chinese": "疼愛",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-05",
+    "kaxabu": "mahatahatan",
+    "chinese": "高興、快樂",
+    "level": "中級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-06",
+    "kaxabu": "maisat",
+    "chinese": "罵人、發怒",
+    "level": "中級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-06",
+    "kaxabu": "tangiti",
+    "chinese": "生氣",
+    "level": "中級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-06",
+    "kaxabu": "kutiza",
+    "chinese": "厭煩",
+    "level": "中級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-07",
+    "kaxabu": "saisiman",
+    "chinese": "疼愛、愛護",
+    "level": "高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-08",
+    "kaxabu": "midahin",
+    "chinese": "嚇一跳",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "29-08",
+    "kaxabu": "anani",
+    "chinese": "唉呦",
+    "level": "中高級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "gen-876",
+    "kaxabu": "masikat",
+    "chinese": "羞恥/害羞",
+    "level": "中級",
+    "category": "情緒思維",
+    "note": ""
+  },
+  {
+    "id": "30-01",
+    "kaxabu": "mudiput; medepet",
+    "chinese": "弄整齊",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-02",
+    "kaxabu": "madawan; mudawan",
+    "chinese": "洗澡",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-02",
+    "kaxabu": "mubazu",
+    "chinese": "洗(衣服)",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-03",
+    "kaxabu": "mukukusa",
+    "chinese": "工作",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-05",
+    "kaxabu": "musuax; musuah",
+    "chinese": "浪費、灑出、放棄",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-08",
+    "kaxabu": "péhélut",
+    "chinese": "撒尿",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-09",
+    "kaxabu": "midem",
+    "chinese": "睡覺",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-10",
+    "kaxabu": "mutahay",
+    "chinese": "殺",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-11",
+    "kaxabu": "masisaik",
+    "chinese": "排便",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-12",
+    "kaxabu": "meseket",
+    "chinese": "停止、休息",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-13",
+    "kaxabu": "mahorit",
+    "chinese": "睏倦",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-14",
+    "kaxabu": "musapoh",
+    "chinese": "掃地、打掃",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-15",
+    "kaxabu": "mubabaza",
+    "chinese": "學習、練習",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-16",
+    "kaxabu": "paharas",
+    "chinese": "躺、倚靠",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-18",
+    "kaxabu": "muhulak",
+    "chinese": "搶奪",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-18",
+    "kaxabu": "masakaw",
+    "chinese": "偷竊",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-19",
+    "kaxabu": "mutalek",
+    "chinese": "煮",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-20",
+    "kaxabu": "paxarep",
+    "chinese": "焚",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-20",
+    "kaxabu": "padalak",
+    "chinese": "燒",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-21",
+    "kaxabu": "masuaw",
+    "chinese": "打哈欠",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-22",
+    "kaxabu": "musulih; musuling",
+    "chinese": "烤",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-22",
+    "kaxabu": "mudadang",
+    "chinese": "烘烤、溫暖",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-23",
+    "kaxabu": "maramay; pisumay",
+    "chinese": "煮(米飯)",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-24",
+    "kaxabu": "maxutaxa",
+    "chinese": "等待",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-25",
+    "kaxabu": "malup",
+    "chinese": "打獵",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-26",
+    "kaxabu": "parizax; palizax",
+    "chinese": "曬",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-27",
+    "kaxabu": "dius'i",
+    "chinese": "以杓汲水(祈使)",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-29",
+    "kaxabu": "adu'en",
+    "chinese": "收拾/整理(祈使)",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-30",
+    "kaxabu": "mayaxu",
+    "chinese": "舂米",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-31",
+    "kaxabu": "palizak",
+    "chinese": "晾乾",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-32",
+    "kaxabu": "mubusaw",
+    "chinese": "蓋(被子)",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-33",
+    "kaxabu": "pudesax",
+    "chinese": "光亮",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-35",
+    "kaxabu": "mutagis",
+    "chinese": "以籠捕魚蝦",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-36",
+    "kaxabu": "muho'oho",
+    "chinese": "蒸",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-37",
+    "kaxabu": "paxuma",
+    "chinese": "種植",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-38",
+    "kaxabu": "maataxapis",
+    "chinese": "釣魚",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-39",
+    "kaxabu": "mutungul; mutuun",
+    "chinese": "生火、燃燒柴火",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-40",
+    "kaxabu": "inumat",
+    "chinese": "醃的",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-41",
+    "kaxabu": "kulakun",
+    "chinese": "鍋巴",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-41",
+    "kaxabu": "manexen",
+    "chinese": "燒焦/烤焦/焦狀物",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-42",
+    "kaxabu": "deedexe",
+    "chinese": "照顧、看護",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-42",
+    "kaxabu": "muapun",
+    "chinese": "照顧、照料",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-42",
+    "kaxabu": "mutanip",
+    "chinese": "庇蔭",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-44",
+    "kaxabu": "mutunux",
+    "chinese": "浸泡",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-45",
+    "kaxabu": "muxulap",
+    "chinese": "掀開",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-45",
+    "kaxabu": "muxulap",
+    "chinese": "掀開、花開",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-46",
+    "kaxabu": "muu'ubang",
+    "chinese": "掩埋",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-47",
+    "kaxabu": "mururu",
+    "chinese": "改",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "30-47",
+    "kaxabu": "mupalizi",
+    "chinese": "交換",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-48",
+    "kaxabu": "mususu",
+    "chinese": "鎖上",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-49",
+    "kaxabu": "musasak",
+    "chinese": "鋪開、鋪平",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-49",
+    "kaxabu": "musasax",
+    "chinese": "鋪(床)",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-53",
+    "kaxabu": "musuku",
+    "chinese": "量測(長度)",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-54",
+    "kaxabu": "manat",
+    "chinese": "燃",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-55",
+    "kaxabu": "muti'in",
+    "chinese": "懸掛",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-56",
+    "kaxabu": "maubabaza",
+    "chinese": "模仿/學習",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-57",
+    "kaxabu": "mudalum",
+    "chinese": "飼養、豢養",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-58",
+    "kaxabu": "musian",
+    "chinese": "炒",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-59",
+    "kaxabu": "mutizup",
+    "chinese": "點火、打火",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-60",
+    "kaxabu": "medepex",
+    "chinese": "讀書",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-61",
+    "kaxabu": "mudaux; mudox",
+    "chinese": "喝",
+    "level": "中高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-62",
+    "kaxabu": "mudaxan",
+    "chinese": "(用鋤具)挖掘",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-63",
+    "kaxabu": "malaleng",
+    "chinese": "(居)住",
+    "level": "中級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-64",
+    "kaxabu": "matoway",
+    "chinese": "唱歌",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-65",
+    "kaxabu": "mahadas",
+    "chinese": "旅遊、玩",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-65",
+    "kaxabu": "maxaringa",
+    "chinese": "玩耍",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "30-65",
+    "kaxabu": "maxalinga",
+    "chinese": "玩耍",
+    "level": "初級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "gen-944",
+    "kaxabu": "dengedeng",
+    "chinese": "燙熟、煮",
+    "level": "高級",
+    "category": "生活作息",
+    "note": ""
+  },
+  {
+    "id": "31-01",
+    "kaxabu": "puihiat",
+    "chinese": "死亡",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-04",
+    "kaxabu": "maxamut",
+    "chinese": "遺失、死亡",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-05",
+    "kaxabu": "asikit",
+    "chinese": "痛",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-05",
+    "kaxabu": "asikis",
+    "chinese": "痛",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-06",
+    "kaxabu": "maxadamu",
+    "chinese": "流血",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-07",
+    "kaxabu": "mataw tian; haidng a buxu",
+    "chinese": "懷孕",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-08",
+    "kaxabu": "mai'iat",
+    "chinese": "活的",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-09",
+    "kaxabu": "mubuut",
+    "chinese": "放屁",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-10",
+    "kaxabu": "maiyay",
+    "chinese": "跛腳",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-10",
+    "kaxabu": "mapepe",
+    "chinese": "麻痺",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-11",
+    "kaxabu": "mudalum",
+    "chinese": "撫養、飼養、收養",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-12",
+    "kaxabu": "matauru",
+    "chinese": "長大",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-14",
+    "kaxabu": "makakat",
+    "chinese": "癢",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-14",
+    "kaxabu": "makakat",
+    "chinese": "癢",
+    "level": "高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-15",
+    "kaxabu": "maxangooh",
+    "chinese": "打瞌睡",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-16",
+    "kaxabu": "muxatis",
+    "chinese": "打噴嚏",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-18",
+    "kaxabu": "asikit",
+    "chinese": "好痛",
+    "level": "初級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-19",
+    "kaxabu": "maixinga",
+    "chinese": "生病",
+    "level": "初級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-19",
+    "kaxabu": "maixinga",
+    "chinese": "生病",
+    "level": "初級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "31-20",
+    "kaxabu": "langa",
+    "chinese": "膿包",
+    "level": "中高級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "gen-965",
+    "kaxabu": "mikeder",
+    "chinese": "久病、慢性病",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "gen-966",
+    "kaxabu": "madaaxan",
+    "chinese": "癡呆",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "gen-967",
+    "kaxabu": "putian",
+    "chinese": "瘋癲",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "gen-968",
+    "kaxabu": "mutipux",
+    "chinese": "傳染",
+    "level": "中級",
+    "category": "生老病死傷",
+    "note": ""
+  },
+  {
+    "id": "32-01",
+    "kaxabu": "makuit",
+    "chinese": "瘦",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-01",
+    "kaxabu": "makipi",
+    "chinese": "扁、瘦、鼻子塌",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-02",
+    "kaxabu": "haideng",
+    "chinese": "重",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-03",
+    "kaxabu": "haluba",
+    "chinese": "輕（重量）",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-04",
+    "kaxabu": "tubabaw",
+    "chinese": "高",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-05",
+    "kaxabu": "matawlu; mataw",
+    "chinese": "大",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-06",
+    "kaxabu": "iteken",
+    "chinese": "矮",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-07",
+    "kaxabu": "maahapet",
+    "chinese": "勤勞",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-08",
+    "kaxabu": "lamik",
+    "chinese": "冷",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-10",
+    "kaxabu": "dahu",
+    "chinese": "多",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-11",
+    "kaxabu": "hinaw yak",
+    "chinese": "美、漂亮、很好",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-11",
+    "kaxabu": "kiaaren",
+    "chinese": "好看的",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-14",
+    "kaxabu": "taating",
+    "chinese": "小的、少的、稍微",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-15",
+    "kaxabu": "maizaw",
+    "chinese": "頭暈目眩、宿醉",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-15",
+    "kaxabu": "mabusuk",
+    "chinese": "酒醉",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-16",
+    "kaxabu": "mahatan",
+    "chinese": "笑",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-17",
+    "kaxabu": "mapayak",
+    "chinese": "濕(的)",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-17",
+    "kaxabu": "mupayak",
+    "chinese": "濕的",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-18",
+    "kaxabu": "mazih",
+    "chinese": "熟",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-19",
+    "kaxabu": "mangipa",
+    "chinese": "厚的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-20",
+    "kaxabu": "mangaian",
+    "chinese": "生的/未熟的",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-21",
+    "kaxabu": "halipit",
+    "chinese": "薄的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-22",
+    "kaxabu": "dalahen",
+    "chinese": "髒",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-23",
+    "kaxabu": "mahuik",
+    "chinese": "懶惰",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-24",
+    "kaxabu": "musenaw; musinaw",
+    "chinese": "清洗、弄乾淨",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-26",
+    "kaxabu": "pudusak",
+    "chinese": "亮/清楚",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-27",
+    "kaxabu": "baget",
+    "chinese": "胖",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-28",
+    "kaxabu": "makait",
+    "chinese": "水份少的、乾",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-29",
+    "kaxabu": "tahayak",
+    "chinese": "累",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-30",
+    "kaxabu": "kasasiman",
+    "chinese": "可憐、可愛",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-31",
+    "kaxabu": "xias",
+    "chinese": "新的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-32",
+    "kaxabu": "muzizay",
+    "chinese": "舊的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-33",
+    "kaxabu": "aliahan",
+    "chinese": "近處、不遠處",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-33",
+    "kaxabu": "aliahan",
+    "chinese": "近",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-35",
+    "kaxabu": "muasak",
+    "chinese": "壞掉",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-36",
+    "kaxabu": "mah",
+    "chinese": "辣",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-37",
+    "kaxabu": "maanu",
+    "chinese": "遠",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-38",
+    "kaxabu": "mabunux; mibulax",
+    "chinese": "腫",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-39",
+    "kaxabu": "tibukun",
+    "chinese": "彎曲、駝背",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-40",
+    "kaxabu": "masezem; mades",
+    "chinese": "久的",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-41",
+    "kaxabu": "pauhék",
+    "chinese": "瞎",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-42",
+    "kaxabu": "mutuba",
+    "chinese": "毒魚（動詞）",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-43",
+    "kaxabu": "iak a meken",
+    "chinese": "很好吃",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-44",
+    "kaxabu": "masilix",
+    "chinese": "平滑、滑的",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-45",
+    "kaxabu": "pazit",
+    "chinese": "苦",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-46",
+    "kaxabu": "makexem",
+    "chinese": "脆/易斷裂",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-47",
+    "kaxabu": "abex",
+    "chinese": "未成熟的/未長成的",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-49",
+    "kaxabu": "sasa-",
+    "chinese": "眾多、很多",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-50",
+    "kaxabu": "maideh",
+    "chinese": "很快、輕快",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-51",
+    "kaxabu": "mainu",
+    "chinese": "酸",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-52",
+    "kaxabu": "makelem",
+    "chinese": "鹹",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-53",
+    "kaxabu": "papah; maxupapah",
+    "chinese": "故意、爭吵",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-54",
+    "kaxabu": "maixaw",
+    "chinese": "稀爛的、軟爛的、腐壞",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-55",
+    "kaxabu": "magizem",
+    "chinese": "強壯",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-56",
+    "kaxabu": "daadang",
+    "chinese": "暖和",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-57",
+    "kaxabu": "ini kamalang",
+    "chinese": "鈍(的)",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-58",
+    "kaxabu": "tohobut",
+    "chinese": "甘甜",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-59",
+    "kaxabu": "kusupat",
+    "chinese": "粗糙、粗澀",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-61",
+    "kaxabu": "madingin",
+    "chinese": "歪、斜",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-62",
+    "kaxabu": "maubux",
+    "chinese": "軟",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-63",
+    "kaxabu": "madee",
+    "chinese": "很硬/很緊",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-64",
+    "kaxabu": "tusazek",
+    "chinese": "臭的",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-65",
+    "kaxabu": "ohowat",
+    "chinese": "直",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-68",
+    "kaxabu": "tapa'ak; maa'iah",
+    "chinese": "寬闊、遼闊",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-71",
+    "kaxabu": "makinakaw",
+    "chinese": "慢",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-71",
+    "kaxabu": "makinakaw",
+    "chinese": "慢慢",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-73",
+    "kaxabu": "kuxezang",
+    "chinese": "粗糙",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-74",
+    "kaxabu": "halupas",
+    "chinese": "長的(條狀物)",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-75",
+    "kaxabu": "hazingay",
+    "chinese": "細/瘦",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-76",
+    "kaxabu": "hateken",
+    "chinese": "短",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-77",
+    "kaxabu": "maakux",
+    "chinese": "炎熱(天氣)",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-78",
+    "kaxabu": "mazih",
+    "chinese": "成熟(指作物)",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "32-79",
+    "kaxabu": "mabini",
+    "chinese": "滿的",
+    "level": "初級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1042",
+    "kaxabu": "mauset",
+    "chinese": "安靜",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1043",
+    "kaxabu": "mizazok; mazazok",
+    "chinese": "滾沸的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1044",
+    "kaxabu": "huilo",
+    "chinese": "快(做某事)",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1045",
+    "kaxabu": "mazepet",
+    "chinese": "擁擠",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1046",
+    "kaxabu": "marusaen; marusain",
+    "chinese": "隨便",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1047",
+    "kaxabu": "mulalap",
+    "chinese": "炙熱(物品)",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1048",
+    "kaxabu": "tubangu",
+    "chinese": "腐臭",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1049",
+    "kaxabu": "maxaluak",
+    "chinese": "窮",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1050",
+    "kaxabu": "lalimah; lalima",
+    "chinese": "便宜",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1051",
+    "kaxabu": "makazang",
+    "chinese": "昂貴",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1052",
+    "kaxabu": "maumay",
+    "chinese": "軟弱",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1053",
+    "kaxabu": "sadian; hazian",
+    "chinese": "不好/壞的",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1054",
+    "kaxabu": "tubaya; mabayann",
+    "chinese": "味淡、不好吃",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1055",
+    "kaxabu": "maxayak",
+    "chinese": "富有",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1056",
+    "kaxabu": "tulalok; tuloaluk",
+    "chinese": "亂的、不整齊的、心煩意亂",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1057",
+    "kaxabu": "makuyakyak",
+    "chinese": "元氣",
+    "level": "中級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "33-03",
+    "kaxabu": "saanu",
+    "chinese": "被、用來、用、給",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "33-04",
+    "kaxabu": "alasay",
+    "chinese": "險些（感嘆）",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "33-04",
+    "kaxabu": "hahéhén",
+    "chinese": "危險",
+    "level": "高級",
+    "category": "抽象名詞",
+    "note": ""
+  },
+  {
+    "id": "gen-1061",
+    "kaxabu": "mudidis",
+    "chinese": "擦拭(用水)",
+    "level": "中級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "gen-1062",
+    "kaxabu": "madulu",
+    "chinese": "遣使",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-1063",
+    "kaxabu": "paka",
+    "chinese": "讓、使 ...、",
+    "level": "中級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "34-01",
+    "kaxabu": "mekebe",
+    "chinese": "摺疊",
+    "level": "高級",
+    "category": "肢體動作",
+    "note": ""
+  },
+  {
+    "id": "34-02",
+    "kaxabu": "muhegis",
+    "chinese": "裂開",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-02",
+    "kaxabu": "mu'atik",
+    "chinese": "裂開",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-03",
+    "kaxabu": "saanu",
+    "chinese": "使用",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-04",
+    "kaxabu": "mu'ulap",
+    "chinese": "溢出、溢流",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-05",
+    "kaxabu": "maapa'a",
+    "chinese": "幫忙",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-06",
+    "kaxabu": "musapit",
+    "chinese": "黏著/附著",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-07",
+    "kaxabu": "mu'imat",
+    "chinese": "混合、添加",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-07",
+    "kaxabu": "maxiut",
+    "chinese": "混濁的",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "34-11",
+    "kaxabu": "mutahim",
+    "chinese": "倒入(水/酒)",
+    "level": "中高級",
+    "category": "飲食動作與狀態",
+    "note": ""
+  },
+  {
+    "id": "34-12",
+    "kaxabu": "muzemet; muzumut",
+    "chinese": "塞住、堵住、心情鬱悶",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-13",
+    "kaxabu": "maluzuax",
+    "chinese": "傳承、繼承",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-14",
+    "kaxabu": "mohoni",
+    "chinese": "鳥叫、鳴啼、響",
+    "level": "高級",
+    "category": "聲音",
+    "note": ""
+  },
+  {
+    "id": "34-14",
+    "kaxabu": "ngawngaw",
+    "chinese": "聲響",
+    "level": "高級",
+    "category": "聲音",
+    "note": ""
+  },
+  {
+    "id": "34-15",
+    "kaxabu": "takutuat",
+    "chinese": "越過、翻越",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-16",
+    "kaxabu": "madalat",
+    "chinese": "山崩",
+    "level": "高級",
+    "category": "山川地理",
+    "note": ""
+  },
+  {
+    "id": "34-18",
+    "kaxabu": "mu'iyak",
+    "chinese": "尋找",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-19",
+    "kaxabu": "muxazing",
+    "chinese": "丟棄、丟掉",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-21",
+    "kaxabu": "nahaza",
+    "chinese": "有",
+    "level": "初級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  },
+  {
+    "id": "34-22",
+    "kaxabu": "mangazep",
+    "chinese": "剩餘、多餘",
+    "level": "中高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "34-24",
+    "kaxabu": "pialay",
+    "chinese": "一開始",
+    "level": "中級",
+    "category": "時間",
+    "note": ""
+  },
+  {
+    "id": "34-25",
+    "kaxabu": "muuput",
+    "chinese": "完成",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-27",
+    "kaxabu": "mubuyak",
+    "chinese": "製作、修繕",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-28",
+    "kaxabu": "iluma'en",
+    "chinese": "找到",
+    "level": "中高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-29",
+    "kaxabu": "sungusung",
+    "chinese": "數、算",
+    "level": "中級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-30",
+    "kaxabu": "mateleng",
+    "chinese": "答對、陷阱中獵物",
+    "level": "高級",
+    "category": "狩獵",
+    "note": ""
+  },
+  {
+    "id": "34-32",
+    "kaxabu": "maseder",
+    "chinese": "旋轉、轉",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "34-33",
+    "kaxabu": "masiburit",
+    "chinese": "圍著某物轉",
+    "level": "高級",
+    "category": "行動",
+    "note": ""
+  },
+  {
+    "id": "gen-1092",
+    "kaxabu": "mapunu",
+    "chinese": "傻、笨",
+    "level": "高級",
+    "category": "特徵",
+    "note": ""
+  },
+  {
+    "id": "gen-1093",
+    "kaxabu": "axaxé; akhakhé; axaxi",
+    "chinese": "噁(感嘆詞)",
+    "level": "高級",
+    "category": "助詞、副詞或慣用語",
+    "note": ""
+  }
+]
