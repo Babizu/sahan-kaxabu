@@ -86,7 +86,7 @@
                             400: '#c88682',
                             500: '#af605b',
                             600: '#984843',
-                            700: '#7e3830', /* Primary Brand Color: 苧麻榔薯紅 */
+                            700: '#7e3830',
                             800: '#69322c',
                             900: '#582d29',
                         },
@@ -105,7 +105,7 @@
 
     <div id="app" class="flex flex-col h-full">
 
-        <!-- Header -->
+        <!-- 頁首 -->
         <header class="bg-white border-b border-earth-200 px-4 py-3 flex items-center justify-between shadow-sm z-10">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-ramie-700 rounded-lg flex items-center justify-center text-white shadow-md">
@@ -131,13 +131,13 @@
                     <i class="ph ph-gear text-lg"></i> 設定
                 </button>
             </div>
-            <!-- Mobile Menu Toggle -->
+            <!-- 手機版選單切換按鈕 -->
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden text-gray-600">
                 <i class="ph ph-list text-2xl"></i>
             </button>
         </header>
 
-        <!-- Mobile Menu -->
+        <!-- 手機版選單 -->
         <div v-if="mobileMenuOpen" class="md:hidden bg-white border-b border-earth-200 p-4 absolute top-16 left-0 right-0 z-50 shadow-lg flex flex-col gap-2">
             <button @click="navigate('study')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
                 <i class="ph ph-cards text-xl text-ramie-700"></i> 背誦單字
@@ -153,10 +153,10 @@
             </button>
         </div>
 
-        <!-- Main Content -->
+        <!-- 主要內容 -->
         <main class="flex-1 overflow-y-auto bg-earth-100/50 relative">
 
-            <!-- Onboarding Modal -->
+            <!-- 引導彈窗 -->
             <div v-if="showOnboarding" class="absolute inset-0 flex items-center justify-center bg-black/50 z-50 p-4">
                 <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8">
                     <div class="text-center mb-6">
@@ -218,14 +218,14 @@
                 </div>
             </div>
 
-            <!-- Loading State -->
+            <!-- 載入狀態 -->
             <div v-if="loading" class="absolute inset-0 flex flex-col items-center justify-center bg-white z-40">
                 <div class="w-12 h-12 border-4 border-ramie-200 border-t-ramie-700 rounded-full animate-spin mb-4"></div>
                 <p class="text-ramie-800 font-medium">正在載入詞彙庫...</p>
                 <p class="text-xs text-gray-500 mt-2">請確保 kaxabu_words.json 位於同一目錄</p>
             </div>
 
-            <!-- Error State -->
+            <!-- 錯誤狀態 -->
             <div v-if="error" class="absolute inset-0 flex flex-col items-center justify-center bg-white z-40 p-6 text-center">
                 <i class="ph ph-warning-circle text-4xl text-red-500 mb-4"></i>
                 <h3 class="text-xl font-bold text-gray-800 mb-2">載入失敗</h3>
@@ -233,11 +233,11 @@
                 <button @click="loadData" class="px-4 py-2 bg-ramie-700 text-white rounded-lg hover:bg-ramie-800">重試</button>
             </div>
 
-            <!-- VIEW: STUDY (FLASHCARDS) -->
+            <!-- VIEW：學習（記憶卡） -->
             <div v-if="currentView === 'study' && !loading" class="h-full flex flex-col items-center justify-center p-4 max-w-2xl mx-auto">
-                
+
                 <div v-if="sessionQueue.length > 0 && currentCard" class="w-full h-full flex flex-col">
-                    <!-- Progress Bar -->
+                    <!-- 進度條 -->
                     <div class="w-full flex justify-between text-sm text-gray-500 mb-2 px-1">
                         <span>今日進度</span>
                         <span>{{ sessionCompleted }} / {{ sessionTotal }}</span>
@@ -246,13 +246,13 @@
                         <div class="h-full bg-ramie-600 transition-all duration-300" :style="{ width: (sessionCompleted / sessionTotal * 100) + '%' }"></div>
                     </div>
 
-                    <!-- Flashcard and Buttons Container -->
+                    <!-- 記憶卡與按鈕容器 -->
                     <div class="flex-1 flex flex-col items-center justify-center w-full">
-                        <!-- Flashcard Area -->
+                        <!-- 記憶卡區域 -->
                         <div class="perspective-1000 w-full relative group" @click="flipCard">
                             <div :class="['relative w-full aspect-[4/3] md:aspect-[3/2] transition-transform duration-500 transform-style-3d cursor-pointer shadow-xl rounded-2xl bg-white border border-stone-100', isFlipped ? 'rotate-y-180' : '']">
 
-                                <!-- Front -->
+                                <!-- 正面 -->
                                 <div class="absolute inset-0 backface-hidden flex flex-col items-center justify-center p-8 rounded-2xl bg-white">
                                     <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider" :class="isReviewCard(currentCard) ? 'bg-blue-100 text-blue-700' : 'bg-amber-100 text-amber-700'">
                                         {{ isReviewCard(currentCard) ? '複習' : '新單字' }}
@@ -263,7 +263,7 @@
                                     <p class="text-stone-400 text-sm mt-4 italic">點擊翻面查看解釋</p>
                                 </div>
 
-                                <!-- Back -->
+                                <!-- 背面 -->
                                 <div class="absolute inset-0 backface-hidden rotate-y-180 flex flex-col items-center justify-center p-8 rounded-2xl bg-stone-50 border-2 border-ramie-100">
                                     <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-ramie-100 text-ramie-700 rounded uppercase tracking-wider">中文</span>
 
@@ -278,7 +278,7 @@
                             </div>
                         </div>
 
-                        <!-- Action Buttons -->
+                        <!-- 操作按鈕 -->
                         <div class="grid grid-cols-4 gap-3 w-full mt-6" v-if="isFlipped && currentCard">
                         <button @click.stop="rateCard('again')" class="flex flex-col items-center justify-center p-3 rounded-xl bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 transition-colors">
                             <span class="text-sm font-bold uppercase mb-1">忘記</span>
@@ -305,7 +305,7 @@
                     </div>
                 </div>
 
-                <!-- Empty State (Session Complete) -->
+                <!-- 空狀態（階段完成） -->
                 <div v-else class="text-center py-12 px-6 bg-white rounded-3xl shadow-sm border border-stone-100">
                     <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="ph ph-check-fat text-4xl"></i>
@@ -318,7 +318,7 @@
                 </div>
             </div>
 
-            <!-- VIEW: SEARCH / DICTIONARY -->
+            <!-- VIEW：搜尋／詞典 -->
             <div v-if="currentView === 'search'" class="h-full flex flex-col max-w-4xl mx-auto p-4 md:p-6">
                 <div class="flex flex-col md:flex-row gap-4 mb-6">
                     <div class="relative flex-1">
@@ -374,7 +374,7 @@
                 </div>
             </div>
 
-            <!-- VIEW: STATS -->
+            <!-- VIEW：統計資料 -->
             <div v-if="currentView === 'stats'" class="p-4 md:p-8 max-w-4xl mx-auto">
                 <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">學習統計</h2>
                 
@@ -426,7 +426,7 @@
                 </div>
             </div>
 
-            <!-- VIEW: SETTINGS -->
+            <!-- VIEW：系統設定 -->
             <div v-if="currentView === 'settings'" class="p-4 md:p-8 max-w-2xl mx-auto">
                 <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">系統設定</h2>
 
@@ -496,20 +496,20 @@
 
         createApp({
             setup() {
-                // State
+                // 狀態管理
                 const currentView = ref('study');
                 const loading = ref(true);
                 const error = ref(null);
                 const mobileMenuOpen = ref(false);
                 const showOnboarding = ref(false);
-                const tempSelectedLevels = ref(['初級', '中級', '中高級', '高級']); // Temporary state for onboarding
+                const tempSelectedLevels = ref(['初級', '中級', '中高級', '高級']); // 暫存的難度選擇（用於引導頁面）
 
-                // Data
+                // 資料儲存
                 const words = ref([]);
                 const userProgress = ref({}); // { wordId: { interval, repetitions, ef, nextReview, lastReview } }
                 const settings = ref({
                     dailyNewLimit: 10,
-                    levels: [] // Start empty, will be set by onboarding or loaded from localStorage
+                    levels: [] // 初始為空，將由引導頁面或 localStorage 設定
                 });
                 const stats = ref({
                     lastStudyDate: null,
@@ -518,24 +518,24 @@
                     todayDate: null
                 });
 
-                // Study Session
+                // 學習階段
                 const sessionQueue = ref([]);
                 const currentCardIndex = ref(0);
                 const isFlipped = ref(false);
-                const sessionTotal = ref(0); // To calculate progress bar
-                
-                // Search
+                const sessionTotal = ref(0); // 用於計算進度條
+
+                // 搜尋功能
                 const searchQuery = ref('');
                 const filterLevel = ref('');
 
-                // Lifecycle
+                // 生命週期
                 onMounted(async () => {
                     loadFromLocalStorage();
                     await loadData();
                     generateSession();
                 });
 
-                // --- Core Logic ---
+                // === 核心邏輯 ===
 
                 const loadData = async () => {
                     loading.value = true;
@@ -563,10 +563,10 @@
                         settings.value = JSON.parse(savedSettings);
                     }
 
-                    // Show onboarding only if user has never completed it
+                    // 只在用戶從未完成引導時顯示引導頁面
                     if (!onboardingCompleted) {
                         showOnboarding.value = true;
-                        // Reset to default selections for fresh onboarding
+                        // 重設為預設選項（全選）
                         tempSelectedLevels.value = ['初級', '中級', '中高級', '高級'];
                     }
 
@@ -579,13 +579,13 @@
                     localStorage.setItem('kaxabu_stats', JSON.stringify(stats.value));
                 };
 
-                // SRS Logic (SuperMemo-2 Inspired)
-                // Quality: 0-5 (we map user buttons to: Again=0, Hard=3, Good=4, Easy=5)
+                // 間隔重複演算法（基於 SuperMemo-2）
+                // 品質評分：0-5（按鈕對應：忘記=0, 困難=3, 良好=4, 簡單=5）
                 const updateWordProgress = (wordId, quality) => {
                     const isNewWord = !userProgress.value[wordId];
                     let p = userProgress.value[wordId] || { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 };
 
-                    // Update Streak if first card of the day
+                    // 如果是今天第一張卡片，更新連續打卡天數
                     const todayStr = new Date().toDateString();
                     if (stats.value.lastStudyDate !== todayStr) {
                         const yesterday = new Date();
@@ -598,7 +598,7 @@
                         stats.value.lastStudyDate = todayStr;
                     }
 
-                    // Track new words studied today
+                    // 追蹤今日學習的新單字數量
                     if (isNewWord) {
                         if (stats.value.todayDate !== todayStr) {
                             stats.value.todayStudied = 1;
@@ -610,7 +610,7 @@
 
                     if (quality < 3) {
                         p.repetitions = 0;
-                        p.interval = 1; // 1 day (technically 0 in simplified, but we want it back soon)
+                        p.interval = 1; // 1 天（簡化版本中技術上為 0，但我們希望它盡快回來）
                     } else {
                         p.repetitions += 1;
                         if (p.repetitions === 1) p.interval = 1;
@@ -621,7 +621,7 @@
                     p.ef = p.ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
                     if (p.ef < 1.3) p.ef = 1.3;
 
-                    // Calculate next review date (timestamp)
+                    // 計算下次複習日期（時間戳記）
                     const now = new Date();
                     const nextDate = new Date();
 
@@ -646,14 +646,14 @@
                     const dueWords = [];
                     const newWords = [];
 
-                    // Reset daily counter if it's a new day
+                    // 如果是新的一天，重置每日計數器
                     if (stats.value.todayDate !== todayStr) {
                         stats.value.todayStudied = 0;
                         stats.value.todayDate = todayStr;
                         saveToLocalStorage();
                     }
 
-                    // 1. Find Due Words
+                    // 1. 尋找到期的單字
                     words.value.forEach(w => {
                         if (!settings.value.levels.includes(w.level)) return;
 
@@ -667,27 +667,27 @@
                         }
                     });
 
-                    // 2. Limit New Words based on today's studied count
+                    // 2. 根據今日已學習數量限制新單字
                     let sessionNewLimit = settings.value.dailyNewLimit - stats.value.todayStudied;
                     if (sessionNewLimit < 0) sessionNewLimit = 0;
 
                     if(forceAdd) {
                         sessionNewLimit = 10;
                     } else if (sessionQueue.value.length > 0 && currentCardIndex.value < sessionQueue.value.length) {
-                        return; // Don't regen if session active and has cards remaining
+                        return; // 如果階段仍在進行中且還有剩餘卡片，不要重新生成
                     }
 
                     const selectedNew = newWords.slice(0, sessionNewLimit);
 
-                    // 3. Combine
-                    // Prioritize Reviews
+                    // 3. 組合卡片佇列
+                    // 優先顯示複習卡片
                     sessionQueue.value = [...dueWords, ...selectedNew];
                     sessionTotal.value = sessionQueue.value.length;
                     currentCardIndex.value = 0;
                     isFlipped.value = false;
                 };
 
-                // --- Onboarding ---
+                // === 引導流程 ===
 
                 const completeOnboarding = () => {
                     if (tempSelectedLevels.value.length === 0) return;
@@ -697,11 +697,11 @@
                     saveToLocalStorage();
                     showOnboarding.value = false;
 
-                    // Generate session with the selected levels
+                    // 使用選擇的難度生成學習階段
                     generateSession();
                 };
 
-                // --- UI Actions ---
+                // === UI 操作 ===
 
                 const currentCard = computed(() => {
                     if (sessionQueue.value.length === 0 || currentCardIndex.value >= sessionQueue.value.length) return null;
@@ -732,17 +732,17 @@
 
                     updateWordProgress(currentCard.value.id, quality);
 
-                    // If "again" button (quality 0), re-add to queue for immediate review
+                    // 如果點選「忘記」按鈕（品質 0），將卡片重新加入佇列以立即複習
                     if (quality === 0) {
                         sessionQueue.value.push(cardToRequeue);
                         sessionTotal.value = sessionQueue.value.length;
                     }
 
-                    // Next card
+                    // 下一張卡片
                     isFlipped.value = false;
                     setTimeout(() => {
                         currentCardIndex.value++;
-                    }, 200); // slight delay for animation
+                    }, 200); // 稍微延遲以配合動畫
                 };
 
                 const navigate = (view) => {
@@ -766,7 +766,7 @@
                     }
                 };
 
-                // --- Search & Filters ---
+                // === 搜尋與篩選 ===
                 const filteredWords = computed(() => {
                     return words.value.filter(w => {
                         const matchSearch = (w.kaxabu.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
@@ -792,12 +792,12 @@
                     }
                 };
 
-                // --- Settings Actions ---
+                // === 設定操作 ===
                 const exportData = () => {
                     const dataStr = JSON.stringify(userProgress.value);
                     const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
                     const exportFileDefaultName = 'kaxabu_progress_backup.json';
-                    
+
                     const linkElement = document.createElement('a');
                     linkElement.setAttribute('href', dataUri);
                     linkElement.setAttribute('download', exportFileDefaultName);
@@ -807,7 +807,7 @@
                 const importData = (event) => {
                     const file = event.target.files[0];
                     if (!file) return;
-                    
+
                     const reader = new FileReader();
                     reader.onload = (e) => {
                         try {
@@ -815,7 +815,7 @@
                             userProgress.value = json;
                             saveToLocalStorage();
                             alert('進度匯入成功！');
-                            generateSession(); // Re-calc session
+                            generateSession(); // 重新計算階段
                         } catch (err) {
                             alert('檔案格式錯誤');
                         }
@@ -833,11 +833,11 @@
                     }
                 };
 
-                // --- Stats Helpers ---
+                // === 統計輔助函數 ===
                 const masteryPercentage = computed(() => {
                     const studied = Object.values(userProgress.value);
                     if (studied.length === 0) return 0;
-                    // Define mastery as interval > 21 days
+                    // 定義精通為間隔 > 21 天
                     const mastered = studied.filter(p => p.interval > 21).length;
                     return Math.round((mastered / words.value.length) * 100);
                 });
