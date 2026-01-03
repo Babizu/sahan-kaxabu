@@ -269,12 +269,13 @@
 
                                 <!-- 背面 -->
                                 <div class="absolute inset-0 backface-hidden rotate-y-180 flex flex-col items-center justify-center p-8 rounded-2xl bg-stone-50 border-2 border-kadamu-100">
-                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-kadamu-100 text-kadamu-700 rounded uppercase tracking-wider">中文</span>
+                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-kadamu-100 text-kadamu-700 rounded uppercase tracking-wider">解答</span>
 
-                                    <h3 class="text-3xl font-serif-tc font-bold text-gray-800 mb-2 text-center">{{ currentCard.chinese }}</h3>
+                                    <h2 class="text-3xl md:text-4xl font-bold text-kadamu-900 mb-3 text-center">{{ currentCard.kaxabu }}</h2>
+                                    <h3 class="text-2xl md:text-3xl font-serif-tc font-bold text-gray-800 mb-2 text-center">{{ currentCard.chinese }}</h3>
                                     <div class="w-12 h-1 bg-kadamu-300 rounded mb-4"></div>
                                     <p class="text-gray-600 mb-1"><span class="font-bold text-xs text-gray-400 uppercase mr-2">類別</span> {{ currentCard.category }}</p>
-                                    
+
                                     <p v-if="currentCard && currentCard.note" class="text-gray-500 text-sm mt-4 bg-white px-4 py-2 rounded-lg border border-gray-100 shadow-sm">
                                         <i class="ph ph-info mr-1"></i> {{ currentCard.note }}
                                     </p>
