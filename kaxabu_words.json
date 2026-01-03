@@ -691,7 +691,7 @@
     "id": "04-03",
     "kaxabu": "minaxarat",
     "chinese": "堂、表兄弟姐妹",
-    "level": "中高級",
+    "level": "高級",
     "category": "親屬稱謂",
     "note": ""
   },
@@ -717,15 +717,23 @@
     "chinese": "配偶",
     "level": "中高級",
     "category": "親屬稱謂",
-    "note": ""
+    "note": "taubalet意為「在旁邊的人」（balet=旁邊）、tauxumak意為「家裡的人」（xumak=家）"
+  },
+  {
+    "id": "04-12",
+    "kaxabu": "maxiasu; makhiasu",
+    "chinese": "媳婦",
+    "level": "中高級",
+    "category": "親屬稱謂",
+    "note": "同「女婿」"
   },
   {
     "id": "04-08",
-    "kaxabu": "maxiasu",
+    "kaxabu": "maxiasu; makhiasu",
     "chinese": "女婿",
     "level": "中高級",
     "category": "親屬稱謂",
-    "note": ""
+    "note": "同「媳婦」"
   },
   {
     "id": "04-09",
@@ -733,7 +741,7 @@
     "chinese": "姊夫、舅子（男性用語）",
     "level": "高級",
     "category": "親屬稱謂",
-    "note": ""
+    "note": "說話者如果自身為男性，則稱呼自己的姊夫或舅子為anay"
   },
   {
     "id": "04-09",
@@ -741,20 +749,12 @@
     "chinese": "姊夫、舅子（女性用語）",
     "level": "高級",
     "category": "親屬稱謂",
-    "note": ""
+    "note": "說話者如果自身為女性，則稱呼自己的姊夫或舅子為mahu"
   },
   {
     "id": "04-11",
     "kaxabu": "atan",
     "chinese": "嫂嫂、妯娌",
-    "level": "中高級",
-    "category": "親屬稱謂",
-    "note": ""
-  },
-  {
-    "id": "04-12",
-    "kaxabu": "maxiasu",
-    "chinese": "媳婦",
     "level": "中高級",
     "category": "親屬稱謂",
     "note": ""
@@ -6985,7 +6985,7 @@
   },
   {
     "id": "30-11",
-    "kaxabu": "masisaik",
+    "kaxabu": "masisaik; musiak",
     "chinese": "排便",
     "level": "中高級",
     "category": "生活作息",
@@ -7053,7 +7053,7 @@
     "chinese": "煮",
     "level": "中級",
     "category": "生活作息",
-    "note": ""
+    "note": "煮飯另外有動詞 maramay; pisumay"
   },
   {
     "id": "30-20",
