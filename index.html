@@ -60,13 +60,13 @@
             background: #c4b5a0; 
         }
 
-        @keyframes pulse-earth {
+        @keyframes pulse-daxe {
             0%, 100% { opacity: 1; }
             50% { opacity: .5; }
         }
 
-        .animate-pulse-earth {
-            animation: pulse-earth 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        .animate-pulse-daxe {
+            animation: pulse-daxe 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         }
     </style>
     
@@ -75,7 +75,7 @@
             theme: {
                 extend: {
                     colors: {
-                        ramie: {
+                        kadamu: {
                             50: '#fbf5f4',
                             100: '#f6e8e7',
                             200: '#edd4d2',
@@ -87,7 +87,7 @@
                             800: '#69322c',
                             900: '#582d29',
                         },
-                        earth: {
+                        daxe: {
                             100: '#f5f2ea',
                             200: '#e6e2d6',
                             800: '#4a4843',
@@ -103,18 +103,18 @@
     <div id="app" class="flex flex-col h-full">
 
         <!-- 頁首 -->
-        <header class="bg-white border-b border-earth-200 px-4 py-3 flex items-center justify-between shadow-sm z-10">
+        <header class="bg-white border-b border-daxe-200 px-4 py-3 flex items-center justify-between shadow-sm z-10">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-ramie-700 rounded-lg flex items-center justify-center text-white shadow-md">
+                <div class="w-10 h-10 bg-kadamu-700 rounded-lg flex items-center justify-center text-white shadow-md">
                     <span class="font-serif-tc font-bold text-xl">𝕂</span>
                 </div>
                 <div>
-                    <h1 class="font-serif-tc text-xl font-bold text-ramie-900 leading-tight">噶哈巫千詞記憶卡</h1>
+                    <h1 class="font-serif-tc text-xl font-bold text-kadamu-900 leading-tight">噶哈巫千詞記憶卡</h1>
                     <p class="text-xs text-gray-500">saanu pitelet Kaxabu a ahan</p>
                 </div>
             </div>
             
-            <div class="hidden md:flex gap-1 bg-earth-100 p-1 rounded-lg">
+            <div class="hidden md:flex gap-1 bg-daxe-100 p-1 rounded-lg">
                 <button @click="currentView = 'study'" :class="navClass('study')" class="px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2">
                     <i class="ph ph-cards text-lg"></i> 背誦
                 </button>
@@ -138,32 +138,32 @@
         </header>
 
         <!-- 手機版選單 -->
-        <div v-if="mobileMenuOpen" class="md:hidden bg-white border-b border-earth-200 p-4 absolute top-16 left-0 right-0 z-50 shadow-lg flex flex-col gap-2">
-            <button @click="navigate('study')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
-                <i class="ph ph-cards text-xl text-ramie-700"></i> 背誦單字
+        <div v-if="mobileMenuOpen" class="md:hidden bg-white border-b border-daxe-200 p-4 absolute top-16 left-0 right-0 z-50 shadow-lg flex flex-col gap-2">
+            <button @click="navigate('study')" class="p-3 text-left rounded-lg hover:bg-daxe-100 flex items-center gap-3">
+                <i class="ph ph-cards text-xl text-kadamu-700"></i> 背誦單字
             </button>
-            <button @click="navigate('search')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
-                <i class="ph ph-magnifying-glass text-xl text-ramie-700"></i> 詞彙表查詢
+            <button @click="navigate('search')" class="p-3 text-left rounded-lg hover:bg-daxe-100 flex items-center gap-3">
+                <i class="ph ph-magnifying-glass text-xl text-kadamu-700"></i> 詞彙表查詢
             </button>
-            <button @click="navigate('stats')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
-                <i class="ph ph-chart-bar text-xl text-ramie-700"></i> 學習狀態
+            <button @click="navigate('stats')" class="p-3 text-left rounded-lg hover:bg-daxe-100 flex items-center gap-3">
+                <i class="ph ph-chart-bar text-xl text-kadamu-700"></i> 學習狀態
             </button>
-            <button @click="navigate('settings')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
-                <i class="ph ph-gear text-xl text-ramie-700"></i> 系統設定
+            <button @click="navigate('settings')" class="p-3 text-left rounded-lg hover:bg-daxe-100 flex items-center gap-3">
+                <i class="ph ph-gear text-xl text-kadamu-700"></i> 系統設定
             </button>
-            <button @click="navigate('about')" class="p-3 text-left rounded-lg hover:bg-earth-100 flex items-center gap-3">
-                <i class="ph ph-info text-xl text-ramie-700"></i> 關於
+            <button @click="navigate('about')" class="p-3 text-left rounded-lg hover:bg-daxe-100 flex items-center gap-3">
+                <i class="ph ph-info text-xl text-kadamu-700"></i> 關於
             </button>
         </div>
 
         <!-- 主要內容 -->
-        <main class="flex-1 overflow-y-auto bg-earth-100/50 relative">
+        <main class="flex-1 overflow-y-auto bg-daxe-100/50 relative">
 
             <!-- 引導彈窗 -->
             <div v-if="showOnboarding" class="absolute inset-0 flex items-center justify-center bg-black/50 z-50 p-4">
                 <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8">
                     <div class="text-center mb-6">
-                        <div class="w-16 h-16 bg-ramie-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div class="w-16 h-16 bg-kadamu-700 rounded-full flex items-center justify-center mx-auto mb-4">
                             <span class="font-serif-tc font-bold text-3xl text-white">𝕂</span>
                         </div>
                         <h2 class="text-2xl font-bold text-gray-800 mb-2">歡迎學習噶哈巫語！</h2>
@@ -215,7 +215,7 @@
                     <button @click="completeOnboarding"
                             :disabled="tempSelectedLevels.length === 0"
                             class="w-full py-3 rounded-xl font-bold text-white transition-all"
-                            :class="tempSelectedLevels.length > 0 ? 'bg-ramie-700 hover:bg-ramie-800 shadow-lg' : 'bg-gray-300 cursor-not-allowed'">
+                            :class="tempSelectedLevels.length > 0 ? 'bg-kadamu-700 hover:bg-kadamu-800 shadow-lg' : 'bg-gray-300 cursor-not-allowed'">
                         開始學習 {{ tempSelectedLevels.length > 0 ? `(已選 ${tempSelectedLevels.length} 個難度)` : '(請至少選擇一個難度)' }}
                     </button>
                 </div>
@@ -223,8 +223,8 @@
 
             <!-- 載入狀態 -->
             <div v-if="loading" class="absolute inset-0 flex flex-col items-center justify-center bg-white z-40">
-                <div class="w-12 h-12 border-4 border-ramie-200 border-t-ramie-700 rounded-full animate-spin mb-4"></div>
-                <p class="text-ramie-800 font-medium">正在載入詞彙庫...</p>
+                <div class="w-12 h-12 border-4 border-kadamu-200 border-t-kadamu-700 rounded-full animate-spin mb-4"></div>
+                <p class="text-kadamu-800 font-medium">正在載入詞彙庫...</p>
                 <p class="text-xs text-gray-500 mt-2">請確保 kaxabu_words.json 位於同一目錄</p>
             </div>
 
@@ -233,7 +233,7 @@
                 <i class="ph ph-warning-circle text-4xl text-red-500 mb-4"></i>
                 <h3 class="text-xl font-bold text-gray-800 mb-2">載入失敗</h3>
                 <p class="text-gray-600 mb-4">{{ error }}</p>
-                <button @click="loadData" class="px-4 py-2 bg-ramie-700 text-white rounded-lg hover:bg-ramie-800">重試</button>
+                <button @click="loadData" class="px-4 py-2 bg-kadamu-700 text-white rounded-lg hover:bg-kadamu-800">重試</button>
             </div>
 
             <!-- VIEW：學習（記憶卡） -->
@@ -246,7 +246,7 @@
                         <span>{{ sessionCompleted }} / {{ sessionTotal }}</span>
                     </div>
                     <div class="w-full h-2 bg-gray-200 rounded-full mb-6 overflow-hidden">
-                        <div class="h-full bg-ramie-600 transition-all duration-300" :style="{ width: (sessionCompleted / sessionTotal * 100) + '%' }"></div>
+                        <div class="h-full bg-kadamu-600 transition-all duration-300" :style="{ width: (sessionCompleted / sessionTotal * 100) + '%' }"></div>
                     </div>
 
                     <!-- 記憶卡與按鈕容器 -->
@@ -263,16 +263,16 @@
                                     </span>
                                     <span v-if="currentCard" class="absolute top-4 right-4 text-xs font-bold px-2 py-1 rounded" :class="getLevelColor(currentCard.level)">{{ currentCard.level }}</span>
 
-                                    <h2 class="text-4xl md:text-5xl font-bold text-ramie-900 text-center mb-4 leading-snug">{{ currentCard.kaxabu }}</h2>
+                                    <h2 class="text-4xl md:text-5xl font-bold text-kadamu-900 text-center mb-4 leading-snug">{{ currentCard.kaxabu }}</h2>
                                     <p class="text-stone-400 text-sm mt-4 italic">點擊翻面查看解釋</p>
                                 </div>
 
                                 <!-- 背面 -->
-                                <div class="absolute inset-0 backface-hidden rotate-y-180 flex flex-col items-center justify-center p-8 rounded-2xl bg-stone-50 border-2 border-ramie-100">
-                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-ramie-100 text-ramie-700 rounded uppercase tracking-wider">中文</span>
+                                <div class="absolute inset-0 backface-hidden rotate-y-180 flex flex-col items-center justify-center p-8 rounded-2xl bg-stone-50 border-2 border-kadamu-100">
+                                    <span class="absolute top-4 left-4 text-xs font-bold px-2 py-1 bg-kadamu-100 text-kadamu-700 rounded uppercase tracking-wider">中文</span>
 
                                     <h3 class="text-3xl font-serif-tc font-bold text-gray-800 mb-2 text-center">{{ currentCard.chinese }}</h3>
-                                    <div class="w-12 h-1 bg-ramie-300 rounded mb-4"></div>
+                                    <div class="w-12 h-1 bg-kadamu-300 rounded mb-4"></div>
                                     <p class="text-gray-600 mb-1"><span class="font-bold text-xs text-gray-400 uppercase mr-2">類別</span> {{ currentCard.category }}</p>
                                     <!-- 暫時取消這個功能 所以加了 && FALSE -->
                                     <p v-if="currentCard && currentCard.note && false" class="text-gray-500 text-sm mt-4 bg-white px-4 py-2 rounded-lg border border-gray-100 shadow-sm">
@@ -302,7 +302,7 @@
                         </button>
                         </div>
                         <div v-else class="w-full text-center mt-6">
-                            <button @click="flipCard" class="w-full py-4 rounded-xl bg-ramie-800 text-white font-bold shadow-lg hover:bg-ramie-800 transition-all transform active:scale-95">
+                            <button @click="flipCard" class="w-full py-4 rounded-xl bg-kadamu-800 text-white font-bold shadow-lg hover:bg-kadamu-800 transition-all transform active:scale-95">
                                 顯示答案
                             </button>
                         </div>
@@ -316,7 +316,7 @@
                     </div>
                     <h2 class="text-2xl font-bold text-gray-800 mb-2">MUUPUT LIA!</h2>
                     <p class="text-gray-500 mb-8">已經完成了今天的進度。休息一下，明天再繼續吧。</p>
-                    <button @click="generateSession(true)" class="text-ramie-700 font-medium hover:text-ramie-900 underline">
+                    <button @click="generateSession(true)" class="text-kadamu-700 font-medium hover:text-kadamu-900 underline">
                         HAAPET A MUBAZA, 想多學一點？(再來 {{ settings.dailyNewLimit }} 組！)
                     </button>
                 </div>
@@ -327,9 +327,9 @@
                 <div class="flex flex-col md:flex-row gap-4 mb-6">
                     <div class="relative flex-1">
                         <i class="ph ph-magnifying-glass absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
-                        <input v-model="searchQuery" type="text" placeholder="搜尋噶哈巫語或中文..." class="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-ramie-500 shadow-sm">
+                        <input v-model="searchQuery" type="text" placeholder="搜尋噶哈巫語或中文..." class="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-kadamu-500 shadow-sm">
                     </div>
-                    <select v-model="filterLevel" class="px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-ramie-500">
+                    <select v-model="filterLevel" class="px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-kadamu-500">
                         <option value="">所有難度</option>
                         <option value="初級">初級</option>
                         <option value="中級">中級</option>
@@ -341,7 +341,7 @@
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden flex-1 flex flex-col">
                     <div class="overflow-y-auto flex-1">
                         <table class="w-full text-left table-fixed">
-                            <thead class="bg-earth-100 text-gray-600 text-sm sticky top-0 z-10">
+                            <thead class="bg-daxe-100 text-gray-600 text-sm sticky top-0 z-10">
                                 <tr>
                                     <th class="p-4 font-semibold w-[25%]">噶哈巫語</th>
                                     <th class="p-4 font-semibold w-[30%]">中文</th>
@@ -351,8 +351,8 @@
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-100">
-                                <tr v-for="word in filteredWords" :key="word._uuid" class="hover:bg-earth-100/30 transition-colors">
-                                    <td class="p-4 font-medium text-ramie-900">{{ word.kaxabu }}</td>
+                                <tr v-for="word in filteredWords" :key="word._uuid" class="hover:bg-daxe-100/30 transition-colors">
+                                    <td class="p-4 font-medium text-kadamu-900">{{ word.kaxabu }}</td>
                                     <td class="p-4 text-gray-700">{{ word.chinese }}</td>
                                     <td class="p-4 hidden md:table-cell">
                                         <span class="text-xs px-2 py-1 rounded-full font-medium whitespace-nowrap inline-block" :class="getLevelColor(word.level)">{{ word.level }}</span>
@@ -380,7 +380,7 @@
 
             <!-- VIEW：統計資料 -->
             <div v-if="currentView === 'stats'" class="p-4 md:p-8 max-w-4xl mx-auto">
-                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">學習統計</h2>
+                <h2 class="text-2xl font-bold text-kadamu-900 mb-6 font-serif-tc">學習統計</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
@@ -405,7 +405,7 @@
 
                     <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
                         <div class="flex items-center gap-3 mb-2">
-                            <div class="p-2 bg-ramie-100 text-ramie-600 rounded-lg">
+                            <div class="p-2 bg-kadamu-100 text-kadamu-600 rounded-lg">
                                 <i class="ph ph-target text-xl"></i>
                             </div>
                             <h3 class="font-medium text-gray-600">總體熟練度</h3>
@@ -432,7 +432,7 @@
                                     <span class="font-medium text-gray-900">{{ count }} 字</span>
                                 </div>
                                 <div class="w-full bg-gray-100 rounded-full h-2.5">
-                                    <div class="bg-ramie-600 h-2.5 rounded-full transition-all" :style="{ width: (words.length > 0 ? (count / words.length * 100) : 0) + '%' }"></div>
+                                    <div class="bg-kadamu-600 h-2.5 rounded-full transition-all" :style="{ width: (words.length > 0 ? (count / words.length * 100) : 0) + '%' }"></div>
                                 </div>
                             </button>
 
@@ -442,10 +442,10 @@
                                     <div
                                         v-for="word in getWordsInCategory(label)"
                                         :key="word._uuid"
-                                        class="flex items-center justify-between p-2 bg-white rounded border border-gray-100 hover:border-ramie-300 transition-colors text-sm"
+                                        class="flex items-center justify-between p-2 bg-white rounded border border-gray-100 hover:border-kadamu-300 transition-colors text-sm"
                                     >
                                         <div class="flex-1">
-                                            <span class="font-medium text-ramie-900">{{ word.kaxabu }}</span>
+                                            <span class="font-medium text-kadamu-900">{{ word.kaxabu }}</span>
                                             <span class="text-gray-500 mx-2">·</span>
                                             <span class="text-gray-700">{{ word.chinese }}</span>
                                         </div>
@@ -462,37 +462,37 @@
 
             <!-- VIEW：系統設定 -->
             <div v-if="currentView === 'settings'" class="p-4 md:p-8 max-w-2xl mx-auto">
-                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">系統設定</h2>
+                <h2 class="text-2xl font-bold text-kadamu-900 mb-6 font-serif-tc">系統設定</h2>
 
                 <div class="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden mb-6">
                     <div class="p-6 border-b border-gray-100">
                         <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
-                            <i class="ph ph-sliders text-ramie-600"></i> 學習偏好
+                            <i class="ph ph-sliders text-kadamu-600"></i> 學習偏好
                         </h3>
 
                         <div class="space-y-4">
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-1">每日新詞數量限制</label>
-                                <input v-model.number="settings.dailyNewLimit" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-ramie-500 focus:border-ramie-500">
+                                <input v-model.number="settings.dailyNewLimit" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-kadamu-500 focus:border-kadamu-500">
                             </div>
 
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2">包含的難度等級</label>
                                 <div class="flex flex-wrap gap-4">
                                     <label class="flex items-center gap-2">
-                                        <input type="checkbox" v-model="settings.levels" value="初級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <input type="checkbox" v-model="settings.levels" value="初級" class="text-kadamu-600 focus:ring-kadamu-500 rounded">
                                         <span class="text-sm">初級</span>
                                     </label>
                                     <label class="flex items-center gap-2">
-                                        <input type="checkbox" v-model="settings.levels" value="中級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <input type="checkbox" v-model="settings.levels" value="中級" class="text-kadamu-600 focus:ring-kadamu-500 rounded">
                                         <span class="text-sm">中級</span>
                                     </label>
                                     <label class="flex items-center gap-2">
-                                        <input type="checkbox" v-model="settings.levels" value="中高級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <input type="checkbox" v-model="settings.levels" value="中高級" class="text-kadamu-600 focus:ring-kadamu-500 rounded">
                                         <span class="text-sm">中高級</span>
                                     </label>
                                     <label class="flex items-center gap-2">
-                                        <input type="checkbox" v-model="settings.levels" value="高級" class="text-ramie-600 focus:ring-ramie-500 rounded">
+                                        <input type="checkbox" v-model="settings.levels" value="高級" class="text-kadamu-600 focus:ring-kadamu-500 rounded">
                                         <span class="text-sm">高級</span>
                                     </label>
                                 </div>
@@ -502,7 +502,7 @@
 
                     <div class="p-6 bg-stone-50">
                         <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
-                            <i class="ph ph-database text-ramie-600"></i> 資料管理
+                            <i class="ph ph-database text-kadamu-600"></i> 資料管理
                         </h3>
                         <div class="flex flex-col gap-3">
                             <button @click="exportData" class="w-full py-2 px-4 bg-white border border-gray-300 rounded-lg text-gray-700 font-medium hover:bg-gray-50 flex items-center justify-center gap-2">
@@ -524,12 +524,12 @@
 
             <!-- VIEW：關於 -->
             <div v-if="currentView === 'about'" class="p-4 md:p-8 max-w-3xl mx-auto">
-                <h2 class="text-2xl font-bold text-ramie-900 mb-6 font-serif-tc">關於</h2>
+                <h2 class="text-2xl font-bold text-kadamu-900 mb-6 font-serif-tc">關於</h2>
 
                 <div class="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden mb-6">
                     <div class="p-8">
                         <div class="mb-8 text-center">
-                            <div class="w-20 h-20 bg-ramie-700 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <div class="w-20 h-20 bg-kadamu-700 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                                 <span class="font-serif-tc font-bold text-5xl text-white">𝕂</span>
                             </div>
                             <h3 class="text-xl font-bold text-gray-800 mb-2">噶哈巫千詞記憶卡</h3>
@@ -538,19 +538,19 @@
 
                         <div class="space-y-4 text-gray-700 leading-relaxed">
                             <p>
-                                感謝原住民族委員會114年度平埔族群語言復振計畫支持。
+                                感謝原住民族委員會、南投縣政府原住民族行政處。感謝114年度平埔族群語言復振計畫支持本網站。
                             </p>
 
-                            <div class="bg-earth-100/50 rounded-lg p-4 space-y-2">
+                            <div class="bg-kadamu-100/50 rounded-lg p-4 space-y-2">
                                 <p><strong>執行單位：</strong>南投縣埔里鎮蜈蚣社區發展協會</p>
                                 <p><strong>計畫推動員：</strong>蘇彙伶（Abua）</p>
-                                <p><strong>網頁程式與千詞表編輯：</strong>黃子豪（Asilo）</p>
-                                <p><strong>千詞表編輯：</strong>翁勤雯（Biluan）、羅琇如（Kabaxa）、周珈萱（Kimlé）</p>
+                                <p><strong>網頁程式：</strong>黃子豪（Asilo）</p>
+                                <p><strong>千詞表編輯：</strong>翁勤雯（Biluan）、羅琇如（Kabaxa）、周珈萱（Kimlé）、黃子豪（Asilo）</p>
                             </div>
 
-                            <div class="bg-ramie-50/50 rounded-lg p-4 mt-6">
+                            <div class="bg-kadamu-100/50 rounded-lg p-4 mt-6">
                                 <h4 class="font-bold text-gray-800 mb-3 flex items-center gap-2">
-                                    <i class="ph ph-books text-ramie-600"></i>
+                                    <i class="ph ph-books text-kadamu-600"></i>
                                     參考資料
                                 </h4>
                                 <ul class="space-y-2 text-sm text-gray-700 leading-relaxed">
@@ -944,8 +944,8 @@
 
                 const navClass = (view) => {
                     return currentView.value === view 
-                        ? 'bg-white text-ramie-700 shadow-sm' 
-                        : 'text-gray-500 hover:bg-earth-200/50 hover:text-gray-700';
+                        ? 'bg-white text-kadamu-700 shadow-sm' 
+                        : 'text-gray-500 hover:bg-daxe-200/50 hover:text-gray-700';
                 };
 
                 const getLevelColor = (level) => {
@@ -1001,7 +1001,18 @@
                     };
                     const dataStr = JSON.stringify(exportObj, null, 2); // 使用縮排讓檔案更易讀
                     const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
-                    const exportFileDefaultName = 'kaxabu_progress_backup.json';
+
+                    // 生成檔名：Kaxabu詞彙學習進度紀錄_日期時間.json
+                    // 格式：Kaxabu詞彙學習進度紀錄_20260103_143025.json
+                    const now = new Date();
+                    const year = now.getFullYear();
+                    const month = String(now.getMonth() + 1).padStart(2, '0');
+                    const day = String(now.getDate()).padStart(2, '0');
+                    const hours = String(now.getHours()).padStart(2, '0');
+                    const minutes = String(now.getMinutes()).padStart(2, '0');
+                    const seconds = String(now.getSeconds()).padStart(2, '0');
+                    const dateTimeStr = `${year}${month}${day}_${hours}${minutes}${seconds}`;
+                    const exportFileDefaultName = `Kaxabu詞彙學習進度紀錄_${dateTimeStr}.json`;
 
                     const linkElement = document.createElement('a');
                     linkElement.setAttribute('href', dataUri);
@@ -1037,9 +1048,10 @@
                             }
 
                             // === 根據版本載入資料 ===
+                            let importedProgress = {};
                             if (json.progress !== undefined) {
                                 // 新格式或中期格式：包含 progress, settings, stats
-                                userProgress.value = json.progress || {};
+                                importedProgress = json.progress || {};
                                 if (json.settings) {
                                     settings.value = json.settings;
                                 }
@@ -1048,8 +1060,37 @@
                                 }
                             } else {
                                 // 最舊格式：只有進度資料（向後相容）
-                                userProgress.value = json;
+                                importedProgress = json;
                             }
+
+                            // === 驗證匯入的學習進度 ===
+                            // 檢查匯入的進度中每個詞彙是否存在於當前詞彙表
+                            // 建立當前詞彙表的 UUID 集合，用於快速查找
+                            const validUuids = new Set(words.value.map(w => w._uuid));
+                            const validatedProgress = {};
+                            let skippedCount = 0;
+                            const skippedWords = [];
+
+                            Object.keys(importedProgress).forEach(uuid => {
+                                if (validUuids.has(uuid)) {
+                                    // 詞彙存在於當前詞彙表，保留進度
+                                    validatedProgress[uuid] = importedProgress[uuid];
+                                } else {
+                                    // 詞彙不存在於當前詞彙表，跳過並記錄
+                                    skippedCount++;
+                                    skippedWords.push(uuid);
+                                    console.warn(`⚠️ 跳過不存在的詞彙進度：${uuid}`);
+                                }
+                            });
+
+                            // 如果有跳過的詞彙，在控制台顯示彙總
+                            if (skippedCount > 0) {
+                                console.warn(`⚠️ 匯入完成，共跳過 ${skippedCount} 筆不存在於當前詞彙表的學習進度：`);
+                                skippedWords.forEach(uuid => console.warn(`  - ${uuid}`));
+                            }
+
+                            // 使用驗證後的進度
+                            userProgress.value = validatedProgress;
 
                             // === 資料版本遷移 ===
                             // 如果匯入的資料版本較舊，執行遷移
@@ -1061,7 +1102,14 @@
                             }
 
                             saveToLocalStorage();
-                            alert(`進度匯入成功！（資料版本：v${importVersion}）\n頁面即將重新整理。`);
+
+                            // 根據是否有跳過的詞彙，顯示不同的提示訊息
+                            let message = `進度匯入成功！（資料版本：v${importVersion}）`;
+                            if (skippedCount > 0) {
+                                message += `\n\n⚠️ 注意：有 ${skippedCount} 筆學習進度的詞彙不存在於當前詞彙表，已自動跳過。\n詳細資訊請查看瀏覽器控制台。`;
+                            }
+                            message += '\n\n頁面即將重新整理。';
+                            alert(message);
                             // 重新整理頁面以確保所有資料同步
                             location.reload();
                         } catch (err) {
