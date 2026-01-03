@@ -274,8 +274,8 @@
                                     <h3 class="text-3xl font-serif-tc font-bold text-gray-800 mb-2 text-center">{{ currentCard.chinese }}</h3>
                                     <div class="w-12 h-1 bg-kadamu-300 rounded mb-4"></div>
                                     <p class="text-gray-600 mb-1"><span class="font-bold text-xs text-gray-400 uppercase mr-2">類別</span> {{ currentCard.category }}</p>
-                                    <!-- 暫時取消這個功能 所以加了 && FALSE -->
-                                    <p v-if="currentCard && currentCard.note && false" class="text-gray-500 text-sm mt-4 bg-white px-4 py-2 rounded-lg border border-gray-100 shadow-sm">
+                                    
+                                    <p v-if="currentCard && currentCard.note" class="text-gray-500 text-sm mt-4 bg-white px-4 py-2 rounded-lg border border-gray-100 shadow-sm">
                                         <i class="ph ph-info mr-1"></i> {{ currentCard.note }}
                                     </p>
                                 </div>

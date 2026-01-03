@@ -82,7 +82,7 @@ def convert_xlsx_to_kaxabu_json(input_file, output_file='kaxabu_words.json'):
 if __name__ == "__main__":
     # 使用範例
     # 請將此處替換為您實際的檔案名稱
-    input_filename = "噶哈巫語千詞表_分級0102.xlsx" 
+    input_filename = "噶哈巫語千詞表_分級0103.xlsx" 
     
     # 檢查檔案是否存在，如果不存在檢查是否為 CSV
     if not os.path.exists(input_filename):
